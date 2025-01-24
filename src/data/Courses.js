@@ -41,6 +41,7 @@ import unity_4 from "../assets/course/unity/unity-4.webp";
 import scratchjr_1 from "../assets/course/scratch-junior/scratchjr-1.webp";
 import scratchjr_2 from "../assets/course/scratch-junior/scratchjr-2.webp";
 import scratchjr_3 from "../assets/course/scratch-junior/scratchjr-3.webp";
+import scratch_logo from "../assets/course/scratch-junior/scractch-logo.png";
 
 export const courses = [
   {
@@ -1285,7 +1286,7 @@ export const courses = [
     category: "game",
     describe: "ساخت بازی برای کودکان با موتور بازی سازی Scratch Junior",
     price: 2400000,
-    logo: "https://seeklogo.com/images/S/scratch-cat-logo-7F652C6253-seeklogo.com.png",
+    logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
     registerLink: "/courses/register-form",
     rank: 2,
