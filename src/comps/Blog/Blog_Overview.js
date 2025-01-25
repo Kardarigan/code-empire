@@ -155,7 +155,7 @@ const Blog_Overview = () => {
       </div>
       <div className="max-w-[250px] mx-auto text-center mt-12">
         {filteredBlogs.length === 0 ? (
-          "مطلبی یافت نشد"
+          "خب به نظر اینجا مطلبی نداریم!"
         ) : (
           <>
             <button

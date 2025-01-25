@@ -19,7 +19,9 @@ const Footer = () => {
               </h5>
               <div>
                 {item.describe ? (
-                  <p className="text-justify lg:w-2/3">{item.describe}</p>
+                  <p className="text-justify lg:w-2/3">
+                    {item.describe} <Link to="/about">بیشتر...</Link>
+                  </p>
                 ) : item.links ? (
                   <nav>
                     <ul className="grid gap-y-2">

@@ -19,7 +19,7 @@ export const navLinks = [
     label: "کلاس ها",
   },
   { href: "/blog", label: "مقالات" },
-  { href: "/contact", label: "ارتباط باما" },
+  { href: "/contact", label: "ارتباط با ما" },
 ];
 
 export const hamburgerLinks = [
@@ -33,7 +33,7 @@ export const hamburgerLinks = [
     label: "کلاس ها",
   },
   { href: "/blog", label: "مقالات" },
-  { href: "/contact", label: "ارتباط باما" },
+  { href: "/contact", label: "ارتباط با ما" },
   { href: "/policy", label: "قوانین" },
 ];
 
@@ -42,7 +42,7 @@ export const footLinks = [
     title: "ما کی هستیم؟",
     class: "md:col-span-2",
     describe:
-      "می‌توان گفت امپراتوری کد بی‌همتاست و هیچ رقیبی ندارد! آکادمی‌ای که نه‌تنها برنامه‌نویسی را آموزش می‌دهد، بلکه آینده حرفه‌ای تو را در دنیای فناوری و برنامه‌نویسی می‌سازد.",
+      "می‌توان گفت امپراتوری کد بی‌همتاست و هیچ رقیبی ندارد! آکادمی‌ای که نه‌تنها برنامه‌نویسی را آموزش می‌دهد، بلکه آینده حرفه‌ای تو را در دنیای فناوری و برنامه‌نویسی تضمین میکند.",
   },
   {
     title: "بخش های وبسایت",
@@ -71,7 +71,7 @@ export const footLinks = [
         path: "/policy",
       },
       {
-        label: "ارتباط باما",
+        label: "ارتباط با ما",
         path: "/contact",
       },
       {
@@ -135,7 +135,7 @@ export const customerReviews = [
     review:
       "بنده به عنوان دانشجوی رشته کامپیوتر در یکسری مقالات امپراتوری کد همکاری داشتم و این واقعا برام کاری مهم و جالب بود.",
     avatar: "https://api.dicebear.com/9.x/rings/svg?seed=Nolan",
-    lastCooperation: "آذر 1403",
+    lastCooperation: "اسفند 1402",
   },
   {
     name: "امیر ارسلان پایدار",
@@ -151,7 +151,7 @@ export const customerReviews = [
     review:
       "من فقط چندتا مشورت و همکاری ساده درباره کارهای دانشگاهم باهاشون داشتم ولی واقعا به اندازه یک پروژه بزرگ برام لذت بخش بود. به امید همکاری‌های بیشتر...",
     avatar: "https://api.dicebear.com/9.x/rings/svg?seed=Luis",
-    lastCooperation: "آذر 1403",
+    lastCooperation: "آبان 1403",
   },
   {
     name: "امیرحسین امینی",
@@ -244,7 +244,7 @@ export const categories = [
   "برنامه نویسی",
 ];
 
-export const sortby = ["تازه ترین", "کهنه ترین", "بیشترین پیشنهاد"];
+export const sortby = ["تازه ترین", "قدیمی ترین", "بیشترین پیشنهاد"];
 
 export const registerForm = [
   {
@@ -298,10 +298,6 @@ export const companies = [
   {
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Snapp%21_logo_%28English%29.svg/1920px-Snapp%21_logo_%28English%29.svg.png",
     href: "https://snapp.ir/",
-  },
-  {
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/University_of_Tehran_logo.svg/316px-University_of_Tehran_logo.svg.png?20220304002911",
-    href: "https://ut.ac.ir/fa",
   },
   {
     logo: "https://cdn.otaghak.com/otg-images-new/Web/Icon/general/logotype-large.svg",

@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 export const Loaded_Animation = (
   initialClass = "opacity-0",
   animateClass = "opacity-100",
-  threshold = 0.5
+  threshold = 0.1
 ) => {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);

@@ -22,7 +22,7 @@ const Home = () => {
       <Half thing={futureAcademy} />
       <section className="container padding-x">
         <Courses_Section
-          course={{ title: "آخرین کلاس ها", courses: slicedCourses }}
+          course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
         />
       </section>
       <Popular_Courses />

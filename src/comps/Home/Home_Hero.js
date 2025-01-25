@@ -10,8 +10,8 @@ const Home_Hero = () => {
     >
       <div className="w-full text-center absolute z-10 mt-24">
         <div className="text-7xl text-slate-50 mx-auto padding max-w-[800px]">
-          <h1 className="drop-shadow-2xl">
-            امپــراتـــوری
+          <h1 className="text-fake-border">
+            امپــراتـــور ی
             <br />
             کــــــــــــــــــد
           </h1>
