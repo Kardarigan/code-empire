@@ -77,10 +77,10 @@
     @apply text-slate-700 md:text-sm text-xs font-bold;
   }
   .para {
-    @apply md:text-sm text-xs text-justify max-w-[800px];
+    @apply opacity-90 md:text-sm text-xs text-justify max-w-[800px];
   }
   .para-sm {
-    @apply md:text-xs text-[8px] text-justify max-w-[800px];
+    @apply opacity-90 md:text-xs text-[8px] text-justify max-w-[800px];
   }
   .warn {
     @apply mac-border bg text-slate-50;

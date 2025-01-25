@@ -1,0 +1,10 @@
+@import "@splidejs/react-splide/css";
+@import "base";
+@import "tailwind";
+@import "_page";
+
+:root {
+  --color_prime: rgb(37, 99, 235);
+  --color_dark: #121b33;
+  --color_light: #f3f4f4;
+}
