@@ -9,11 +9,11 @@ const Home_Hero = () => {
       style={{ backgroundImage: "url(" + Hero_Bg + ")" }}
     >
       <div className="w-full text-center absolute z-10 mt-24">
-        <div className="text-7xl text-slate-50 mx-auto padding max-w-[800px]">
+        <div className="sm:text-7xl text-6xl text-slate-50 mx-auto padding max-w-[800px]">
           <h1 className="text-fake-border">
-            امپــراتـــور ی
+            امپــراتـــوری
             <br />
-            کــــــــــــــــــد
+            کـــــــــــــــــد
           </h1>
           <p className="text-base max-sm:text-sm">
             <TypeAnimation

@@ -15,9 +15,11 @@ const Courses_Section = ({ course }) => {
         {!isCoursePage && (
           <Link
             to="/courses"
-            className="title-sm flex items-center gap-x-3 hover:opacity-70 transition-all"
+            className="title-xs font-bold flex items-center gap-x-2 hover:opacity-70 transition-all"
           >
-            مشاهده همه کلاس‌ها{" "}
+            <span>
+              <span className="max-md:hidden">مشاهده </span>همه کلاس‌ها
+            </span>
             <i className="fa-duotone fa-solid fa-sword rotate-[225deg]" />
           </Link>
         )}

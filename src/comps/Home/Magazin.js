@@ -7,7 +7,7 @@ const Magazin = () => {
     <section className="container padding my-24">
       <div className="box md:grid grid-cols-4">
         <div className="col-span-1">
-          <div className="card block max-md:-translate-y-16 md:translate-x-44 md:w-[200%] text-center">
+          <div className="card max-md:p-5 block max-md:-translate-y-16 md:translate-x-44 md:w-[200%] text-center">
             <h3 className="title-lg">
               مجله‌ی امپراتوری از سراسر دنیای تکنولوژی
             </h3>

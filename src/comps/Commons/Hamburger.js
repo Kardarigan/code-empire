@@ -14,7 +14,7 @@ const Hamburger = ({ setHamburger }) => {
       <ul className="grid gap-y-3">
         <li>
           <NavLink
-            to="/contact"
+            to="/courses/register-form"
             className="button button-light"
             onClick={closeHamburger}
           >

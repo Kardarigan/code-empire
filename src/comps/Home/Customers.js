@@ -7,7 +7,7 @@ const Customers = () => {
     <section className="padding-x py-10">
       <h2 className="title-lg">
         <i className="fa-solid fa-hashtag" />
-        <span className="halfbg-left"> چیزی که دیگران دربارمون میگن</span>
+        <span className="halfbg-left">چیزی که دیگران دربارمون میگن</span>
       </h2>
       <div dir="ltr" className="mt-10">
         <Splide
@@ -35,7 +35,7 @@ const Customers = () => {
                   <img
                     src={item.avatar}
                     alt={item.name}
-                    className="w-24 h-24 me-8"
+                    className="w-24 h-24 me-8 max-md:hidden"
                   />
                   <div className="flex flex-col justify-between">
                     <div className="text-start">

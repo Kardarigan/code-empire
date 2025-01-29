@@ -44,7 +44,9 @@ const Course_Card = ({ thing }) => {
         </h4>
       </div>
       <div className="mac-border mt-12 pt-36 pb-5 text-start">
-        <h2 className="title-sm">{thing.fullTitle}</h2>
+        <h2 className="title-sm line-clamp-1 text-ellipsis">
+          {thing.fullTitle}
+        </h2>
         <p className="line-clamp-2 text-ellipsis text-sm mt-3">
           {thing.paragraphs[0].paragraph[0]}
         </p>

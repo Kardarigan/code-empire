@@ -4,7 +4,7 @@ import { Count_Animation } from "../Portal";
 const About_Numbers = () => {
   return (
     <section className="bg-blue-50 padding">
-      <div className="container grid grid-cols-7 md:gap-x-5 gap-3">
+      <div className="container grid sm:grid-cols-7 gap-5">
         {about.numbers.map((item, index) => {
           const { count, elementRef } = Count_Animation(item.number, 1500);
           return (

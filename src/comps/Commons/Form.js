@@ -53,7 +53,10 @@ const Form = ({
           {fields.map((item, index) => {
             const id = item.label.replace(/\s+/g, "-").toLowerCase();
             return (
-              <div key={index} className={item.half ? "" : "col-span-2"}>
+              <div
+                key={index}
+                className={item.half ? "max-md:col-span-2" : "col-span-2"}
+              >
                 <label htmlFor={id} className="label">
                   {item.label}
                 </label>

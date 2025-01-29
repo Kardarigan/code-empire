@@ -224,8 +224,8 @@ export const about = {
   },
   numbers: [
     { number: 30, title: "مربی مجرب" },
-    { number: 500, title: "دانش آموخته" },
-    { number: 20000, title: "ساعت آموزش" },
+    { number: 800, title: "دانش آموخته" },
+    { number: 100, title: "هزار ساعت آموزش" },
     { number: 300, title: "ساعت مشاوره" },
   ],
   idea: {

@@ -6,9 +6,9 @@ const Course_Benefits = () => {
     <section className="padding">
       <div className="pagecenter">
         <h3 className="title-lg text-center">
-          <span className="mac-bg">سود کلاس آنلاین خصوصی</span>
+          <span className="mac-bg">مزایای کلاس آنلاین خصوصی</span>
         </h3>
-        <p className="mt-12 para text-center">
+        <p className="mt-5 para text-center">
           کلاس آنلاین خصوصی برخلاف کلاس های عادی نتیجه ی قابل اطمینان تری داره و
           آینده ی پس از این کلاس تضمین شده خواهد بود. چند تا از ویژگی هایی که
           سبب این برتری میشه رو این پایین برات توضیح دادیم:

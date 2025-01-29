@@ -13,7 +13,7 @@ const Popular_Courses = () => {
   ];
 
   return (
-    <section className="container padding mt-12">
+    <section className="container padding mt-12 max-md:mb-8">
       <h3 className="title-lg text-center">
         <span className="mac-bg">محبوبترین کلاس ها</span>
       </h3>
