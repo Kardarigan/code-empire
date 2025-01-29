@@ -96,7 +96,7 @@
       rgba(59, 130, 246, 0.3537146931950568) 68%,
       rgba(59, 130, 246, 0.20976369778923742) 100%
     );
-    @apply px-5 rounded-full;
+    @apply px-5 rounded-full inline-block;
   }
   .thatch {
     @apply bg-blue-950 border-2 border-blue-800;

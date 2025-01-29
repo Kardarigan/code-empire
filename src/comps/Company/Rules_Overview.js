@@ -10,9 +10,7 @@ const Rules_Overview = () => {
           message="هرگونه استفاده از خدمات وبسایت <b>امپراتوری کد</b> به منظور خواندن و پذیرش منشور قوانین این وبسایت می‌باشد"
           className="mt-12"
         />
-        <h3 className="title text-center w-full mt-20">
-          <span className="mac-bg">قوانین ویژه</span>
-        </h3>
+        <h3 className="title text-center w-full mt-20 mac-bg">قوانین ویژه</h3>
         <div className="mt-12">
           <Rules_Scroll title="کلاس های آموزشی" rules={policy} />;
         </div>

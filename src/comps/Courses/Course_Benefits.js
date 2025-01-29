@@ -4,11 +4,9 @@ import Benefit_Card from "./Benefit_Card";
 const Course_Benefits = () => {
   return (
     <section className="padding">
-      <div className="pagecenter">
-        <h3 className="title-lg text-center">
-          <span className="mac-bg">مزایای کلاس آنلاین خصوصی</span>
-        </h3>
-        <p className="mt-5 para text-center">
+      <div className="pagecenter text-center ">
+        <h3 className="title-lg mac-bg">مزایای کلاس آنلاین خصوصی</h3>
+        <p className="mt-5 para">
           کلاس آنلاین خصوصی برخلاف کلاس های عادی نتیجه ی قابل اطمینان تری داره و
           آینده ی پس از این کلاس تضمین شده خواهد بود. چند تا از ویژگی هایی که
           سبب این برتری میشه رو این پایین برات توضیح دادیم:

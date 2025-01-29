@@ -4,11 +4,8 @@ import "@splidejs/react-splide/css";
 
 const Customers = () => {
   return (
-    <section className="padding-x py-10">
-      <h2 className="title-lg">
-        <i className="fa-solid fa-hashtag" />
-        <span className="halfbg-left">چیزی که دیگران دربارمون میگن</span>
-      </h2>
+    <section className="padding-x py-10 text-center">
+      <h2 className="title-lg mac-bg">چیزی که دیگران دربارمون میگن</h2>
       <div dir="ltr" className="mt-10">
         <Splide
           aria-label="Customers Slider"

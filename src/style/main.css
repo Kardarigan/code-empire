@@ -244,13 +244,13 @@ body {
   .mac-bg {
     background: rgb(59, 130, 246);
     background: linear-gradient(90deg, rgba(59, 130, 246, 1) 0%, rgba(59, 130, 246, 0.3537146932) 68%, rgba(59, 130, 246, 0.2097636978) 100%);
-    @apply px-5 rounded-full;
+    @apply px-5 rounded-full inline-block;
   }
   .thatch, .stand-found::after, .stand-found::before, .stand-found, .stand-column::after, .stand-column::before, .stand-column, .scroll-end::before, .scroll-end::after, .scroll-end {
     @apply bg-blue-950 border-2 border-blue-800;
   }
   .box {
-    @apply px-10 py-8 mac-border;
+    @apply md:p-10 p-5 mac-border;
   }
   .card {
     @apply bg text-slate-100 border-2 border-slate-200 size-full flex p-12 rounded-3xl;
