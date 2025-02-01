@@ -7,7 +7,7 @@ const Magazin = () => {
     <section className="container padding my-24">
       <div className="box xl:grid grid-cols-4">
         <div className="col-span-1">
-          <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-44 xl:w-[200%] text-center">
+          <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-28 xl:w-[180%] text-center">
             <h3 className="title-lg">
               مجله‌ی امپراتوری از سراسر دنیای تکنولوژی
             </h3>
@@ -25,7 +25,7 @@ const Magazin = () => {
           </div>
         </div>
         <div className="col-span-3 relative">
-          <div className="xl:absolute grid xl:grid-cols-2 xl:-translate-x-32 xl:-translate-y-24 gap-3">
+          <div className="xl:absolute grid md:grid-cols-2 xl:-translate-x-32 xl:-translate-y-24 gap-3">
             {blogs.slice(-4).map((blog, index) => {
               return (
                 <Blog_Card

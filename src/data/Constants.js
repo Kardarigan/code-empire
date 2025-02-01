@@ -280,13 +280,12 @@ export const contactInfo = [
     describe: "روز های هفته: 24 ساعت - پایان هفته: از 9 تا 15",
   },
   {
-    label: "ایمیل های پشتیبانی",
-    describe: "info@codeempire.ir - codeempire@gmail.com",
+    label: "ایمیل پشتیبانی",
+    describe: "info@codeempire.ir",
   },
   {
     label: "آدرس دفتر",
-    describe:
-      "تهران، بزرگراه شهید حکیم، ابتدای شیخ بهایی جنوبی، برج بین الملل تهران",
+    describe: "تهران، بزرگراه اشرفی اصفهانی، خیابان شهید فلاح، همیلا سنتر",
   },
 ];
 

@@ -56,12 +56,12 @@ export const courses = [
     color: ["#2965f1", "#f06529"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "20",
+    capacity: "32",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 68,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -169,7 +169,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 78,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -281,12 +281,12 @@ export const courses = [
     color: ["#06b6d4", "#6d28d9"],
     registerLink: "/courses/register-form",
     rank: 1,
-    capacity: "11",
+    capacity: "36",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 34,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -394,7 +394,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 59,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -483,12 +483,12 @@ export const courses = [
     color: ["#1e96fc", "#072ac8"],
     registerLink: "/courses/register-form",
     rank: 1,
-    capacity: "32",
+    capacity: "22",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 98,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -590,12 +590,12 @@ export const courses = [
     color: ["#1e96fc", "#072ac8"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "19",
+    capacity: "25",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 89,
+        describe: 75,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -725,12 +725,12 @@ export const courses = [
     color: ["#7209b7", "#3a0ca3"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "24",
+    capacity: "12",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 18,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -845,12 +845,12 @@ export const courses = [
     color: ["#001845", "#0466c8"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "30",
+    capacity: "2",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 38,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -962,7 +962,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 43,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1058,12 +1058,12 @@ export const courses = [
     color: ["#2b2d42", "#8d99ae"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "14",
+    capacity: "12",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 38,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
