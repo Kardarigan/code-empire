@@ -28,7 +28,7 @@ const Learners_Rank = () => {
             {learnersRank.map((item, index) => {
               return (
                 <tr className="border-b">
-                  <td className="p-5">{index + 1}</td>
+                  <td className="md:p-5">{index + 1}</td>
                   <td className="py-5">
                     <img
                       src={item.profile + "?username=" + index}
@@ -36,7 +36,7 @@ const Learners_Rank = () => {
                       className="size-16 mx-auto"
                     />
                   </td>
-                  <td className="p-5">{item.name}</td>
+                  <td className="md:p-5 p-2">{item.name}</td>
                   <td className="p-5 max-md:hidden">
                     {item.isLearning ? (
                       <span className="rounded bg-slate-900 text-slate-100 p-2">
@@ -48,7 +48,7 @@ const Learners_Rank = () => {
                       </span>
                     )}
                   </td>
-                  <td className="p-5">
+                  <td className="md:p-5 pe-3">
                     {item.rank}
                     {item.rank === "جاویدان" && (
                       <i className="fa-duotone fa-solid fa-crown text-blue-400 ms-1" />

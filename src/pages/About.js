@@ -30,7 +30,7 @@ const About = () => {
       <Companies />
       <Half thing={about.idea} />
       <About_Team />
-      <p className="label opacity-30 text-center">Long live the Empire</p>
+      <p className="label opacity-30 text-center">زنده باد امپراتوری</p>
     </>
   );
 };

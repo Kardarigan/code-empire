@@ -37,10 +37,10 @@ const Main_Side = ({
             <h5>{capacity > 0 ? `${capacity} نفر` : "ظرفیت پر شد"}</h5>
           </section>
         )}
-        <section className="flex-seperate gap-x-5 text-center text-slate-50">
+        <section className="flex-seperate md:gap-x-5 gap-x-1 text-center text-slate-50">
           {specs.map((item, index) => {
             return (
-              <div className="bg w-1/3 py-5 rounded-3xl" key={index}>
+              <div className="bg w-1/3 sm:py-5 py-4 rounded-3xl" key={index}>
                 <i className={item.icon + " title"} />
                 <h5 className="font-thin opacity-75 text-xs">{item.label}</h5>
                 <h5 className="title-sm">{item.describe}</h5>

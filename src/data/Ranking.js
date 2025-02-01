@@ -1,20 +1,20 @@
 export const learnersRank = [
   {
-    name: "نازنین رییسی",
+    name: "نازنین والی زاده",
     profile: "https://avatar.iran.liara.run/public/girl",
     isLearning: true,
     rank: "جاویدان",
     course: "پایتون پیشرفته",
   },
   {
-    name: "روهان وفایی نژاد",
+    name: "محمد مهدی آرامی",
     profile: "https://avatar.iran.liara.run/public/boy",
     isLearning: true,
     rank: "جاویدان",
     course: "پایتون پیشرفته",
   },
   {
-    name: "کوروش ملکوتی",
+    name: "رایین ملکوتی",
     profile: "https://avatar.iran.liara.run/public/boy",
     isLearning: false,
     rank: "دانشور نخبه",
@@ -28,7 +28,7 @@ export const learnersRank = [
     course: "Java",
   },
   {
-    name: "رویا سمیعی",
+    name: "نیروانا فرهادیان",
     profile: "https://avatar.iran.liara.run/public/girl",
     isLearning: true,
     rank: "دانشور نخبه",

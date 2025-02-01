@@ -127,7 +127,8 @@ const Blog_Overview = () => {
           <input
             type="text"
             id="search"
-            className="py-0 field bg-transparent w-full text-slate-50"
+            placeholder="عنوان مقاله را وارد کنید..."
+            className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-300"
           />
         </div>
         <div className="flex-seperate items-center max-md:min-w-full gap-1 text-slate-400 font-thin select-none mac-border py-2">

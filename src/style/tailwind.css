@@ -131,11 +131,11 @@
     @apply pl-5 rounded-full;
   }
   .padding {
-    @apply md:px-16 px-8 md:py-24 py-12;
+    @apply md:px-16 px-6 md:py-24 py-12;
   }
 
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-16 px-6;
   }
 
   .padding-y {
@@ -143,11 +143,11 @@
   }
 
   .padding-l {
-    @apply sm:pl-16 pl-8;
+    @apply sm:pl-16 pl-6;
   }
 
   .padding-r {
-    @apply sm:pr-16 pr-8;
+    @apply sm:pr-16 pr-6;
   }
 
   .padding-t {

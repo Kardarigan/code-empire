@@ -58,7 +58,7 @@ const Single_Course = () => {
           hint="درصورت پرداخت اقساطی 5% و در صورت پرداخت یکجا از 20% تخفیف روی بهای کلاس بهره‌مند میشوید!"
         />
       </section>
-      <section className="container padding-x pb-12">
+      <section className="container padding-x pb-12 max-md:pt-24">
         <Courses_Section
           course={{ title: "کلاس های مشابه", courses: similarCourses }}
         />

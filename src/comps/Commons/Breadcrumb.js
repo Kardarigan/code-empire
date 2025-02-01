@@ -39,13 +39,16 @@ const Breadcrumb = () => {
                 <i className="fa-duotone fa-solid fa-sword rotate-[225deg]" />
               </span>
               {isLast ? (
-                <span className="text-gray-600">
+                <span className="text-gray-600 line-clamp-1 text-ellipsis">
                   {capitalizeFirstLetter(
                     decodeURIComponent(segment).replaceAll("-", " ")
                   )}
                 </span>
               ) : (
-                <Link to={to} className="hover:underline hover:text-slate-700">
+                <Link
+                  to={to}
+                  className="hover:underline hover:text-slate-700 whitespace-nowrap"
+                >
                   {capitalizeFirstLetter(
                     decodeURIComponent(segment).replaceAll("-", " ")
                   )}

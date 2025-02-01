@@ -48,7 +48,7 @@ const Navbar = () => {
           navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"
         } w-full md:px-5 fixed top-0 z-20 transition-all duration-300${
           hamburger ? " opacity-100" : ""
-        }`}
+        } z-30`}
       >
         <div
           className="mx-auto max-w-[1200px] flex-seperate max-md:px-5 text-slate-100 py-3"

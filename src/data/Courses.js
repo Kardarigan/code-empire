@@ -1422,7 +1422,7 @@ export const coursesQuestions = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "کلاسآنلاین خصوصی؟",
+      name: "کلاس آنلاین خصوصی؟",
       acceptedAnswer: {
         "@type": "Answer",
         text: "کلاس آنلاین خصوصی یعنی ارتباط مستقیم بین مربی و دانشجو که در بستر اینترنت برای برگزاری کلاس ها صورت میگیره",

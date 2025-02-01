@@ -5,7 +5,7 @@ const Benefit_Card = ({ benefit, i }) => {
 
   return (
     <div
-      className={`card gap-x-8 group hover:z-10 hover:scale-105 transition-all duration-300 select-none ${className}`}
+      className={`card max-md:px-7 max-md:py-5 gap-x-8 group hover:z-10 hover:scale-105 transition-all duration-300 select-none ${className}`}
       ref={ref}
     >
       <div className="flex-fullcenter flex-col">
