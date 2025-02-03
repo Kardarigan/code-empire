@@ -4,11 +4,9 @@ import { companies } from "../../data/Constants";
 
 const Companies = () => {
   return (
-    <section className="container padding-y">
-      <h3 className="title text-center mb-10">
-        <span className="halfbg-left">
-          دانش آموختگان ما در این شرکت ها مشغول به کارند
-        </span>
+    <section className="container padding text-center">
+      <h3 className="title mb-10 mac-bg">
+        دانش آموختگان ما در این شرکت ها مشغول به کارند
       </h3>
       <div dir="ltr" className="px-5">
         <Splide
@@ -22,8 +20,11 @@ const Companies = () => {
             gap: "2em",
             perPage: 5,
             breakpoints: {
+              768: {
+                perPage: 4,
+              },
               640: {
-                perPage: 3,
+                perPage: 2,
               },
             },
             focus: "center",

@@ -24,12 +24,17 @@ const Footer_Journal = () => {
           <form className="flex p-2 gap-x-3 md:min-w-[35vw] min-w-full bg rounded-full">
             <input
               type="text"
-              id="search"
-              className="py-0 field rounded-full bg-opacity-80 focus-within:bg-opacity-100"
+              id="sender_email"
+              name="sender"
+              className="py-0 field rounded-full bg-opacity-80 focus-within:bg-opacity-100 transition-all"
               placeholder="ایمیل خود را وارد کنید..."
+              required
             />
-            <button type="submit" className="p-3 pl-5 hover:opacity-80">
-              ارسال
+            <button
+              type="submit"
+              className="md:p-3 py-3 md:pl-5 pl-2 hover:opacity-80"
+            >
+              ثبت
             </button>
           </form>
         </div>

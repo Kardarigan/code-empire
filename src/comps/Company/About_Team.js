@@ -6,9 +6,7 @@ const About_Team = () => {
 
   return (
     <section className="padding text-center container">
-      <h3 className="title-lg mb-10">
-        <span className="halfbg-left">آینده ی شما در دستان مطمئنی است</span>
-      </h3>
+      <h3 className="title-lg mb-10 mac-bg">آینده‌ی شما در دستان امنی است</h3>
       <p>
         با تیم کار کشته ی امپراتوری کد آشنا شو! البته که اینا عکسای خودمون نیستن
         :)

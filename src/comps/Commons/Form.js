@@ -1,6 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { handleHashChange } from "../Utility/Hash_Change";
 
 const Form = ({
   fields,
@@ -17,7 +16,7 @@ const Form = ({
   const handleFieldChange = (e) => {
     const selectedOption = e.target.value;
     setSelectedOption(selectedOption);
-    window.location.hash = encodeURIComponent(selectedOption); // Keep hash synchronized
+    window.location.hash = encodeURIComponent(selectedOption);
   };
 
   const sendEmail = (e) => {

@@ -50,7 +50,7 @@ body {
 }
 
 .link {
-  translate: all 150ms;
+  transition: all 150ms ease;
   box-shadow: inset 0 -2px 0 0 #3b82f6;
 }
 .link:hover {
@@ -275,19 +275,19 @@ body {
     @apply pl-5 rounded-full;
   }
   .padding {
-    @apply md:px-16 px-8 md:py-24 py-12;
+    @apply md:px-16 px-6 md:py-24 py-12;
   }
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-16 px-6;
   }
   .padding-y {
     @apply sm:py-24 py-12;
   }
   .padding-l {
-    @apply sm:pl-16 pl-8;
+    @apply sm:pl-16 pl-6;
   }
   .padding-r {
-    @apply sm:pr-16 pr-8;
+    @apply sm:pr-16 pr-6;
   }
   .padding-t {
     @apply sm:pt-24 pt-12;
