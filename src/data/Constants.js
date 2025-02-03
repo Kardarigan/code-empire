@@ -94,17 +94,22 @@ export const footLinks = [
         label: "تلگرام",
         icon: "fa-brands fa-telegram",
         info: "@codeempire_support",
-        href: "https://t.me/username",
+        href: "https://t.me/codeempire_support",
       },
     ],
   },
 ];
 
 export const socialButtons = [
-  { href: "#", iconClass: "fa-brands fa-instagram" },
-  { href: "#", iconClass: "fa-brands fa-youtube" },
-  { href: "#", iconClass: "fa-brands fa-github" },
-  { href: "#", iconClass: "fa-brands fa-telegram" },
+  {
+    href: "https://www.instagram.com/codeempire/",
+    iconClass: "fa-brands fa-instagram",
+  },
+  {
+    href: "https://www.youtube.com/@EmpireOfCodes",
+    iconClass: "fa-brands fa-youtube",
+  },
+  { href: "https://t.me/codeOFempire", iconClass: "fa-brands fa-telegram" },
 ];
 
 export const futureAcademy = {

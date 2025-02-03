@@ -1,5 +1,40 @@
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+
 const Footer_Journal = () => {
   const benefits = ["تخفیف ها", "رویداد ها", "بروزرسانی ها"];
+  const form = useRef();
+  const [message, setMessage] = useState(null);
+  const [showMessage, setShowMessage] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form.current);
+    formData.append("sender_name", "Journal Member");
+
+    emailjs
+      .sendForm("service_6smeggr", "template_empire_contact", form.current, {
+        publicKey: "7g-CYayFlK8AuXyt9",
+      })
+      .then(
+        () => {
+          setShowMessage(true);
+          setMessage("هم اکنون شما عضو ماهنامه هستید");
+          setTimeout(() => {
+            setShowMessage(false);
+            window.scrollTo(0, 0);
+          }, 2000);
+        },
+        () => {
+          setShowMessage(true);
+          setMessage("مشکلی پیش آمده!؟");
+          setTimeout(() => {
+            setShowMessage(false);
+          }, 2000);
+        }
+      );
+  };
 
   return (
     <div className="absolute lg:top-[-55%] top-[-15%] right-0 w-full">
@@ -21,11 +56,15 @@ const Footer_Journal = () => {
           </div>
         </div>
         <div className="mt-5">
-          <form className="flex p-2 gap-x-3 md:min-w-[35vw] min-w-full bg rounded-full">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex p-2 gap-x-3 md:min-w-[35vw] min-w-full bg rounded-full"
+          >
             <input
-              type="text"
+              type="email"
               id="sender_email"
-              name="sender"
+              name="sender_email"
               className="py-0 field rounded-full bg-opacity-80 focus-within:bg-opacity-100 transition-all"
               placeholder="ایمیل خود را وارد کنید..."
               required
@@ -38,6 +77,15 @@ const Footer_Journal = () => {
             </button>
           </form>
         </div>
+      </div>
+
+      {/* Message Notification */}
+      <div
+        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${
+          showMessage ? "opacity-100 visible" : "opacity-0 invisible"
+        }`}
+      >
+        <p>{message}</p>
       </div>
     </div>
   );

@@ -1184,7 +1184,7 @@ export const courses = [
     color: ["#222c37"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "19",
+    capacity: "20",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
@@ -1290,12 +1290,12 @@ export const courses = [
     color: ["#ff9100", "#ffb600"],
     registerLink: "/courses/register-form",
     rank: 2,
-    capacity: "20",
+    capacity: "32",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 48,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
