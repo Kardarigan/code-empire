@@ -9,6 +9,12 @@ $color_light_high: #f8fafc;
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: Yekan, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: $color_prime $color_dark;
+}
+
+*:hover {
+  scrollbar-color: rgba($color_prime, 0.8) $color_dark;
 }
 
 @font-face {

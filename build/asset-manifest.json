@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.924e79e2.css",
-    "main.js": "/static/js/main.c96ae1b3.js",
+    "main.css": "/static/css/main.6b96812f.css",
+    "main.js": "/static/js/main.0b9843d9.js",
     "static/js/453.a469e18b.chunk.js": "/static/js/453.a469e18b.chunk.js",
     "static/media/Hero_Bg.mp4": "/static/media/Hero_Bg.cad42a4ed64af1a7901a.mp4",
     "static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_thousans_soldiers_while_their_coding_in_their_laptop_in_front_of_the_perspolise_png.png": "/static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_thousans_soldiers_while_their_coding_in_their_laptop_in_front_of_the_perspolise_png.e82fce882f6a08f9e1af.png",
@@ -67,12 +67,12 @@
     "static/media/instagram-logo.png": "/static/media/instagram-logo.6ec45e6e1022eab6b748.png",
     "static/media/csharp-1.jpeg": "/static/media/csharp-1.ba4e0e427eceec6eee67.jpeg",
     "index.html": "/index.html",
-    "main.924e79e2.css.map": "/static/css/main.924e79e2.css.map",
-    "main.c96ae1b3.js.map": "/static/js/main.c96ae1b3.js.map",
+    "main.6b96812f.css.map": "/static/css/main.6b96812f.css.map",
+    "main.0b9843d9.js.map": "/static/js/main.0b9843d9.js.map",
     "453.a469e18b.chunk.js.map": "/static/js/453.a469e18b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.924e79e2.css",
-    "static/js/main.c96ae1b3.js"
+    "static/css/main.6b96812f.css",
+    "static/js/main.0b9843d9.js"
   ]
 }

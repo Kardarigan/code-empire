@@ -4,7 +4,7 @@ const Instagram = () => {
   return (
     <section className="container padding-x padding-b">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/codeempire/"
         className="flex-seperate max-lg:flex-col-reverse padding-x rounded-lg"
         style={{
           background: "rgb(14,30,56)",
