@@ -8,8 +8,14 @@ import {
   Breadcrumb,
   Courses_Section,
   Magazin,
+  Carousel_Title,
 } from "../comps/Portal";
-import { futureAcademy, newWays, whatWeAre } from "../data/Constants";
+import {
+  customerReviews,
+  futureAcademy,
+  newWays,
+  whatWeAre,
+} from "../data/Constants";
 import { courses } from "../data/Courses";
 
 const Home = () => {
@@ -31,7 +37,29 @@ const Home = () => {
       <Half thing={whatWeAre} />
       <Magazin />
       <Instagram />
-      <Customers />
+      <Carousel_Title
+        title="چیزی که دیگران دربارمون میگن"
+        type="review"
+        things={customerReviews}
+        options={{
+          perMove: 1,
+          type: "loop",
+          arrows: true,
+          autoplay: true,
+          pagination: false,
+          gap: "1em",
+          perPage: 3,
+          breakpoints: {
+            780: {
+              perPage: 1,
+            },
+            1200: {
+              perPage: 2,
+            },
+          },
+          focus: "center",
+        }}
+      />
     </>
   );
 };

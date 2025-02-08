@@ -9,7 +9,6 @@ import Blog from "../pages/Blog";
 import Home from "../pages/Home";
 import Layout from "./Layout";
 import Home_Hero from "./Home/Home_Hero";
-import Customers from "./Home/Customers";
 import Navbar from "./Commons/Navbar";
 import Footer from "./Commons/Footer";
 import Half from "./Commons/Half";
@@ -40,7 +39,6 @@ import Instagram from "./Home/Instagram";
 import Contact_Us from "./Company/Contact_Us";
 import Contact_Info from "./Company/Contact_Info";
 import Not_Found from "../pages/Not_Found";
-import Companies from "./Company/Companies";
 import About_Team from "./Company/About_Team";
 import Course_Benefits from "./Courses/Course_Benefits";
 import Benefit_Card from "./Courses/Benefit_Card";
@@ -55,8 +53,12 @@ import Share from "./Commons/Share";
 import Breadcrumb from "./Commons/Breadcrumb";
 import Magazin from "./Home/Magazin";
 import Footer_Journal from "./Commons/Footer_Journal";
+import Carousel from "./Commons/Carousel";
+import Carousel_Title from "./Commons/Carousel_Title";
 
 export {
+  Carousel_Title,
+  Carousel,
   Footer_Journal,
   Magazin,
   Breadcrumb,
@@ -72,7 +74,6 @@ export {
   Course_Benefits,
   Count_Animation,
   About_Team,
-  Companies,
   Not_Found,
   Contact_Info,
   Contact_Us,
@@ -110,5 +111,4 @@ export {
   Home_Hero,
   Hero,
   Half,
-  Customers,
 };

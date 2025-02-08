@@ -71,7 +71,7 @@ const Navbar = () => {
           </p>
           <button
             onClick={() => setAlert(false)}
-            className="button button-outline-dark px-3 w-auto"
+            className="button button-outline-dark p-0 min-w-8 size-8"
           >
             <i className="fas fa-xmark" />
           </button>
