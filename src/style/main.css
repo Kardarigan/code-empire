@@ -211,19 +211,19 @@ body {
     @apply transition text-sm font-semibold rounded px-3 py-2  bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
   }
   .title {
-    @apply md:text-3xl text-lg font-bold;
+    @apply md:text-3xl text-lg font-extrabold;
   }
   .title-res {
-    @apply md:text-3xl text-lg font-bold;
+    @apply md:text-3xl text-lg font-extrabold;
   }
   .title-sm {
-    @apply md:text-xl text-lg font-bold;
+    @apply md:text-xl text-lg font-extrabold;
   }
   .title-lg {
-    @apply md:text-5xl text-3xl font-bold;
+    @apply md:text-5xl text-3xl font-extrabold;
   }
   .title-super {
-    @apply lg:text-7xl md:text-5xl text-2xl font-bold;
+    @apply lg:text-7xl md:text-5xl text-2xl font-extrabold;
   }
   .field {
     @apply bg-slate-200 text-slate-900 border-0 text-sm rounded-xl transition-all duration-100 focus-within:ring-1 focus-within:ring-blue-600 block w-full px-3 py-2;

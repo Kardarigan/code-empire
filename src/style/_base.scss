@@ -116,11 +116,13 @@ body {
   -webkit-box-shadow: 0 0 0 2px $color_light inset;
   -moz-box-shadow: 0 0 0 2px $color_light inset;
 }
+
 .fakeBorderDark {
   box-shadow: 0 0 0 2px $color_dark inset;
   -webkit-box-shadow: 0 0 0 2px $color_dark inset;
   -moz-box-shadow: 0 0 0 2px $color_dark inset;
 }
+
 .fakeBorderBlue {
   box-shadow: 0 0 0 2px $color_prime inset;
   -webkit-box-shadow: 0 0 0 2px $color_prime inset;
@@ -130,6 +132,7 @@ body {
 .displayTrans {
   transition: visibility 1s, opacity 0.2s linear;
 }
+
 .checkWrapp {
   .checkMark {
     &::before {

@@ -6,8 +6,22 @@ import { navLinks } from "../../data/Constants";
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState(false);
   const [hamburger, setHamburger] = useState(false);
+  const [alert, setAlert] = useState(true); // Default to true if no value is found in localStorage
   const location = useLocation();
   const prevPathname = useRef(location.pathname);
+
+  // Initialize the `alert` state from localStorage
+  useEffect(() => {
+    const savedAlertState = localStorage.getItem("alert");
+    if (savedAlertState !== null) {
+      setAlert(JSON.parse(savedAlertState));
+    }
+  }, []);
+
+  // Save the `alert` state to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem("alert", JSON.stringify(alert));
+  }, [alert]);
 
   useEffect(() => {
     if (prevPathname.current !== location.pathname) {
@@ -43,15 +57,35 @@ const Navbar = () => {
 
   return (
     <>
+      <div
+        className={`bg-green-500 w-full sticky top-0 z-20 ${
+          alert ? "block" : "hidden"
+        }
+        `}
+        dir="rtl"
+      >
+        <div className="container flex-seperate gap-x-8 px-5 py-2">
+          <p className="para">
+            از این پس، به‌منظور اطمینان دانشجویان، تمامی کلاس‌ها با همکاری
+            پلتفرم معتبر و شناخته‌شده‌ی <b>ایوند</b> برگزار خواهند شد.
+          </p>
+          <button
+            onClick={() => setAlert(false)}
+            className="button button-outline-dark px-3 w-auto"
+          >
+            <i className="fas fa-xmark" />
+          </button>
+        </div>
+      </div>
       <header
         className={`${
           navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"
-        } w-full md:px-5 fixed top-0 z-20 transition-all duration-300${
+        } w-full fixed z-20 transition-all duration-300${
           hamburger ? " opacity-100" : ""
         } z-30`}
       >
         <div
-          className="mx-auto max-w-[1200px] flex-seperate max-md:px-5 text-slate-100 py-3"
+          className="container flex-seperate px-5 text-slate-100 py-3"
           dir="rtl"
         >
           <button
