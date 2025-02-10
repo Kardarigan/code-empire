@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b96812f.css",
-    "main.js": "/static/js/main.0b9843d9.js",
+    "main.css": "/static/css/main.d2d8b3fb.css",
+    "main.js": "/static/js/main.60a734f1.js",
     "static/js/453.a469e18b.chunk.js": "/static/js/453.a469e18b.chunk.js",
     "static/media/Hero_Bg.mp4": "/static/media/Hero_Bg.cad42a4ed64af1a7901a.mp4",
     "static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_thousans_soldiers_while_their_coding_in_their_laptop_in_front_of_the_perspolise_png.png": "/static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_thousans_soldiers_while_their_coding_in_their_laptop_in_front_of_the_perspolise_png.e82fce882f6a08f9e1af.png",
@@ -17,7 +17,6 @@
     "static/media/niaz-haye-aqaz-barnameh-nevisi.png": "/static/media/niaz-haye-aqaz-barnameh-nevisi.e8c9be8d312fa20a5fd0.png",
     "static/media/team_3.png": "/static/media/team_3.049fb0991f9ad33f7dc0.png",
     "static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_soldier_while_his_coding_in_his_laptop_png(1).png": "/static/media/painting_of_an_ancient_Persian_with_sassanid_helmet_soldier_while_his_coding_in_his_laptop_png(1).935a70f000a6254075cb.png",
-    "static/media/Hero.jpg": "/static/media/Hero.7e19bbf147eda00c8a19.jpg",
     "static/media/barnameh-nevisi-chist.png": "/static/media/barnameh-nevisi-chist.e30e141c05cd340ee269.png",
     "static/media/team_2.png": "/static/media/team_2.022289863ecaabd56189.png",
     "static/media/html-css-1.png": "/static/media/html-css-1.258d67e90e3a913906e3.png",
@@ -65,14 +64,15 @@
     "static/media/cplusplus-4.jpeg": "/static/media/cplusplus-4.6e26af68a33672757bb8.jpeg",
     "static/media/csharp-3.jpeg": "/static/media/csharp-3.ccf28cf5c21d6ef97064.jpeg",
     "static/media/instagram-logo.png": "/static/media/instagram-logo.6ec45e6e1022eab6b748.png",
+    "static/media/Hero.jpg": "/static/media/Hero.34d4aec8c1c03f8f15f2.jpg",
     "static/media/csharp-1.jpeg": "/static/media/csharp-1.ba4e0e427eceec6eee67.jpeg",
     "index.html": "/index.html",
-    "main.6b96812f.css.map": "/static/css/main.6b96812f.css.map",
-    "main.0b9843d9.js.map": "/static/js/main.0b9843d9.js.map",
+    "main.d2d8b3fb.css.map": "/static/css/main.d2d8b3fb.css.map",
+    "main.60a734f1.js.map": "/static/js/main.60a734f1.js.map",
     "453.a469e18b.chunk.js.map": "/static/js/453.a469e18b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b96812f.css",
-    "static/js/main.0b9843d9.js"
+    "static/css/main.d2d8b3fb.css",
+    "static/js/main.60a734f1.js"
   ]
 }

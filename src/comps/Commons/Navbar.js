@@ -6,11 +6,10 @@ import { navLinks } from "../../data/Constants";
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState(false);
   const [hamburger, setHamburger] = useState(false);
-  const [alert, setAlert] = useState(true); // Default to true if no value is found in localStorage
+  const [alert, setAlert] = useState(true);
   const location = useLocation();
   const prevPathname = useRef(location.pathname);
 
-  // Initialize the `alert` state from localStorage
   useEffect(() => {
     const savedAlertState = localStorage.getItem("alert");
     if (savedAlertState !== null) {
@@ -18,7 +17,6 @@ const Navbar = () => {
     }
   }, []);
 
-  // Save the `alert` state to localStorage whenever it changes
   useEffect(() => {
     localStorage.setItem("alert", JSON.stringify(alert));
   }, [alert]);
@@ -57,7 +55,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div
+      {/* <div
         className={`bg-green-500 w-full sticky top-0 z-20 ${
           alert ? "block" : "hidden"
         }
@@ -76,7 +74,7 @@ const Navbar = () => {
             <i className="fas fa-xmark" />
           </button>
         </div>
-      </div>
+      </div> */}
       <header
         className={`${
           navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"
