@@ -13,7 +13,7 @@ const Contact_Us = () => {
     },
     {
       title: "شبکه های اجتماعی",
-      w: "w-3/5",
+      w: "w-2/5",
       list: socialButtons,
     },
   ];

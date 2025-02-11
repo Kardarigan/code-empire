@@ -9,6 +9,7 @@ import {
   Courses_Section,
   Magazin,
   Carousel_Title,
+  Courses_News,
 } from "../comps/Portal";
 import {
   customerReviews,
@@ -25,12 +26,13 @@ const Home = () => {
     <>
       <Home_Hero />
       <Breadcrumb />
-      <Half thing={futureAcademy} />
       <section className="container padding-x">
+        <Courses_News />
         <Courses_Section
           course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
         />
       </section>
+      <Half thing={futureAcademy} />
       <Popular_Courses />
       <Half thing={newWays} reverse />
       <Course_Benefits />

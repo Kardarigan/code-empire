@@ -16,50 +16,52 @@ const Breadcrumb = () => {
     policy: "منشور قوانین",
   };
 
-  return (
-    <nav className="text-gray-400 bg-slate-50 px-5 py-2">
-      <div
-        className="container flex space-x-2 items-center md:px-16 px-5 para-lil"
-        title="شما اینجا هستید."
-      >
-        <Link to="/" className="hover:underline  hover:text-slate-700 me-2">
-          خانه
-        </Link>
+  if (pathnames.length) {
+    return (
+      <nav className="text-gray-400 bg-slate-50 px-5 py-2">
+        <div
+          className="container flex space-x-2 items-center md:px-16 px-5 para-lil"
+          title="شما اینجا هستید."
+        >
+          <Link to="/" className="hover:underline  hover:text-slate-700 me-2">
+            خانه
+          </Link>
 
-        {pathnames.map((segment, index) => {
-          const to = `/${pathnames.slice(0, index + 1).join("/")}`;
-          const isLast = index === pathnames.length - 1;
-          if (segment in dictionary) {
-            segment = dictionary[segment];
-          }
+          {pathnames.map((segment, index) => {
+            const to = `/${pathnames.slice(0, index + 1).join("/")}`;
+            const isLast = index === pathnames.length - 1;
+            if (segment in dictionary) {
+              segment = dictionary[segment];
+            }
 
-          return (
-            <React.Fragment key={to}>
-              <span className="mx-2">
-                <i className="fa-duotone fa-solid fa-sword rotate-[225deg]" />
-              </span>
-              {isLast ? (
-                <span className="text-gray-600 line-clamp-1 text-ellipsis">
-                  {capitalizeFirstLetter(
-                    decodeURIComponent(segment).replaceAll("-", " ")
-                  )}
+            return (
+              <React.Fragment key={to}>
+                <span className="mx-2">
+                  <i className="fa-duotone fa-solid fa-sword rotate-[225deg]" />
                 </span>
-              ) : (
-                <Link
-                  to={to}
-                  className="hover:underline hover:text-slate-700 whitespace-nowrap"
-                >
-                  {capitalizeFirstLetter(
-                    decodeURIComponent(segment).replaceAll("-", " ")
-                  )}
-                </Link>
-              )}
-            </React.Fragment>
-          );
-        })}
-      </div>
-    </nav>
-  );
+                {isLast ? (
+                  <span className="text-gray-600 line-clamp-1 text-ellipsis">
+                    {capitalizeFirstLetter(
+                      decodeURIComponent(segment).replaceAll("-", " ")
+                    )}
+                  </span>
+                ) : (
+                  <Link
+                    to={to}
+                    className="hover:underline hover:text-slate-700 whitespace-nowrap"
+                  >
+                    {capitalizeFirstLetter(
+                      decodeURIComponent(segment).replaceAll("-", " ")
+                    )}
+                  </Link>
+                )}
+              </React.Fragment>
+            );
+          })}
+        </div>
+      </nav>
+    );
+  }
 };
 
 export default Breadcrumb;

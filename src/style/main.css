@@ -378,11 +378,10 @@ textarea.field {
 .splide__arrow {
   width: 3rem;
   height: 66.67%;
-  background-color: rgba(243, 244, 244, 0.9) !important;
+  background-color: rgba(59, 130, 246, 0.9) !important;
   border-radius: 0.375rem;
   transition: all 0.3s;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  color: #121b33;
 }
 .splide__arrow--next {
   right: -20px;
