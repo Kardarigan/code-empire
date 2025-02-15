@@ -18,7 +18,7 @@ const Breadcrumb = () => {
 
   if (pathnames.length) {
     return (
-      <nav className="text-gray-400 bg-slate-50 px-5 py-2">
+      <nav className="text-gray-400 bg-slate-50 py-2">
         <div
           className="container flex space-x-2 items-center md:px-16 px-5 para-lil"
           title="شما اینجا هستید."
