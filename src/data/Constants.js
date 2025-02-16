@@ -7,6 +7,13 @@ import Team_2 from "../assets/team/team_2.png";
 import Team_3 from "../assets/team/team_3.png";
 import Home_Academy from "../assets/pages/home-academy.png";
 import Home_Ways from "../assets/pages/home-ways.png";
+import logo_icon_title from "../assets/logo/logo.png";
+import logo_icon from "../assets/logo/logo-icon.png";
+
+export const logo = {
+  iconTitle: logo_icon_title,
+  icon: logo_icon,
+};
 
 export const navLinks = [
   { href: "/", label: "خانه" },

@@ -1,7 +1,7 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import { Hamburger } from "../Portal";
-import { navLinks } from "../../data/Constants";
+import { logo, navLinks } from "../../data/Constants";
 
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState(false);
@@ -99,9 +99,7 @@ const Navbar = () => {
             />
           </button>
           <Link to="/">
-            <h2 className="text-2xl">
-              <span>امپراتوری</span> <span className="text-blue-400">کد</span>
-            </h2>
+            <img src={logo.iconTitle} alt="Empire's Logo" className="w-24" />
           </Link>
           <nav className="flex flex-row items-center gap-4 ms-6 font-bold max-md:hidden">
             {navLinks.map((item, index) => {

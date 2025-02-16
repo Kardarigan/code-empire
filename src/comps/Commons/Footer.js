@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { footLinks, socialButtons } from "../../data/Constants";
+import { footLinks, logo, socialButtons } from "../../data/Constants";
 import Footer_Journal from "./Footer_Journal";
 
 const Footer = () => {
@@ -19,9 +19,18 @@ const Footer = () => {
               </h5>
               <div>
                 {item.describe ? (
-                  <p className="text-justify lg:w-2/3">
-                    {item.describe} <Link to="/about">بیشتر...</Link>
-                  </p>
+                  <div>
+                    <p className="text-justify lg:w-2/3 mb-5">
+                      {item.describe} <Link to="/about">بیشتر...</Link>
+                    </p>
+                    <Link to="/">
+                      <img
+                        src={logo.iconTitle}
+                        alt="Empire's Logo"
+                        className="w-32"
+                      />
+                    </Link>
+                  </div>
                 ) : item.links ? (
                   <nav>
                     <ul className="grid gap-y-2">

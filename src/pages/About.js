@@ -8,7 +8,7 @@ import {
   Carousel_Title,
 } from "../comps/Portal";
 import Cover_2 from "../assets/painting_of_an_ancient_Persian_with_sassanid_helmet_thousans_soldiers_while_their_coding_in_their_laptop_in_front_of_the_perspolise_png.png";
-import { about, companies } from "../data/Constants";
+import { about, companies, logo } from "../data/Constants";
 
 const About = () => {
   return (
@@ -52,6 +52,15 @@ const About = () => {
       />
       <Half thing={about.idea} />
       <About_Team />
+      <section className="container padding-x text-center">
+        <a
+          href={logo.iconTitle}
+          className="inline-block w-1/4 min-w-32 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%"
+        >
+          <img src={logo.iconTitle} alt="Empire's Official Logo" />
+        </a>
+        <p className="label text-slate-600">لوگو و نماد رسمی امپراتوری کد</p>
+      </section>
     </>
   );
 };
