@@ -17,7 +17,7 @@ const About_Team = () => {
 
           return (
             <div
-              className={`border-4 border-slate-800 text-slate-50 group relative rounded-lg overflow-hidden ${className} ${
+              className={`border-4 border-slate-800 text-slate-50 group relative rounded-3xl overflow-hidden ${className} ${
                 durations[index]
               } ${index === 1 ? " sm:scale-105 sm:z-10" : ""}`}
               key={index}

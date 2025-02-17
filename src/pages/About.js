@@ -55,7 +55,7 @@ const About = () => {
       <section className="container padding-x text-center">
         <a
           href={logo.iconTitle}
-          className="inline-block w-1/4 min-w-32 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%"
+          className="inline-block min-w-52 w-1/4 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%"
         >
           <img src={logo.iconTitle} alt="Empire's Official Logo" />
         </a>

@@ -113,7 +113,7 @@ export const socialButtons = [
     iconClass: "fa-brands fa-instagram",
   },
   {
-    href: "https://www.youtube.com/@EmpireOfCodes",
+    href: "#",
     iconClass: "fa-brands fa-youtube",
   },
   { href: "https://t.me/codeOFempire", iconClass: "fa-brands fa-telegram" },

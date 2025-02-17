@@ -37,7 +37,7 @@ const Footer_Journal = () => {
   };
 
   return (
-    <div className="absolute lg:top-[-55%] top-[-15%] right-0 w-full">
+    <div className="absolute lg:top-[-15%] top-[-15%] right-0 w-full">
       <div className="lg:w-[50vw] w-[90vw] mx-auto bg text-slate-100 md:p-12 px-5 py-8 rounded-3xl gird grid-cols-2">
         <div className="text-center">
           <h4 className="title">عضویت در ماهنامه‌ی امپراتوری</h4>
