@@ -9,7 +9,7 @@ import {
   Share,
 } from "../comps/Portal";
 import { courses } from "../data/Courses";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { shuffle } from "../comps/Utility/shuffle";
 
 const Single_Course = () => {
@@ -18,10 +18,14 @@ const Single_Course = () => {
   const subtitle = theCourse.persianTitle + ", " + theCourse.describe;
   const [showRegisterButton, setShowRegisterButton] = useState(true);
 
-  const similarCourses = shuffle(
-    courses.filter((e) => e.category === theCourse?.category),
-    3
-  );
+  const similarCourses = useMemo(() => {
+    return shuffle(
+      courses.filter(
+        (e) => e.category === theCourse?.category && e.path !== theCourse.path
+      ),
+      3
+    );
+  }, [theCourse]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,7 +59,7 @@ const Single_Course = () => {
           title={theCourse.title}
           capacity={theCourse.capacity}
           price={theCourse.price}
-          hint="درصورت پرداخت اقساطی 5% و در صورت پرداخت یکجا از 20% تخفیف روی بهای کلاس بهره‌مند میشوید!"
+          hint="در صورت پرداخت یکجا از 10% تخفیف روی بهای کلاس بهره‌مند میشوید!"
         />
       </section>
       <section className="container padding-x pb-12 max-md:pt-24">
