@@ -55,7 +55,10 @@ const Single_Course = () => {
         <Main_Side
           details={theCourse.details}
           specs={theCourse.specs}
-          link={{ label: "ثبت نام", path: theCourse.registerLink }}
+          privateLink={{
+            label: "ثبت نام کلاس خصوصی",
+            path: theCourse.registerLink,
+          }}
           title={theCourse.title}
           capacity={theCourse.capacity}
           price={theCourse.price}

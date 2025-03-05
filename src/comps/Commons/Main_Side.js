@@ -1,7 +1,7 @@
 const Main_Side = ({
   details,
   specs,
-  link,
+  links,
   title,
   price = false,
   capacity = false,
@@ -12,13 +12,6 @@ const Main_Side = ({
     : null;
 
   capacity = Number(capacity);
-  const handleClick = () => {
-    if (capacity > 0) {
-      window.location.href = link.path + "#" + title;
-    } else {
-      alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");
-    }
-  };
 
   return (
     <aside className="md:col-span-2" id="sidebar">
@@ -72,12 +65,36 @@ const Main_Side = ({
             <h5>{formattedPrice} تومان</h5>
           </section>
         )}
+        {links.map((link, index) => {
+          const handleClick = () => {
+            if (link.path.) {
+              
+            }else{
+              if (capacity > 0) {
+                window.location.href = privateLink.path + "#" + title;
+              } else {
+                alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");
+              }
+            }
+          };
+
+          return (
+            <button
+              className="py-3 button button-outline-dark rounded-3xl"
+              onClick={handleClick}
+              key={index}
+            >
+              {link.label}
+            </button>
+          );
+        })}
         <button
           className="py-3 button button-outline-dark rounded-3xl"
           onClick={handleClick}
         >
-          {link.label}
+          {privateLink.label}
         </button>
+
         {hint && (
           <div className="flex items-center">
             <i className="fas fa-checkfa-duotone fa-regular fa-badge-percent me-1"></i>{" "}
