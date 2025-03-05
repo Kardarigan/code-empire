@@ -24,7 +24,6 @@ import js_3 from "../assets/course/javascript/javascript-course-3.jpeg";
 import js_4 from "../assets/course/javascript/javascript-course-4.jpeg";
 import csharp_1 from "../assets/course/c-sharp/csharp-1.jpeg";
 import csharp_2 from "../assets/course/c-sharp/csharp-2.jpeg";
-import csharp_3 from "../assets/course/c-sharp/csharp-3.jpeg";
 import csharp_4 from "../assets/course/c-sharp/csharp-4.jpeg";
 import cplus_1 from "../assets/course/c-plusplus/cplusplus-1.jpeg";
 import cplus_2 from "../assets/course/c-plusplus/cplusplus-2.jpeg";
@@ -82,8 +81,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "HTML و CSS" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "1,599,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "1,980,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -189,8 +187,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "JavaScript" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "3,299,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "3,599,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
     ],
     paragraphs: [
@@ -307,8 +304,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Tailwind" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "999,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "1,190,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -415,8 +411,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Bootstrap" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "999,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "1,299,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -476,12 +471,12 @@ export const courses = [
     },
   },
   {
-    title: "Unreal Engin",
+    title: "Unreal Engine",
     persianTitle: "آنریل انجین",
-    fullTitle: "آموزش بازی سازی با موتور Unreal Engin",
-    path: "unreal-engin",
+    fullTitle: "آموزش بازی سازی با موتور Unreal Engine",
+    path: "unreal-engine",
     category: "game",
-    describe: "ساخت بازی با موتور بازی سازی Unreal Engin",
+    describe: "ساخت بازی با موتور بازی سازی Unreal Engine",
     price: 6190000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
     color: ["#2b2d42", "#8d99ae"],
@@ -506,9 +501,8 @@ export const courses = [
       },
     ],
     details: [
-      { label: "نام کلاس", describe: "Unrael Engin" },
+      { label: "نام کلاس", describe: "Unrael Engine" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -634,8 +628,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Scratch Junior" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "2,199,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "2,400,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
     ],
     paragraphs: [
@@ -743,8 +736,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "پایتون ابتدایی" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "3,299,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "3,999,000 تومان" },
       { label: "روش آموزش", describe: "مرحله ای" },
     ],
     paragraphs: [
@@ -850,7 +842,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "پایتون پیشرفته" },
       { label: "پیش نیاز", describe: "پایتون ابتدایی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "ندارد" },
+      { label: "بهای کلاس خصوصی", describe: "5,000,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -985,8 +977,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "#C" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "3,599,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "3,980,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
     ],
     paragraphs: [
@@ -1098,8 +1089,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "++C" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "4,999,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "5,200,000 تومان" },
       { label: "روش آموزش", describe: "مرحله ای" },
     ],
     paragraphs: [
@@ -1119,6 +1109,7 @@ export const courses = [
       },
       {
         title: "محتوای کلاس",
+        cover: cplus_3,
         paragraph: [
           "در این کلاس، شما از پایه‌ای‌ترین مفاهیم برنامه‌نویسی ++C تا پیشرفته‌ترین موضوعات آن را فرا خواهید گرفت. هر جلسه شامل توضیحات نظری و تمرین‌های عملی است که به شما کمک می‌کند تا مفاهیم را به صورت عمیق و کاربردی درک کنید. برنامه‌ی درسی شامل مباحثی چون ساختار داده‌ها، الگوریتم‌ها، شیءگرایی و مدیریت حافظه می‌شود.",
         ],
@@ -1203,8 +1194,7 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Java" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "دارد" },
-      { label: "بهای در صورت فشرده بودن کلاس", describe: "3,599,000 تومان" },
+      { label: "بهای کلاس خصوصی", describe: "3,899,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
     ],
     paragraphs: [
@@ -1304,8 +1294,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Unity 6" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1410,8 +1400,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "آموزش طراحی وبسایت تمام عیار" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "امکان برگزاری به صورت فشرده", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
     ],
     paragraphs: [
       {

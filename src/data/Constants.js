@@ -280,7 +280,7 @@ export const registerForm = [
   {
     label: "ایمیل",
     type: "email",
-    type: "sender_email",
+    name: "sender_email",
     required: true,
   },
 ];
