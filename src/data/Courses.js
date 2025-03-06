@@ -1380,6 +1380,7 @@ export const courses = [
     registerLink: "/courses/register-form",
     rank: 1,
     capacity: "32",
+    publicLink: "https://audiok.ir/cat/wrld/nm/page/2/",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",

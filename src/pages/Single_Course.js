@@ -18,6 +18,17 @@ const Single_Course = () => {
   const subtitle = theCourse.persianTitle + ", " + theCourse.describe;
   const [showRegisterButton, setShowRegisterButton] = useState(true);
 
+  const links = [
+    {
+      label: "ثبت نام کلاس خصوصی",
+      path: theCourse.registerLink,
+    },
+  ];
+
+  if (theCourse.publicLink) {
+    links.push({ label: "ثبت نام کلاس گـــروهی", path: theCourse.publicLink });
+  }
+
   const similarCourses = useMemo(() => {
     return shuffle(
       courses.filter(
@@ -55,10 +66,8 @@ const Single_Course = () => {
         <Main_Side
           details={theCourse.details}
           specs={theCourse.specs}
-          privateLink={{
-            label: "ثبت نام کلاس خصوصی",
-            path: theCourse.registerLink,
-          }}
+          privateLink={{}}
+          links={links}
           title={theCourse.title}
           capacity={theCourse.capacity}
           price={theCourse.price}

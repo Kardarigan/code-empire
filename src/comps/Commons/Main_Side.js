@@ -66,12 +66,15 @@ const Main_Side = ({
           </section>
         )}
         {links.map((link, index) => {
-          const handleClick = () => {
-            if (link.path.) {
-              
-            }else{
+          console.log(link.path);
+
+          const handleClick = (link) => {
+            if (index === 1) {
+              window.location.href = link.path;
+            } else {
               if (capacity > 0) {
-                window.location.href = privateLink.path + "#" + title;
+                window.location.href = link.path + "#" + title;
+                console.log(link.path);
               } else {
                 alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");
               }
@@ -85,15 +88,20 @@ const Main_Side = ({
               key={index}
             >
               {link.label}
+              <i
+                className={`fas ${
+                  link.label === "ثبت نام کلاس خصوصی" ? " fa-user" : " fa-users"
+                } ms-2`}
+              />
             </button>
           );
         })}
-        <button
+        {/* <button
           className="py-3 button button-outline-dark rounded-3xl"
           onClick={handleClick}
         >
           {privateLink.label}
-        </button>
+        </button> */}
 
         {hint && (
           <div className="flex items-center">
