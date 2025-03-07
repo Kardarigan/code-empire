@@ -21,7 +21,7 @@ const Single_Course = () => {
   const links = [
     {
       label: "ثبت نام کلاس خصوصی",
-      path: theCourse.registerLink,
+      path: "/courses/register-form",
     },
   ];
 
