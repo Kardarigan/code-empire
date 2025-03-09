@@ -48,13 +48,138 @@ import website_logo from "../assets/course/website/website-logo.png";
 
 export const courses = [
   {
+    title: "Web Frontend",
+    persianTitle: "طراحی وبسایت",
+    fullTitle: "آموزش طراحی وبسایت تمام عیار",
+    path: "website",
+    category: "web",
+    describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
+    price: 799000,
+    logo: website_logo,
+    color: ["#52E5E7", "#130CB7"],
+    registerLink: "/courses/register-form",
+    rank: 1,
+    capacity: "32",
+    publicLink: "https://audiok.ir/cat/wrld/nm/page/2/",
+    specs: [
+      {
+        icon: "fa-duotone fa-light fa-graduation-cap",
+        label: "شرکت کنندگان",
+        describe: 118,
+      },
+      {
+        icon: "fa-duotone fa-solid fa-clock-desk",
+        label: "زمان کل کلاس",
+        describe: "70 ساعت",
+      },
+      {
+        icon: "fa-duotone fa-regular fa-chalkboard-user",
+        label: "جلسات",
+        describe: "70",
+      },
+    ],
+    details: [
+      { label: "نام کلاس", describe: "آموزش طراحی وبسایت تمام عیار" },
+      { label: "پیش نیاز", describe: "هیچی" },
+      { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
+    ],
+    paragraphs: [
+      {
+        title: "پیش درآمدی بر دوره",
+        cover: website_1,
+        paragraph: [
+          "در دنیای دیجیتال امروز، تقریباً هر کسب‌وکاری به یک وبسایت نیاز دارد و تقاضا برای توسعه‌دهندگان وب بیشتر از همیشه است. طراحی وبسایت دیگر یک مهارت لوکس نیست، بلکه یکی از ضروری‌ترین توانایی‌ها برای ورود به دنیای فناوری و کسب درآمد محسوب می‌شود. اگر همیشه دوست داشته‌اید وبسایت‌های زیبا و حرفه‌ای بسازید اما نمی‌دانستید از کجا شروع کنید، این دوره دقیقاً برای شماست! در این مسیر، از مفاهیم پایه تا تکنیک‌های پیشرفته را یاد می‌گیرید و در نهایت می‌توانید وبسایت‌های واکنش‌گرا، مدرن و کاربرپسند طراحی کنید.",
+        ],
+      },
+      {
+        title: "آشنایی با تکنولوژی‌های کلیدی",
+        cover: website_2,
+        paragraph: [
+          "در این دوره، شما با HTML، CSS، JavaScript و Bootstrap آشنا خواهید شد. HTML ساختار اصلی صفحات وب را تشکیل می‌دهد، CSS به آن‌ها زیبایی و استایل می‌بخشد، JavaScript امکان تعامل و پویایی را فراهم می‌کند و Bootstrap ابزاری است که طراحی واکنش‌گرا را آسان‌تر و سریع‌تر می‌کند. این چهار تکنولوژی پایه، اساس طراحی وب مدرن را تشکیل می‌دهند.",
+        ],
+      },
+      {
+        title: "یادگیری به سبک مدرن و پروژه‌محور",
+        paragraph: [
+          "ما در این دوره از روش‌های یادگیری مدرن و پروژه‌محور استفاده می‌کنیم. به جای یادگیری تئوری خسته‌کننده، شما در طول دوره روی پروژه‌های واقعی کار خواهید کرد، چالش‌های دنیای واقعی را تجربه می‌کنید و با تمرین‌های عملی مهارت‌های خود را تقویت خواهید کرد. همچنین، پشتیبانی مدرسین و انجمن دانشجویی به شما کمک می‌کند تا به بهترین شکل یاد بگیرید.",
+        ],
+      },
+      {
+        title: "فرصت‌های شغلی در دنیای طراحی وب",
+        paragraph: [
+          "طراحی وب یکی از پردرآمدترین و پرتقاضاترین مهارت‌های دنیای فناوری است. شرکت‌های کوچک و بزرگ به دنبال توسعه‌دهندگان فرانت‌اند ماهر هستند و فرصت‌های کاری برای افرادی که این مهارت را دارند، روزبه‌روز بیشتر می‌شود. با یادگیری طراحی وب، می‌توانید هم به‌عنوان فریلنسر پروژه بگیرید و هم در شرکت‌های معتبر مشغول به کار شوید.",
+        ],
+      },
+      {
+        title: "تمرکز بر فرانت‌اند: دنیای رابط‌های کاربری جذاب",
+        cover: website_3,
+        paragraph: [
+          "تمرکز اصلی این دوره بر فرانت‌اند (Front-end) است. فرانت‌اند به بخشی از یک وبسایت گفته می‌شود که کاربران آن را مشاهده و با آن تعامل می‌کنند. در این دوره یاد می‌گیرید چگونه رابط‌های کاربری زیبا و کاربردی طراحی کنید و تجربه‌ای روان و جذاب برای کاربران ایجاد کنید. اگر می‌خواهید دنیای برنامه‌نویسی و طراحی وب را با قدرت آغاز کنید، این دوره نقطه‌ی شروع ایده‌آلی برای شما خواهد بود!",
+        ],
+      },
+      {
+        title: "آینده: مهارت، درآمد، و فرصت‌های شغلی",
+        paragraph: [
+          "پس از گذراندن این دوره، شما فقط یک یادگیرنده‌ی تئوری نخواهید بود، بلکه یک طراح وب آماده‌ی ورود به بازار کار خواهید شد. با مهارت‌هایی که در HTML، CSS، JavaScript و Bootstrap کسب می‌کنید، می‌توانید وبسایت‌های حرفه‌ای و مدرن طراحی کنید و به‌عنوان یک فریلنسر پروژه بگیرید یا در شرکت‌های معتبر استخدام شوید. طراحی وب یکی از پرطرفدارترین و پردرآمدترین حوزه‌های فناوری است که در سراسر جهان فرصت‌های شغلی گسترده‌ای دارد. این دوره به شما کمک می‌کند تا اولین قدم را برای ورود به دنیای برنامه‌نویسی بردارید، یک نمونه‌کار قوی بسازید و مسیر شغلی خود را در صنعت فناوری آغاز کنید.",
+        ],
+      },
+    ],
+    faq: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "این دوره برای چه کسانی مناسب است؟",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "این دوره برای شماست! چه مبتدی باشید و چه بخواهید مهارت‌های خود را تقویت کنید، این دوره به شما کمک می‌کند تا طراحی وب را اصولی یاد بگیرید.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "در این دوره چه تکنولوژی‌هایی آموزش داده می‌شود؟",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "شما در این دوره با HTML، CSS، JavaScript و Bootstrap آشنا می‌شوید و یاد می‌گیرید چگونه وبسایت‌های واکنش‌گرا و حرفه‌ای طراحی کنید.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "آیا پس از این دوره می‌توانم وارد بازار کار شوم؟",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "بله! این دوره علاوه بر آموزش مفاهیم، روی مهارت‌های عملی و پروژه‌های واقعی تمرکز دارد. شما در پایان دوره یک نمونه‌کار قوی خواهید داشت که می‌توانید از آن برای ورود به بازار کار استفاده کنید.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "آیا پروژه عملی هم در این دوره انجام می‌شود؟",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "بله، در طول دوره چندین پروژه واقعی طراحی می‌کنید تا مهارت‌های خود را در دنیای واقعی به کار ببرید.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "آیا دوره تمرین و بازخورد روی کدها دارد؟",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "بله، برای یادگیری بهتر، تمرین‌های متنوعی طراحی شده که شما را برای چالش‌های واقعی آماده می‌کند. همچنین می‌توانید کدهای خود را ارسال کنید و بازخورد اختصاصی از مدرس دریافت کنید.",
+          },
+        },
+      ],
+    },
+  },
+  {
     title: "HTML,CSS",
     persianTitle: "اچ‌تی‌ام‌ال و سی‌اس‌اس",
     fullTitle: "آموزش طراحی وبسایت با HTML,CSS",
     path: "html-css",
     category: "web",
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
-    price: 1980000,
+    price: 220000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
     registerLink: "/courses/register-form",
@@ -161,7 +286,7 @@ export const courses = [
     path: "javascript",
     category: "web",
     describe: "زبان برنامه نویسی مخصوص ساخت و طراحی وبسایت",
-    price: 3599000,
+    price: 459900,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: ["#e09b31", "#ebdd4e"],
     registerLink: "/courses/register-form",
@@ -277,7 +402,7 @@ export const courses = [
     path: "tailwind",
     category: "web",
     describe: "استایل دهی پویاتر و رسپانسیو کردن اصولی تر",
-    price: 1190000,
+    price: 188000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
     registerLink: "/courses/register-form",
@@ -384,7 +509,7 @@ export const courses = [
     path: "bootstrap",
     category: "web",
     describe: "برای رسپانسیو کردن سریع و استایل دهی آماده",
-    price: 1299000,
+    price: 198000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
     registerLink: "/courses/register-form",
@@ -477,7 +602,7 @@ export const courses = [
     path: "unreal-engine",
     category: "game",
     describe: "ساخت بازی با موتور بازی سازی Unreal Engine",
-    price: 6190000,
+    price: 666000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
     color: ["#2b2d42", "#8d99ae"],
     registerLink: "/courses/register-form",
@@ -602,7 +727,7 @@ export const courses = [
     path: "scratch",
     category: "game",
     describe: "ساخت بازی برای کودکان با موتور بازی سازی Scratch Junior",
-    price: 2400000,
+    price: 299000,
     logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
     registerLink: "/courses/register-form",
@@ -710,7 +835,7 @@ export const courses = [
     path: "python-beginner",
     category: "software",
     describe: "شروع برنامه نویسی با پایتون مخصوص مبتدیا",
-    price: 3999000,
+    price: 399000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
     registerLink: "/courses/register-form",
@@ -816,7 +941,7 @@ export const courses = [
     path: "python-advanced",
     category: "software",
     describe: "مکلمل کلاس ابتدایی برای حرفه ای شدن",
-    price: 5000000,
+    price: 522000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
     registerLink: "/courses/register-form",
@@ -951,7 +1076,7 @@ export const courses = [
     path: "c-sharp",
     category: "software",
     describe: "برنامه نویسی با زبان پرقدرت #C",
-    price: 3980000,
+    price: 399000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
     registerLink: "/courses/register-form",
@@ -1063,7 +1188,7 @@ export const courses = [
     path: "c-plus-plus",
     category: "software",
     describe: "برنامه نویسی با زبان پرقدرت ++C",
-    price: 5200000,
+    price: 499000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     color: ["#001845", "#0466c8"],
     registerLink: "/courses/register-form",
@@ -1168,7 +1293,7 @@ export const courses = [
     path: "java",
     category: "software",
     describe: "برنامه نویسی با Java (ربطی به JavaScript نداره!)",
-    price: 3899000,
+    price: 411000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
     registerLink: "/courses/register-form",
@@ -1268,7 +1393,7 @@ export const courses = [
     path: "unity",
     category: "game",
     describe: "ساخت بازی با موتور بازی سازی Unity 6",
-    price: 6299000,
+    price: 688000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
     color: ["#222c37"],
     registerLink: "/courses/register-form",
@@ -1362,131 +1487,6 @@ export const courses = [
           acceptedAnswer: {
             "@type": "Answer",
             text: "بله، این کلاس با رویکرد پروژه‌محور طراحی شده و شما را برای ورود به دنیای بازی‌سازی و حتی کار در تیم‌های بازی‌سازی حرفه‌ای آماده می‌کند.",
-          },
-        },
-      ],
-    },
-  },
-  {
-    title: "Web Frontend",
-    persianTitle: "طراحی وبسایت",
-    fullTitle: "آموزش طراحی وبسایت تمام عیار",
-    path: "website",
-    category: "web",
-    describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
-    price: 6299000,
-    logo: website_logo,
-    color: ["#52E5E7", "#130CB7"],
-    registerLink: "/courses/register-form",
-    rank: 1,
-    capacity: "32",
-    publicLink: "https://audiok.ir/cat/wrld/nm/page/2/",
-    specs: [
-      {
-        icon: "fa-duotone fa-light fa-graduation-cap",
-        label: "شرکت کنندگان",
-        describe: 118,
-      },
-      {
-        icon: "fa-duotone fa-solid fa-clock-desk",
-        label: "زمان کل کلاس",
-        describe: "70 ساعت",
-      },
-      {
-        icon: "fa-duotone fa-regular fa-chalkboard-user",
-        label: "جلسات",
-        describe: "70",
-      },
-    ],
-    details: [
-      { label: "نام کلاس", describe: "آموزش طراحی وبسایت تمام عیار" },
-      { label: "پیش نیاز", describe: "هیچی" },
-      { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
-    ],
-    paragraphs: [
-      {
-        title: "پیش درآمدی بر دوره",
-        cover: website_1,
-        paragraph: [
-          "در دنیای دیجیتال امروز، تقریباً هر کسب‌وکاری به یک وبسایت نیاز دارد و تقاضا برای توسعه‌دهندگان وب بیشتر از همیشه است. طراحی وبسایت دیگر یک مهارت لوکس نیست، بلکه یکی از ضروری‌ترین توانایی‌ها برای ورود به دنیای فناوری و کسب درآمد محسوب می‌شود. اگر همیشه دوست داشته‌اید وبسایت‌های زیبا و حرفه‌ای بسازید اما نمی‌دانستید از کجا شروع کنید، این دوره دقیقاً برای شماست! در این مسیر، از مفاهیم پایه تا تکنیک‌های پیشرفته را یاد می‌گیرید و در نهایت می‌توانید وبسایت‌های واکنش‌گرا، مدرن و کاربرپسند طراحی کنید.",
-        ],
-      },
-      {
-        title: "آشنایی با تکنولوژی‌های کلیدی",
-        cover: website_2,
-        paragraph: [
-          "در این دوره، شما با HTML، CSS، JavaScript و Bootstrap آشنا خواهید شد. HTML ساختار اصلی صفحات وب را تشکیل می‌دهد، CSS به آن‌ها زیبایی و استایل می‌بخشد، JavaScript امکان تعامل و پویایی را فراهم می‌کند و Bootstrap ابزاری است که طراحی واکنش‌گرا را آسان‌تر و سریع‌تر می‌کند. این چهار تکنولوژی پایه، اساس طراحی وب مدرن را تشکیل می‌دهند.",
-        ],
-      },
-      {
-        title: "یادگیری به سبک مدرن و پروژه‌محور",
-        paragraph: [
-          "ما در این دوره از روش‌های یادگیری مدرن و پروژه‌محور استفاده می‌کنیم. به جای یادگیری تئوری خسته‌کننده، شما در طول دوره روی پروژه‌های واقعی کار خواهید کرد، چالش‌های دنیای واقعی را تجربه می‌کنید و با تمرین‌های عملی مهارت‌های خود را تقویت خواهید کرد. همچنین، پشتیبانی مدرسین و انجمن دانشجویی به شما کمک می‌کند تا به بهترین شکل یاد بگیرید.",
-        ],
-      },
-      {
-        title: "فرصت‌های شغلی در دنیای طراحی وب",
-        paragraph: [
-          "طراحی وب یکی از پردرآمدترین و پرتقاضاترین مهارت‌های دنیای فناوری است. شرکت‌های کوچک و بزرگ به دنبال توسعه‌دهندگان فرانت‌اند ماهر هستند و فرصت‌های کاری برای افرادی که این مهارت را دارند، روزبه‌روز بیشتر می‌شود. با یادگیری طراحی وب، می‌توانید هم به‌عنوان فریلنسر پروژه بگیرید و هم در شرکت‌های معتبر مشغول به کار شوید.",
-        ],
-      },
-      {
-        title: "تمرکز بر فرانت‌اند: دنیای رابط‌های کاربری جذاب",
-        cover: website_3,
-        paragraph: [
-          "تمرکز اصلی این دوره بر فرانت‌اند (Front-end) است. فرانت‌اند به بخشی از یک وبسایت گفته می‌شود که کاربران آن را مشاهده و با آن تعامل می‌کنند. در این دوره یاد می‌گیرید چگونه رابط‌های کاربری زیبا و کاربردی طراحی کنید و تجربه‌ای روان و جذاب برای کاربران ایجاد کنید. اگر می‌خواهید دنیای برنامه‌نویسی و طراحی وب را با قدرت آغاز کنید، این دوره نقطه‌ی شروع ایده‌آلی برای شما خواهد بود!",
-        ],
-      },
-      {
-        title: "آینده: مهارت، درآمد، و فرصت‌های شغلی",
-        paragraph: [
-          "پس از گذراندن این دوره، شما فقط یک یادگیرنده‌ی تئوری نخواهید بود، بلکه یک طراح وب آماده‌ی ورود به بازار کار خواهید شد. با مهارت‌هایی که در HTML، CSS، JavaScript و Bootstrap کسب می‌کنید، می‌توانید وبسایت‌های حرفه‌ای و مدرن طراحی کنید و به‌عنوان یک فریلنسر پروژه بگیرید یا در شرکت‌های معتبر استخدام شوید. طراحی وب یکی از پرطرفدارترین و پردرآمدترین حوزه‌های فناوری است که در سراسر جهان فرصت‌های شغلی گسترده‌ای دارد. این دوره به شما کمک می‌کند تا اولین قدم را برای ورود به دنیای برنامه‌نویسی بردارید، یک نمونه‌کار قوی بسازید و مسیر شغلی خود را در صنعت فناوری آغاز کنید.",
-        ],
-      },
-    ],
-    faq: {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "این دوره برای چه کسانی مناسب است؟",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "این دوره برای شماست! چه مبتدی باشید و چه بخواهید مهارت‌های خود را تقویت کنید، این دوره به شما کمک می‌کند تا طراحی وب را اصولی یاد بگیرید.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "در این دوره چه تکنولوژی‌هایی آموزش داده می‌شود؟",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "شما در این دوره با HTML، CSS، JavaScript و Bootstrap آشنا می‌شوید و یاد می‌گیرید چگونه وبسایت‌های واکنش‌گرا و حرفه‌ای طراحی کنید.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "آیا پس از این دوره می‌توانم وارد بازار کار شوم؟",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "بله! این دوره علاوه بر آموزش مفاهیم، روی مهارت‌های عملی و پروژه‌های واقعی تمرکز دارد. شما در پایان دوره یک نمونه‌کار قوی خواهید داشت که می‌توانید از آن برای ورود به بازار کار استفاده کنید.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "آیا پروژه عملی هم در این دوره انجام می‌شود؟",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "بله، در طول دوره چندین پروژه واقعی طراحی می‌کنید تا مهارت‌های خود را در دنیای واقعی به کار ببرید.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "آیا دوره تمرین و بازخورد روی کدها دارد؟",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "بله، برای یادگیری بهتر، تمرین‌های متنوعی طراحی شده که شما را برای چالش‌های واقعی آماده می‌کند. همچنین می‌توانید کدهای خود را ارسال کنید و بازخورد اختصاصی از مدرس دریافت کنید.",
           },
         },
       ],
