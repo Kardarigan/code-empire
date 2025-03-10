@@ -66,12 +66,14 @@ const Main_Side = ({
           </section>
         )}
         {links.map((link, index) => {
+          const privateLink = link.path + "#" + title;
+
           const handleClick = (link) => {
             if (capacity > 0) {
               if (link.label === "ثبت نام کلاس خصوصی") {
                 window.location.href = link.path;
               } else {
-                window.location.href = link.path + "#" + title;
+                window.location.href = privateLink;
               }
             } else {
               alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");

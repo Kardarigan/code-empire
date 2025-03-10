@@ -66,7 +66,6 @@ const Single_Course = () => {
         <Main_Side
           details={theCourse.details}
           specs={theCourse.specs}
-          privateLink={{}}
           links={links}
           title={theCourse.title}
           capacity={theCourse.capacity}
