@@ -65,43 +65,42 @@ const Main_Side = ({
             <h5>{formattedPrice} تومان</h5>
           </section>
         )}
-        {links.map((link, index) => {
-          const privateLink = link.path + "#" + title;
+        <section className="flex-seperate ">
+          {links.map((link, index) => {
+            const privateLink = link.path + "#" + title;
 
-          const handleClick = (link) => {
-            if (capacity > 0) {
-              if (link.label === "ثبت نام کلاس خصوصی") {
-                window.location.href = link.path;
+            const handleClick = (link) => {
+              if (capacity > 0) {
+                if (link.label === "ثبت نام کلاس خصوصی") {
+                  window.location.href = link.path;
+                } else {
+                  window.location.href = privateLink;
+                }
               } else {
-                window.location.href = privateLink;
+                alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");
               }
-            } else {
-              alert("ظرفیت این کلاس فعلا پر شده! ولی نوبت تو هم میرسه😉");
-            }
-          };
+            };
 
-          return (
-            <button
-              className="py-3 button button-outline-dark rounded-3xl"
-              onClick={handleClick}
-              key={index}
-            >
-              {link.label}
-              <i
-                className={`fas ${
-                  link.label === "ثبت نام کلاس خصوصی" ? " fa-user" : " fa-users"
-                } ms-2`}
-              />
-            </button>
-          );
-        })}
-        {/* <button
-          className="py-3 button button-outline-dark rounded-3xl"
-          onClick={handleClick}
-        >
-          {privateLink.label}
-        </button> */}
-
+            return (
+              <button
+                className={`py-3 button button-outline-dark rounded-3xl ${
+                  links.length > 1 ? "text-xs" : "w-full"
+                }`}
+                onClick={handleClick}
+                key={index}
+              >
+                {link.label}
+                <i
+                  className={`fas ${
+                    link.label === "ثبت نام کلاس خصوصی"
+                      ? " fa-user"
+                      : " fa-users"
+                  } ms-2`}
+                />
+              </button>
+            );
+          })}
+        </section>
         {hint && (
           <div className="flex items-center">
             <i className="fas fa-checkfa-duotone fa-regular fa-badge-percent me-1"></i>{" "}

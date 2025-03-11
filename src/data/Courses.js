@@ -48,7 +48,7 @@ import website_logo from "../assets/course/website/website-logo.png";
 
 export const courses = [
   {
-    title: "Web Frontend",
+    title: "Total Web",
     persianTitle: "طراحی وبسایت",
     fullTitle: "آموزش طراحی وبسایت تمام عیار",
     path: "website",
