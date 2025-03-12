@@ -12,24 +12,33 @@ const Main_Side = ({
     : null;
 
   capacity = Number(capacity);
+  const updatedDetails = [...details];
+
+  if (
+    price &&
+    !updatedDetails.some((item) => item.label === "بهای کلاس گروهی")
+  ) {
+    updatedDetails.push({
+      label: "بهای کلاس گروهی",
+      describe: formattedPrice + " تومان",
+    });
+  }
 
   return (
     <aside className="md:col-span-2" id="sidebar">
       <div className="flex flex-col justify-end gap-y-3 max-md:h-[115%] sticky top-20">
-        {(capacity || capacity === 0) && (
-          <section
-            className={`py-3 mac-border text-slate-50 flex-seperate ${
-              capacity === 0
-                ? "border-red-500 bg-red-500 text-slate-50"
-                : capacity < 10
-                ? "border-yellow-400 bg-yellow-400 text-slate-900"
-                : "text-slate-50 bg"
-            }`}
-          >
-            <h5>ظرفیت کلاس :</h5>
-            <h5>{capacity > 0 ? `${capacity} نفر` : "ظرفیت پر شد"}</h5>
-          </section>
-        )}
+        <section
+          className={`py-3 mac-border text-slate-50 flex-seperate ${
+            capacity === 0
+              ? "border-red-500 bg-red-500 text-slate-50"
+              : capacity < 10
+              ? "border-yellow-400 bg-yellow-400 text-slate-900"
+              : "text-slate-50 bg"
+          }`}
+        >
+          <h5>ظرفیت کلاس :</h5>
+          <h5>{capacity > 0 ? `${capacity} نفر` : "ظرفیت پر شد"}</h5>
+        </section>
         <section className="flex-seperate md:gap-x-5 gap-x-1 text-center text-slate-50">
           {specs.map((item, index) => {
             return (
@@ -46,7 +55,7 @@ const Main_Side = ({
             <i className="fa-solid fa-hashtag text-slate-100"></i>مشخصات
           </h4>
           <ul className="grid gap-y-3 mt-5">
-            {details.map((item, index) => {
+            {updatedDetails.map((item, index) => {
               return (
                 <li
                   className="flex-seperate rounded-full bg-blue-500 px-5 py-1 para"
@@ -59,13 +68,7 @@ const Main_Side = ({
             })}
           </ul>
         </section>
-        {price && (
-          <section className="py-3 warn flex-seperate">
-            <h5 className="text-slate-200">بهای کلاس :</h5>
-            <h5>{formattedPrice} تومان</h5>
-          </section>
-        )}
-        <section className="flex-seperate ">
+        <section className="flex-seperate">
           {links.map((link, index) => {
             const privateLink = link.path + "#" + title;
 
@@ -83,7 +86,7 @@ const Main_Side = ({
 
             return (
               <button
-                className={`py-3 button button-outline-dark rounded-3xl ${
+                className={`py-4 button button-dark rounded-3xl ${
                   links.length > 1 ? "text-xs" : "w-full"
                 }`}
                 onClick={handleClick}

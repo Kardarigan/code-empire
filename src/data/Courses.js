@@ -57,7 +57,7 @@ export const courses = [
     price: 799000,
     logo: website_logo,
     color: ["#52E5E7", "#130CB7"],
-    registerLink: "/courses/register-form",
+
     rank: 1,
     capacity: "32",
     publicLink: "https://audiok.ir/cat/wrld/nm/page/2/",
@@ -182,7 +182,7 @@ export const courses = [
     price: 220000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "32",
     specs: [
@@ -206,8 +206,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "HTML و CSS" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "1,980,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "1,980,000 تومان" },
     ],
     paragraphs: [
       {
@@ -289,7 +289,7 @@ export const courses = [
     price: 459900,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: ["#e09b31", "#ebdd4e"],
-    registerLink: "/courses/register-form",
+
     rank: 1,
     capacity: "22",
     specs: [
@@ -312,8 +312,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "JavaScript" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "بهای کلاس خصوصی", describe: "3,599,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
+      { label: "بهای کلاس خصوصی", describe: "3,599,000 تومان" },
     ],
     paragraphs: [
       {
@@ -405,7 +405,7 @@ export const courses = [
     price: 188000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "36",
     specs: [
@@ -425,12 +425,11 @@ export const courses = [
         describe: "10",
       },
     ],
-
     details: [
       { label: "نام کلاس", describe: "Tailwind" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "بهای کلاس خصوصی", describe: "1,190,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "1,190,000 تومان" },
     ],
     paragraphs: [
       {
@@ -512,7 +511,7 @@ export const courses = [
     price: 198000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "11",
     specs: [
@@ -532,12 +531,11 @@ export const courses = [
         describe: "12",
       },
     ],
-
     details: [
       { label: "نام کلاس", describe: "Bootstrap" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
-      { label: "بهای کلاس خصوصی", describe: "1,299,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "1,299,000 تومان" },
     ],
     paragraphs: [
       {
@@ -605,7 +603,7 @@ export const courses = [
     price: 666000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
     color: ["#2b2d42", "#8d99ae"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "12",
     specs: [
@@ -629,6 +627,7 @@ export const courses = [
       { label: "نام کلاس", describe: "Unrael Engine" },
       { label: "پیش نیاز", describe: "هیچی" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "6,399,000 تومان" },
     ],
     paragraphs: [
       {
@@ -730,7 +729,7 @@ export const courses = [
     price: 299000,
     logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "32",
     specs: [
@@ -753,8 +752,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Scratch Junior" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "2,400,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
+      { label: "بهای کلاس خصوصی", describe: "2,400,000 تومان" },
     ],
     paragraphs: [
       {
@@ -838,7 +837,7 @@ export const courses = [
     price: 399000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
-    registerLink: "/courses/register-form",
+    publicLink: "https://audiok.ir/cat/wrld/nm/page/2/",
     rank: 1,
     capacity: "22",
     specs: [
@@ -861,8 +860,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "پایتون ابتدایی" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "3,999,000 تومان" },
       { label: "روش آموزش", describe: "مرحله ای" },
+      { label: "بهای کلاس خصوصی", describe: "3,999,000 تومان" },
     ],
     paragraphs: [
       {
@@ -944,7 +943,7 @@ export const courses = [
     price: 522000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "25",
     specs: [
@@ -967,8 +966,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "پایتون پیشرفته" },
       { label: "پیش نیاز", describe: "پایتون ابتدایی" },
-      { label: "بهای کلاس خصوصی", describe: "5,000,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "5,000,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1079,7 +1078,7 @@ export const courses = [
     price: 399000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "12",
     specs: [
@@ -1102,8 +1101,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "#C" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "3,980,000 تومان" },
       { label: "روش آموزش", describe: "ترکیبی" },
+      { label: "بهای کلاس خصوصی", describe: "3,980,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1191,7 +1190,7 @@ export const courses = [
     price: 499000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     color: ["#001845", "#0466c8"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "2",
     specs: [
@@ -1214,8 +1213,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "++C" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "5,200,000 تومان" },
       { label: "روش آموزش", describe: "مرحله ای" },
+      { label: "بهای کلاس خصوصی", describe: "5,200,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1296,7 +1295,7 @@ export const courses = [
     price: 411000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
-    registerLink: "/courses/register-form",
+
     rank: 11,
     capacity: "7",
     specs: [
@@ -1319,8 +1318,8 @@ export const courses = [
     details: [
       { label: "نام کلاس", describe: "Java" },
       { label: "پیش نیاز", describe: "هیچی" },
-      { label: "بهای کلاس خصوصی", describe: "3,899,000 تومان" },
       { label: "روش آموزش", describe: "پروژه محور" },
+      { label: "بهای کلاس خصوصی", describe: "3,899,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1396,7 +1395,7 @@ export const courses = [
     price: 688000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
     color: ["#222c37"],
-    registerLink: "/courses/register-form",
+
     rank: 2,
     capacity: "20",
     specs: [
