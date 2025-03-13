@@ -3,9 +3,19 @@ import { Loaded_Animation } from "../Portal";
 
 const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
-  const formattedPrice = thing.price
-    ? thing.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-    : null;
+
+  var formattedPrice = null;
+  console.log(thing.details[2].value);
+
+  if (thing.publicLink) {
+    formattedPrice = thing.price
+      ? thing.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+      : null;
+  } else {
+    formattedPrice = thing.privatePrice
+      ? thing.privatePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+      : null;
+  }
 
   return (
     <Link
@@ -52,17 +62,14 @@ const Course_Card = ({ thing }) => {
         </p>
         <div className="mt-12 flex-seperate">
           <h6>
-            {thing.capacity > 0 ? (
-              <span className="text-blue-600 flex">
-                <i className="fas fa-check size-6 flex-fullcenter me-1 bg-blue-200 rounded-full"></i>{" "}
-                دارای ظرفیت
-              </span>
-            ) : (
-              <span className="text-red-600 flex">
-                <i className="fas fa-xmark size-6 flex-fullcenter me-1 bg-red-100 rounded-full"></i>{" "}
-                تکمیل ظرفیت
-              </span>
-            )}
+            <span className="text-blue-600 flex items-center">
+              <i
+                className={`fas ${
+                  thing.publicLink ? "fa-users" : "fa-user"
+                } size-7 flex-fullcenter me-1 bg-blue-100 rounded-full`}
+              ></i>{" "}
+              {thing.publicLink ? "گروهی و خصوصی" : "خصوصی"}
+            </span>
           </h6>
           <div className="flex relative">
             <h3 className="text-2xl font-sans font-extrabold me-3">
