@@ -55,7 +55,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <div
+      <div
         className={`bg-green-500 w-full sticky top-0 z-20 ${
           alert ? "block" : "hidden"
         }
@@ -64,8 +64,8 @@ const Navbar = () => {
       >
         <div className="container flex-seperate gap-x-8 px-5 py-2">
           <p className="para">
-            از این پس، به‌منظور اطمینان دانشجویان، تمامی کلاس‌ها با همکاری
-            پلتفرم معتبر و شناخته‌شده‌ی <b>ایوند</b> برگزار خواهند شد.
+            از این پس، به‌منظور اطمینان دانشجویان، تمامی کلاس‌های گروهی با
+            همکاری پلتفرم معتبر و شناخته‌شده‌ی <b>ایوند</b> برگزار خواهند شد.
           </p>
           <button
             onClick={() => setAlert(false)}
@@ -74,7 +74,7 @@ const Navbar = () => {
             <i className="fas fa-xmark" />
           </button>
         </div>
-      </div> */}
+      </div>
       <header
         className={`${
           navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"

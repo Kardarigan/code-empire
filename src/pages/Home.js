@@ -27,7 +27,7 @@ const Home = () => {
       <Home_Hero />
       <Breadcrumb />
       <section className="container padding-x">
-        {/* <Courses_News /> */}
+        <Courses_News />
         <Courses_Section
           course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
         />

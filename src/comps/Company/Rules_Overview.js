@@ -12,7 +12,7 @@ const Rules_Overview = () => {
         />
         <h3 className="title text-center w-full mt-20 mac-bg">قوانین ویژه</h3>
         <div className="mt-12">
-          <Rules_Scroll title="کلاس های آموزشی" rules={policy} />;
+          <Rules_Scroll title="کلاس های آموزشی" rules={policy} />
         </div>
       </section>
     </>
