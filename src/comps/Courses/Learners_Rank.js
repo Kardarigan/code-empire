@@ -5,7 +5,7 @@ const Learners_Rank = () => {
   const tableHeading = ["جایگاه", "پروفایل", "نام", "وضعیت", "رتبه", "کلاس"];
   return (
     <section className="container text-center px-5 padding-y mt-24">
-      <h3 className="title-lg mac-bg">برترین دانشجویان آبان ماه </h3>
+      <h3 className="title-lg mac-bg">برترین دانشجویان اسفند ماه </h3>
       <div className="rounded-xl overflow-hidden mt-12 border-2 border-slate-500">
         <table className="w-full">
           <thead className="bg-slate-900 text-slate-100">
@@ -27,7 +27,7 @@ const Learners_Rank = () => {
           <tbody>
             {learnersRank.map((item, index) => {
               return (
-                <tr className="border-b">
+                <tr className="border-b" key={index}>
                   <td className="md:p-5">{index + 1}</td>
                   <td className="py-5">
                     <img

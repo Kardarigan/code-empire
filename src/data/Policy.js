@@ -81,7 +81,7 @@ export const policy = [
   {
     title: "ترک کلاس",
     category: "course",
-    validity: "آبان 1404",
+    validity: "اسفند 1404",
     article: [
       {
         title: "اساس‌نامه ترک کلاس‌ها و مسائل آن",
@@ -121,7 +121,7 @@ export const policy = [
   {
     title: "روش های پرداخت بهای کلاس",
     category: "course",
-    validity: "آبان 1404",
+    validity: "اسفند 1404",
     article: [
       {
         title: "روش های پرداخت بهای کلاس",
@@ -161,7 +161,7 @@ export const policy = [
   {
     title: "رده‌بندی دانشجویان",
     category: "course",
-    validity: "آبان 1404",
+    validity: "اسفند 1404",
     article: [
       {
         title: "رده‌بندی",

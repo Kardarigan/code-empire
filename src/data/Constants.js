@@ -1,7 +1,7 @@
 import Persians_Parade from "../assets/persians_parade.jpg";
-import Persian_Coder_1 from "../assets/painting_of_an_ancient_Persian_with_sassanid_helmet_soldier_while_his_coding_in_his_laptop_png(1).png";
-import Persian_Coder_2 from "../assets/painting_of_an_ancient_Persian_with_sassanid_helmet_soldier_while_his_coding_in_his_laptop_png(1).png";
-import Persian_Coder_3 from "../assets/painting_of_an_ancient_Persian_with_sassanid_helmet_thousanse_soldiers_while_their_coding_in_their_laptop_png.png";
+import about_1 from "../assets/about/about-1.png";
+import about_2 from "../assets/about/about-2.png";
+import about_3 from "../assets/about/about-3.png";
 import Team_1 from "../assets/team/team_1.png";
 import Team_2 from "../assets/team/team_2.png";
 import Team_3 from "../assets/team/team_3.png";
@@ -112,10 +112,6 @@ export const socialButtons = [
     href: "https://www.instagram.com/codeempire/",
     iconClass: "fa-brands fa-instagram",
   },
-  {
-    href: "#",
-    iconClass: "fa-brands fa-youtube",
-  },
   { href: "https://t.me/codeOFempire", iconClass: "fa-brands fa-telegram" },
 ];
 
@@ -163,7 +159,7 @@ export const customerReviews = [
     review:
       "من فقط چندتا مشورت و همکاری ساده درباره کارهای دانشگاهم باهاشون داشتم ولی واقعا به اندازه یک پروژه بزرگ برام لذت بخش بود. به امید همکاری‌های بیشتر...",
     avatar: "https://api.dicebear.com/9.x/rings/svg?seed=Luis",
-    lastCooperation: "آبان 1403",
+    lastCooperation: "اسفند 1403",
   },
   {
     name: "امیرحسین امینی",
@@ -226,13 +222,13 @@ export const about = {
     title: "امپراتوری چیکار میکنه؟",
     describe:
       "همیشه بهترین سایت یا برنامه، اونیه که کمترین و بهترین کد رو داشته باشه. اما کار ما تنها این نیست، امپراتوری کد به دنبال گسترش دانش برنامه نویسی به صورت حرفه‌ای و به زبان ساده در تمام بخش‌های زندگیست، چرا که بسیار مهمه!",
-    cover: Persian_Coder_1,
+    cover: about_1,
   },
   reagon: {
     title: "ما فراتر از سرزیمنمونیم",
     describe:
       "همیشه بهترین جامعه اونیه که فراتر از سرزمینمش بیاندیشه و این یکی از باور های مهم و اساسی امپراتوری ماست! امپراتوری کد همیشه به دنبال آن است تا دانش برنامه‌نویسی و فریلنسری را در ایران گسترش و پایه گذاری کند سپس در جهت پیشرفت بیشتر و ارتباط با جهان از آن استفاده کند.",
-    cover: Persian_Coder_2,
+    cover: about_2,
   },
   numbers: [
     { number: 30, title: "مربی مجرب" },
@@ -244,7 +240,7 @@ export const about = {
     title: "ایده اصلی ما چیه؟",
     describe:
       "همیشه بهترین گروه یا فرد کسیه که در کمترین زمان درست‌ترین و بهینه ترین کار رو انجام بده. همیشه بهترین جامعه یا کشور، اونیه که بروز باشه و درست تلاش کنه. همیشه بهترین کلاس از زندگی، زمانیه که زندگیت مملو از برنامه ریزی و انگیزه و هدف و دسترسی به دانش‌های نوین و کارآمد باشه. ایده اصلی ما اجرای همه این موارد به صورت حرفه‌ای و ساده برای همه شماست!",
-    cover: Persian_Coder_3,
+    cover: about_3,
   },
 };
 

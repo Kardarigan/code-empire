@@ -6,7 +6,8 @@ const Stand = ({ thing, index }) => {
   const { ref, className } = Loaded_Animation("h-24", heights[index]);
   const path = "/courses/" + thing.path;
 
-  var firstTitleWord = thing.title.split(" ")[0];
+  var firstTitleWord =
+    thing.title === "Total Web" ? "Total Web" : thing.title.split(" ")[0];
 
   return (
     <div className="w-1/3 flex flex-col justify-end md:h-80 h-60">

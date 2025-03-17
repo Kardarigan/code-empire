@@ -5,7 +5,6 @@ const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
 
   var formattedPrice = null;
-  console.log(thing.details[2].value);
 
   if (thing.publicLink) {
     formattedPrice = thing.price
