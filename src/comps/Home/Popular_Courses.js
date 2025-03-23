@@ -13,14 +13,16 @@ const Popular_Courses = () => {
   ];
 
   return (
-    <section className="container padding mt-12 max-md:mb-8 text-center ">
+    <section className="container padding text-center">
       <h3 className="title-lg mac-bg">محبوبترین کلاس ها</h3>
-      <div className="flex mt-12 md:gap-x-12">
-        {reorderedCourses.map((item, index) => {
-          return <Stand thing={item} index={index} key={index} />;
-        })}
+      <div className="my-12 md:pb-[80px] pb-[40px]">
+        <div className="flex md:gap-x-12">
+          {reorderedCourses.map((item, index) => {
+            return <Stand thing={item} index={index} key={index} />;
+          })}
+        </div>
+        <div className="stand-found"></div>
       </div>
-      <div className="stand-found"></div>
     </section>
   );
 };
