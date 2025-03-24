@@ -6,7 +6,7 @@ const Courses_Section = ({ course }) => {
   const isCoursePage = location.endsWith("/courses");
 
   return (
-    <div className="md:mt-24 mt-12">
+    <div className="case">
       <div className="flex-seperate">
         <h2 className="title">
           <i className="fa-solid fa-hashtag" />

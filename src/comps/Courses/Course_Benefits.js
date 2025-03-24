@@ -3,10 +3,10 @@ import Benefit_Card from "./Benefit_Card";
 
 const Course_Benefits = () => {
   return (
-    <section className="padding">
-      <div className="pagecenter text-center ">
+    <section className="case">
+      <div className="max-w-[800px] mx-auto text-center">
         <h3 className="title-lg mac-bg">مزایای کلاس آنلاین امپراتوری</h3>
-        <p className="mt-5 para">
+        <p className="mt-5 para text-center">
           کلاس آنلاین امپراتوری برخلاف کلاس های عادی نتیجه ی قابل اطمینان تری
           داره و آینده ی پس از این کلاس تضمین شده خواهد بود. چند تا از ویژگی
           هایی که سبب این برتری میشه رو این پایین برات توضیح دادیم:
