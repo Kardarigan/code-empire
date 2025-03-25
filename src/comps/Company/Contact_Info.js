@@ -2,7 +2,7 @@ import { contactInfo } from "../../data/Constants";
 
 const Contact_Info = () => {
   return (
-    <section className="pagecenter">
+    <section className="case container-sm">
       <h3 className="title text-center mac-bg">راه های ارتباط با امپراتوری</h3>
       <div className="box mt-5">
         <ul className="grid gap-y-5">

@@ -1,4 +1,4 @@
-const Article = ({ article, icons = true, gap = "gap-y-24" }) => {
+const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
   const makeBold = (text) => {
     const index = text.indexOf(":");
     if (index === -1) {
@@ -41,7 +41,7 @@ const Article = ({ article, icons = true, gap = "gap-y-24" }) => {
               return (
                 <p
                   key={index}
-                  className="text-justify para mt-5 text-slate-700"
+                  className="para mt-5 text-slate-800"
                   dangerouslySetInnerHTML={{ __html: makeBold(para) }}
                 />
               );

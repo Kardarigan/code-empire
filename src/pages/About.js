@@ -28,13 +28,10 @@ const About = () => {
       />
       <Half thing={about.idea} />
       <About_Team />
-      <section className="container padding-x text-center">
-        <a
-          href={logo.iconTitle}
-          className="inline-block min-w-52 w-1/4 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%"
-        >
+      <section className="case text-center">
+        <div className="inline-block min-w-52 w-1/4 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%">
           <img src={logo.iconTitle} alt="Empire's Official Logo" />
-        </a>
+        </div>
         <p className="label text-slate-600">لوگو و نماد رسمی امپراتوری کد</p>
       </section>
     </>

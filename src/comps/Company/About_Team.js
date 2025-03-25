@@ -5,7 +5,7 @@ const About_Team = () => {
   const durations = ["duration-[2000ms]", "", "duration-[3000ms]"];
 
   return (
-    <section className="padding text-center container">
+    <section className="case text-center">
       <h3 className="title-lg mb-10 mac-bg">آینده‌ی شما در دستان امنی است</h3>
       <p>
         با تیم کار کشته ی امپراتوری کد آشنا شو! البته که اینا عکسای خودمون نیستن

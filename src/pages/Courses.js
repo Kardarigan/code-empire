@@ -17,7 +17,7 @@ const Courses = () => {
       <All_Courses />
       <Learners_Rank />
       <Course_Benefits />
-      <FAQ questions={coursesQuestions} className="container padding" />
+      <FAQ questions={coursesQuestions} className="case" />
     </>
   );
 };

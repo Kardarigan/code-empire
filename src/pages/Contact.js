@@ -18,7 +18,7 @@ const Contact = () => {
       <Breadcrumb />
       <Contact_Info />
       <Contact_Us />
-      <section className="pagecenter pb-40">
+      <section className="case container-sm">
         <h3 className="title text-center mb-5">
           <span className="mac-bg">فرم تماس با امپراتوری</span>
         </h3>

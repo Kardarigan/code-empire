@@ -26,7 +26,7 @@ const All_Courses = () => {
   ];
 
   return (
-    <section className="container padding-t padding-x">
+    <section className="case padding-t">
       {/* <Courses_News /> */}
       <Tip message={"کلاس‌ها با جدیدترین تکنولوژی‌ها به‌روز می‌شوند"} blue />
       {theAllCourses.map((course, index) => {

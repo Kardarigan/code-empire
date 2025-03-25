@@ -47,7 +47,7 @@ const Course_Card = ({ thing }) => {
           <h2 className="title">{thing.title}</h2>
           <h2 className="font-medium">{thing.persianTitle}</h2>
         </div>
-        <h4 className="absolute para-sm left-2 top-2 bg-opacity-40 px-2 pt-1 pb-1 bg-slate-100 rounded-full">
+        <h4 className="absolute para-sm left-2 top-2 bg-opacity-40 px-2 pt-1 pb-1 bg-slate-200 rounded-full">
           <i className="fas fa-user me-1" />
           {thing.specs[0].describe}
         </h4>

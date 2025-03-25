@@ -55,14 +55,14 @@ const Single_Course = () => {
     <>
       <Hero title={theCourse.title} subtitle={subtitle} />
       <Breadcrumb />
-      <section className="grid md:grid-cols-5 gap-8 container padding relative">
-        <div className="md:col-span-3 max-md:pb-12">
-          <Share />
+      <section className="case pt-12 grid md:grid-cols-5 gap-8 relative">
+        <main className="mo md:col-span-3 order-last">
+          <Share customClass="mac-border mb-5" />
           <div className="grid gap-y-12">
             <Article article={theCourse.paragraphs} />
             <FAQ questions={theCourse.faq} />
           </div>
-        </div>
+        </main>
         <Main_Side
           details={theCourse.details}
           specs={theCourse.specs}
@@ -73,7 +73,7 @@ const Single_Course = () => {
           hint="در صورت پرداخت یکجا از 10% تخفیف روی بهای کلاس بهره‌مند میشوید!"
         />
       </section>
-      <section className="container padding-x pb-12 max-md:pt-24">
+      <section className="case px-0">
         <Courses_Section
           course={{ title: "کلاس های مشابه", courses: similarCourses }}
         />

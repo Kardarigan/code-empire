@@ -25,7 +25,7 @@ const Courses_Section = ({ course }) => {
         )}
       </div>
       <hr className="border-blue-500 my-5" />
-      <div className="grid lg:grid-cols-3 gap-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
         {course.courses.map((item, index) => {
           return <Course_Card thing={item} key={index} />;
         })}

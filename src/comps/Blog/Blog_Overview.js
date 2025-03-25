@@ -94,12 +94,9 @@ const Blog_Overview = () => {
   }, [page]);
 
   return (
-    <section className="container padding">
+    <section className="case padding-t">
       <div className="flex-seperate mb-5 max-md:flex-col gap-5 border-b border-blue-200 border-opacity-30 pb-3">
         <div className="flex items-center gap-x-1 max-md:min-w-full">
-          <label htmlFor="category" className="label">
-            دسته:{" "}
-          </label>
           <select
             id="category"
             className="select"
@@ -116,7 +113,7 @@ const Blog_Overview = () => {
             ))}
           </select>
         </div>
-        <div className="flex py-2 gap-x-3 md:min-w-[35vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
+        <div className="flex py-2 gap-x-3 md:min-w-[30vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
           <button
             onClick={() =>
               setSearchValue(document.getElementById("search").value)
@@ -128,10 +125,10 @@ const Blog_Overview = () => {
             type="text"
             id="search"
             placeholder="عنوان مقاله را وارد کنید..."
-            className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-300"
+            className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-100"
           />
         </div>
-        <div className="flex-seperate items-center max-md:min-w-full gap-1 text-slate-400 font-thin select-none mac-border py-2">
+        <div className="flex items-center justify-around md:min-w-[19vw] max-md:min-w-full gap-1 text-slate-400 font-thin select-none mac-border py-2">
           {sortby.map((item, index) => (
             <React.Fragment key={index}>
               <span
@@ -149,7 +146,7 @@ const Blog_Overview = () => {
           ))}
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-5">
         {currentBlogs.map((blog, index) => (
           <Blog_Card blog={blog} key={index} />
         ))}

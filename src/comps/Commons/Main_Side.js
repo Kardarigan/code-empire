@@ -26,7 +26,7 @@ const Main_Side = ({
 
   return (
     <aside className="md:col-span-2" id="sidebar">
-      <div className="flex flex-col justify-end gap-y-3 max-md:h-[115%] sticky top-20">
+      <div className="flex flex-col gap-y-3 max-md:h-[115%] sticky top-32">
         <section
           className={`py-3 mac-border text-slate-50 flex-seperate ${
             capacity === 0

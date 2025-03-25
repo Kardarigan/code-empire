@@ -14,7 +14,7 @@ const Single_Rule = () => {
     <>
       <Hero title={theRule.title} />
       <Breadcrumb />
-      <div className="grid gap-12 lg:grid-cols-5 padding-x padding-t pb-60 container">
+      <div className="case grid gap-12 lg:grid-cols-5">
         <main className="lg:col-span-3">
           <section className="py-2 mac-border flex-seperate mb-12 text-blue-700">
             <h5>تاریخ اعتبار قانون :</h5>

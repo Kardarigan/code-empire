@@ -4,8 +4,8 @@ import { Count_Animation } from "../Portal";
 
 const About_Numbers = () => {
   return (
-    <section className="bg-blue-50 padding">
-      <div className="container grid sm:grid-cols-7 gap-5">
+    <section className="mo bg-blue-50">
+      <div className="container padding grid sm:grid-cols-7 grid-cols-2 sm:gap-5 max-sm:gap-y-20">
         {about.numbers.map((item, index) => {
           const { count, elementRef } = Count_Animation(item.number, 1500);
           return (
@@ -17,7 +17,7 @@ const About_Numbers = () => {
                 </h4>
               </div>
               {index !== about.numbers.length - 1 && (
-                <div className="w-[1px] bg-slate-950 h-full mx-auto bg-opacity-10" />
+                <div className="w-[1px] bg-slate-950 h-full mx-auto bg-opacity-10 max-sm:hidden" />
               )}
             </React.Fragment>
           );

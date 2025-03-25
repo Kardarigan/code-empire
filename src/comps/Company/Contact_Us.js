@@ -18,7 +18,7 @@ const Contact_Us = () => {
     },
   ];
   return (
-    <section className="pagecenter">
+    <section className="case container-sm">
       <div className="flex max-md:flex-col gap-x-32 text-center">
         {links.map((item, index) => {
           return (

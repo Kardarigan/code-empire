@@ -9,7 +9,7 @@ const Rules = () => {
         subtitle="برای پیوستن به امپراتوری کد از قوانین ما آگاه شو"
       />
       <Breadcrumb />
-      <p className="label p-5 text-center">
+      <p className="label px-5 my-12 text-center">
         پیش از هر گونه استفاده از وبسایت حتما تمام منشور (قوانین) را به دقت
         بخوانید. از توجه شما سپاسگزاریم.
       </p>

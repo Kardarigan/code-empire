@@ -13,7 +13,7 @@ const Half = ({ thing, reverse = false }) => {
     >
       <div className="md:w-1/2 flex-fullcenter z-10">
         <div className={reverse ? "" : "text-end"}>
-          <h3 className="title-super font-bold relative max-md:px-2">
+          <h3 className="lg:text-7xl md:text-5xl text-2xl font-bold relative max-md:px-2">
             <span
               className={`absolute max-md:right-3 max-md:halfbg-left max-md:text-slate-50 ${
                 reverse ? "md:left-0 md:halfbg-right" : "right-0 md:halfbg-left"

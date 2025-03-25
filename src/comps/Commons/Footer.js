@@ -5,7 +5,7 @@ import Footer_Journal from "./Footer_Journal";
 const Footer = () => {
   return (
     <footer
-      className="relative w-full bg-slate-900 text-slate-100 text-xs text-center z-20 lg:mt-72 mt-52 md:padding-x pt-32 max-lg:pt-24"
+      className="relative w-full bg-slate-900 text-slate-100 text-center z-20 lg:mt-80 mt-64 md:padding-x pt-32 max-lg:pt-24"
       dir="rtl"
     >
       <Footer_Journal />
@@ -13,7 +13,7 @@ const Footer = () => {
         {footLinks.map((item, index) => {
           return (
             <div key={index} className={item.class}>
-              <h5 className="title-sm mb-4">
+              <h5 className="title mb-4">
                 <i className="fa-solid fa-hashtag" />
                 {item.title}
               </h5>

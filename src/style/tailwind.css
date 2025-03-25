@@ -6,6 +6,9 @@
   .case {
     @apply lg:max-w-[1180px] md:max-w-[950px] sm:max-w-[700px] padding-x lg:pt-24 pt-32 mx-auto;
   }
+  .mo {
+    @apply lg:mt-24 mt-32;
+  }
   .container {
     @apply max-w-[1200px] mx-auto;
   }
@@ -55,19 +58,13 @@
     @apply transition text-sm font-semibold rounded px-3 py-2  bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
   }
   .title {
-    @apply md:text-3xl text-lg font-extrabold;
-  }
-  .title-res {
-    @apply md:text-3xl text-lg font-extrabold;
+    @apply md:text-3xl text-xl font-extrabold;
   }
   .title-sm {
     @apply md:text-xl text-lg font-extrabold;
   }
   .title-lg {
     @apply md:text-5xl text-3xl font-extrabold;
-  }
-  .title-super {
-    @apply lg:text-7xl md:text-5xl text-2xl font-extrabold;
   }
   .field {
     @apply bg-slate-200 text-slate-900 border-0 text-sm rounded-xl transition-all duration-100 focus-within:ring-1 focus-within:ring-blue-600 block w-full px-3 py-2;
@@ -80,7 +77,7 @@
     @apply text-slate-700 md:text-sm text-xs font-bold;
   }
   .para {
-    @apply opacity-90 md:text-sm text-xs text-justify max-w-[800px];
+    @apply opacity-90 max-sm:text-sm text-justify max-w-[800px];
   }
   .para-sm {
     @apply opacity-90 md:text-xs text-[8px] text-justify max-w-[800px];
@@ -133,6 +130,7 @@
     background: linear-gradient(109deg, #3b82f6 -20%, transparent 70%);
     @apply pl-5 rounded-full;
   }
+
   .padding {
     @apply md:px-16 px-6 md:py-24 py-12;
   }
