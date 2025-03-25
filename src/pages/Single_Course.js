@@ -56,7 +56,7 @@ const Single_Course = () => {
       <Hero title={theCourse.title} subtitle={subtitle} />
       <Breadcrumb />
       <section className="case pt-12 grid md:grid-cols-5 gap-8 relative">
-        <main className="mo md:col-span-3 order-last">
+        <main className="max-md:mo md:col-span-3 max-md:order-last">
           <Share customClass="mac-border mb-5" />
           <div className="grid gap-y-12">
             <Article article={theCourse.paragraphs} />

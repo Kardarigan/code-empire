@@ -6,9 +6,18 @@ const Contact_Us = () => {
       title: "پل های ارتباطی",
       w: "w-2/5",
       list: [
-        { href: "#", iconClass: "fa-brands fa-telegram" },
-        { href: "#", iconClass: "fa-solid fa-message-sms" },
-        { href: "#", iconClass: "fa-solid fa-envelope" },
+        {
+          href: "https://t.me/codeempire_support",
+          iconClass: "fa-brands fa-telegram",
+        },
+        {
+          href: "sms:+989231925979",
+          iconClass: "fa-solid fa-message-sms",
+        },
+        {
+          href: "mailto:info@codeempire.ir",
+          iconClass: "fa-solid fa-envelope",
+        },
       ],
     },
     {

@@ -46,7 +46,7 @@ const Course_Form = () => {
         title="انگار میخوای یادگیری رو آغاز کنی"
         subtitle="فرم زیر رو پر کن و کلاس ای که میخوای رو برگزین"
       />
-      <section className="container-sm mt-12 pb-40 padding-x">
+      <section className="container-sm case">
         <Form
           fields={updatedRegisterForm}
           selectedOption={selectedCourse}
@@ -54,6 +54,9 @@ const Course_Form = () => {
           service="service_6smeggr"
           template="template_h64zus6"
         />
+        <p className="label px-5 my-12 text-center">
+          پس از تکمیل فرم، کارشناسان ما طی یک روز کاری با شما تماس خواهند گرفت.
+        </p>
       </section>
     </>
   );
