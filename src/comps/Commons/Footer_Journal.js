@@ -41,7 +41,7 @@ const Footer_Journal = () => {
       <div className="lg:w-[50vw] w-[90vw] mx-auto bg text-slate-100 md:p-12 px-5 py-8 rounded-3xl gird grid-cols-2">
         <div className="text-center">
           <h4 className="title">عضویت در ماهنامه‌ی امپراتوری</h4>
-          <div className="flex-fullcenter max-md:flex-col mt-3">
+          <div className="flex-fullcenter max-lg:flex-col mt-3">
             <p>با عضویت ماهنامه، همیشه به‌روز باشید:</p>
             <ul className="flex gap-x-2 ms-1">
               {benefits.map((item, index) => {

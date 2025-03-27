@@ -8,10 +8,11 @@ const Form = ({
   template,
   selectedOption,
   setSelectedOption,
+  afterSubmitMessage = "پیام شما فرستاده شد",
 }) => {
   const form = useRef();
-  const [message, setMessage] = useState(null);
-  const [showMessage, setShowMessage] = useState(false);
+  const [message, setMessage] = useState("میخاییلوف");
+  const [showMessage, setShowMessage] = useState(true);
 
   const handleFieldChange = (e) => {
     const selectedOption = e.target.value;
@@ -29,7 +30,7 @@ const Form = ({
       .then(
         () => {
           setShowMessage(true);
-          setMessage("پیام شما فرستاده شد");
+          setMessage(afterSubmitMessage);
           setTimeout(() => {
             setShowMessage(false);
             window.scrollTo(0, 0);
@@ -100,11 +101,13 @@ const Form = ({
       </form>
 
       <div
-        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${
+        className={`fixed flex-fullcenter size-screen right-0 bottom-0 z-50 displayTrans duration-500 ${
           showMessage ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
-        <p>{message}</p>
+        <div className=" card size-auto p-5">
+          <p>{message}</p>
+        </div>
       </div>
     </>
   );

@@ -24,12 +24,6 @@ const Course_Form = () => {
     };
   }, []);
 
-  const handleCourseChange = (e) => {
-    const course = e.target.value;
-    setSelectedCourse(course);
-    window.location.hash = encodeURIComponent(course);
-  };
-
   const chosenCourse = {
     label: "کلاس دلخواه",
     type: "select",
@@ -51,8 +45,10 @@ const Course_Form = () => {
           fields={updatedRegisterForm}
           selectedOption={selectedCourse}
           setSelectedOption={setSelectedCourse}
+          submit="ثبت نام"
           service="service_6smeggr"
           template="template_h64zus6"
+          afterSubmitMessage="درخواست ثبت نام شما با موفقیت ارسال شد. به زودی با شما تماس گرفته میشود."
         />
         <p className="label px-5 my-12 text-center">
           پس از تکمیل فرم، کارشناسان ما طی یک روز کاری با شما تماس خواهند گرفت.

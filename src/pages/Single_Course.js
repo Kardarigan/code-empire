@@ -73,11 +73,9 @@ const Single_Course = () => {
           hint="در صورت پرداخت یکجا از 10% تخفیف روی بهای کلاس بهره‌مند میشوید!"
         />
       </section>
-      <section className="case px-0">
-        <Courses_Section
-          course={{ title: "کلاس های مشابه", courses: similarCourses }}
-        />
-      </section>
+      <Courses_Section
+        course={{ title: "کلاس های مشابه", courses: similarCourses }}
+      />
       <a
         className={`md:hidden fixed bottom-16 z-20 left-10 button button-dark rounded title-sm w-52 h-12 displayTrans ${
           showRegisterButton ? "visible opacity-100" : "invisible opacity-0"

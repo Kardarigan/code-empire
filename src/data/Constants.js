@@ -47,13 +47,13 @@ export const hamburgerLinks = [
 export const footLinks = [
   {
     title: "ما کی هستیم؟",
-    class: "md:col-span-2",
+    class: "xl:col-span-2 lg:col-span-3",
     describe:
       "می‌توان گفت امپراتوری کد بی‌همتاست و هیچ رقیبی ندارد! آکادمی‌ای آنلاین که نه‌تنها برنامه‌نویسی را آموزش می‌دهد، بلکه آینده حرفه‌ای تو را در دنیای فناوری و برنامه‌نویسی تضمین میکند.",
   },
   {
     title: "بخش های وبسایت",
-    class: "md:col-span-1",
+    class: "lg:col-span-1",
     links: [
       {
         label: "خانه",
@@ -71,7 +71,7 @@ export const footLinks = [
   },
   {
     title: "امپراتوری کد",
-    class: "md:col-span-1",
+    class: "lg:col-span-1",
     links: [
       {
         label: "منشور قوانین",
@@ -89,7 +89,7 @@ export const footLinks = [
   },
   {
     title: "ارتباط سریع",
-    class: "md:col-span-1",
+    class: "lg:col-span-1",
     ways: [
       {
         label: "ایمیل",
