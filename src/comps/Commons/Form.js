@@ -9,10 +9,11 @@ const Form = ({
   selectedOption,
   setSelectedOption,
   afterSubmitMessage = "پیام شما فرستاده شد",
+  duration = 2000,
 }) => {
   const form = useRef();
-  const [message, setMessage] = useState("میخاییلوف");
-  const [showMessage, setShowMessage] = useState(true);
+  const [message, setMessage] = useState(null);
+  const [showMessage, setShowMessage] = useState(false);
 
   const handleFieldChange = (e) => {
     const selectedOption = e.target.value;
@@ -34,14 +35,14 @@ const Form = ({
           setTimeout(() => {
             setShowMessage(false);
             window.scrollTo(0, 0);
-          }, 2000);
+          }, duration);
         },
         () => {
           setShowMessage(true);
           setMessage("مشکلی پیش آمده!؟");
           setTimeout(() => {
             setShowMessage(false);
-          }, 2000);
+          }, duration);
         }
       );
   };
@@ -101,11 +102,11 @@ const Form = ({
       </form>
 
       <div
-        className={`fixed flex-fullcenter size-screen right-0 bottom-0 z-50 displayTrans duration-500 ${
+        className={`fixed flex-fullcenter size-screen right-0 bottom-0 z-50 displayTrans duration-500 bg-slate-100 bg-opacity-15 ${
           showMessage ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
-        <div className=" card size-auto p-5">
+        <div className=" card size-auto">
           <p>{message}</p>
         </div>
       </div>

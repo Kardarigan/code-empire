@@ -10,7 +10,7 @@
     @apply lg:mt-24 mt-32;
   }
   .container {
-    @apply max-w-[1200px] mx-auto;
+    @apply lg:max-w-[1180px] md:max-w-[950px] sm:max-w-[700px] mx-auto;
   }
   .container-sm {
     @apply max-w-[800px] mx-auto;

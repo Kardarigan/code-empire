@@ -14,7 +14,7 @@ const Footer = () => {
           return (
             <>
               <div key={index} className={item.class}>
-                <h5 className="title mb-4">
+                <h5 className="title-sm mb-4">
                   <i className="fa-solid fa-hashtag" />
                   {item.title}
                 </h5>

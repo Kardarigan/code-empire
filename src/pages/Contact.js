@@ -20,7 +20,7 @@ const Contact = () => {
       <Contact_Us />
       <section className="case container-sm">
         <h3 className="title text-center mb-5">
-          <span className="mac-bg">فرم تماس با امپراتوری</span>
+          <span className="mac-bg">فرم مشاوره رایگان امپراتوری</span>
         </h3>
         <Form
           fields={contactForm}

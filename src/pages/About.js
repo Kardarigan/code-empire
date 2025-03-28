@@ -26,7 +26,7 @@ const About = () => {
         title="ما از نیرو های تازه کار استقبال میکنیم"
         describe="اینجا امپراتوری ای از کد هاست! امپراتوری کد دارای ارتشی در کد زنی نخبه، مشاورانی ماهر و آموزگارانی با تجربه است که برای افزایش کیفیت کسب و کار ها و همچنین بنای دیگر پادشاهی ها از هیچ میجنگند. هرکس که دارای چنین خصوصیاتی است میتواند بخشی از این امپراتوری باشد و این است امپراتوری کد..."
       />
-      <Half thing={about.idea} />
+      <Half thing={about.idea} bg />
       <About_Team />
       <section className="case text-center">
         <div className="inline-block min-w-52 w-1/4 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%">

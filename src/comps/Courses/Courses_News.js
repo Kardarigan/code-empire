@@ -4,7 +4,7 @@ import { Carousel } from "../Portal";
 
 const Courses_News = () => {
   return (
-    <div className="rounded-lg overflow-hidden my-5">
+    <div>
       <Carousel
         type="news"
         things={news}

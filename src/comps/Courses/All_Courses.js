@@ -1,5 +1,5 @@
 import { courses } from "../../data/Courses";
-import { Courses_Section, Tip, Courses_News } from "../Portal";
+import { Courses_Section, Tip } from "../Portal";
 
 const All_Courses = () => {
   const categoryFilter = (categoryName) => {
@@ -26,13 +26,14 @@ const All_Courses = () => {
   ];
 
   return (
-    <section className="case padding-t">
-      {/* <Courses_News /> */}
-      <Tip message={"کلاس‌ها با جدیدترین تکنولوژی‌ها به‌روز می‌شوند"} blue />
+    <>
+      <section className="container padding-x mt-8">
+        <Tip message={"کلاس‌ها با جدیدترین تکنولوژی‌ها به‌روز می‌شوند"} blue />
+      </section>
       {theAllCourses.map((course, index) => {
         return <Courses_Section course={course} key={index} interval="1000" />;
       })}
-    </section>
+    </>
   );
 };
 

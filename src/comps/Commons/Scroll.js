@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Loaded_Animation } from "../Portal";
 const Scroll = ({ children }) => {
   const { ref, className } = Loaded_Animation("max-h-0 py-0", "max-h-96 py-8");
+  const [scrollOpen, setScrollOpen] = useState(true);
+
   return (
     <div className="scroll" ref={ref}>
       <div className="scroll-end" />

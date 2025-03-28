@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { registerForm } from "../../data/Constants";
 import { courses } from "../../data/Courses";
 import { Form, Hero } from "../Portal";
+import { Link } from "react-router-dom";
 
 const Course_Form = () => {
   const [selectedCourse, setSelectedCourse] = useState("");
@@ -40,7 +41,10 @@ const Course_Form = () => {
         title="انگار میخوای یادگیری رو آغاز کنی"
         subtitle="فرم زیر رو پر کن و کلاس ای که میخوای رو برگزین"
       />
-      <section className="container-sm case">
+      <section className="container-sm case pt-8">
+        <p className="title-sm my-5 text-center">
+          پس از تکمیل فرم، کارشناسان ما طی یک روز کاری با شما تماس خواهند گرفت.
+        </p>
         <Form
           fields={updatedRegisterForm}
           selectedOption={selectedCourse}
@@ -50,9 +54,18 @@ const Course_Form = () => {
           template="template_h64zus6"
           afterSubmitMessage="درخواست ثبت نام شما با موفقیت ارسال شد. به زودی با شما تماس گرفته میشود."
         />
-        <p className="label px-5 my-12 text-center">
-          پس از تکمیل فرم، کارشناسان ما طی یک روز کاری با شما تماس خواهند گرفت.
-        </p>
+        <div className="box text-center my-8">
+          <h5 className="title-sm">
+            برای مشاوره رایگان پیش از ثبت نام،{" "}
+            <Link to="/contact" className="link">
+              کلیک
+            </Link>{" "}
+            کنید.
+          </h5>
+          <Link to="/contact" className="button button-blue mt-5">
+            درخواست مشاوره
+          </Link>
+        </div>
       </section>
     </>
   );

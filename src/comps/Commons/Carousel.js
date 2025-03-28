@@ -46,7 +46,11 @@ const Carousel = ({ type, things, options, interval = "2000" }) => {
               ) : type === "news" ? (
                 <div>
                   <Link to={item.path}>
-                    <img src={item.cover} alt="Event Banner" />
+                    <img
+                      src={item.cover}
+                      alt="Event Banner"
+                      className="w-full h-screen bg-fullobject"
+                    />
                   </Link>
                 </div>
               ) : (

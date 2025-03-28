@@ -8,7 +8,6 @@ import {
   Courses_Section,
   Magazin,
   Carousel_Title,
-  // Courses_News,
 } from "../comps/Portal";
 import {
   customerReviews,
@@ -26,16 +25,15 @@ const Home = () => {
       <Home_Hero />
       <Breadcrumb />
       <section className="container padding-x">
-        {/* <Courses_News /> */}
         <Courses_Section
           course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
         />
       </section>
-      <Half thing={futureAcademy} />
+      <Half thing={futureAcademy} bg />
       <Popular_Courses />
-      <Half thing={newWays} reverse />
+      <Half thing={newWays} reverse bg />
       <Course_Benefits />
-      <Half thing={whatWeAre} />
+      <Half thing={whatWeAre} bg />
       <Magazin />
       <Instagram />
       <Carousel_Title
