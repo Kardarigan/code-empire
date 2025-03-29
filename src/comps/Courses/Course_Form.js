@@ -39,7 +39,7 @@ const Course_Form = () => {
     <>
       <Hero
         title="انگار میخوای یادگیری رو آغاز کنی"
-        subtitle="فرم زیر رو پر کن و کلاس ای که میخوای رو برگزین"
+        subtitle="فرم زیر رو پر کن و کلاسی که میخوای رو انتخاب کن"
       />
       <section className="container-sm case pt-8">
         <p className="title-sm my-5 text-center">

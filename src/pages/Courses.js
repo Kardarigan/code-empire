@@ -2,7 +2,7 @@ import {
   All_Courses,
   Breadcrumb,
   Course_Benefits,
-  Courses_News,
+  // Courses_News,
   FAQ,
   Hero,
   Learners_Rank,
@@ -13,8 +13,8 @@ import { coursesQuestions } from "../data/Courses";
 const Courses = () => {
   return (
     <>
-      {/* <Hero title="کلاس های امپراتوری" background={Cover} /> */}
-      <Courses_News />
+      <Hero title="کلاس های امپراتوری" background={Cover} />
+      {/* <Courses_News /> */}
       <Breadcrumb />
       <All_Courses />
       <Learners_Rank />
