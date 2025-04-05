@@ -96,24 +96,22 @@ const Blog_Overview = () => {
   return (
     <section className="case padding-t">
       <div className="flex-seperate mb-5 max-md:flex-col gap-5 border-b border-blue-200 border-opacity-30 pb-3">
-        <div className="flex items-center gap-x-1 max-md:min-w-full">
-          <select
-            id="category"
-            className="select"
-            onChange={handleCategoryChange}
-            value={category || ""}
-          >
-            <option value="" disabled>
-              انتخاب دسته
+        <select
+          id="category"
+          className="select max-md:min-w-full"
+          onChange={handleCategoryChange}
+          value={category || ""}
+        >
+          <option value="" disabled>
+            انتخاب دسته
+          </option>
+          {categories.map((item, index) => (
+            <option key={index} value={item}>
+              {item}
             </option>
-            {categories.map((item, index) => (
-              <option key={index} value={item}>
-                {item}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div className="flex py-2 gap-x-3 md:min-w-[30vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
+          ))}
+        </select>
+        <div className="flex py-2 gap-x-3 md:min-w-[35vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
           <button
             onClick={() =>
               setSearchValue(document.getElementById("search").value)
