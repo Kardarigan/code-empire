@@ -74,7 +74,7 @@ const Navbar = () => {
         dir="rtl"
       >
         <div className="container flex-seperate gap-x-8 px-5 py-2">
-          <p className="para">
+          <p className="para text-[11px]">
             از این پس، به‌منظور اطمینان دانشجویان، تمامی کلاس‌های گروهی با
             همکاری پلتفرم معتبر و شناخته‌شده‌ی <b>ایوند</b> برگزار خواهند شد.
           </p>

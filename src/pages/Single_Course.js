@@ -16,7 +16,6 @@ const Single_Course = () => {
   const { course } = useParams();
   const theCourse = courses.find((e) => e && e.path === course);
   const subtitle = theCourse.persianTitle + ", " + theCourse.describe;
-  const [showRegisterButton, setShowRegisterButton] = useState(true);
 
   const links = [
     {
@@ -38,25 +37,12 @@ const Single_Course = () => {
     );
   }, [theCourse]);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY < 3200) {
-        setShowRegisterButton(true);
-      } else {
-        setShowRegisterButton(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <>
       <Hero title={theCourse.title} subtitle={subtitle} />
       <Breadcrumb />
-      <section className="case pt-12 grid md:grid-cols-5 gap-8 relative">
-        <main className="max-md:mo md:col-span-3 max-md:order-last">
+      <section className="case pt-12 grid lg:grid-cols-5 gap-8 relative">
+        <main className="max-lg:mo lg:col-span-3 max-lg:order-last">
           <Share customClass="mac-border mb-5" />
           <div className="grid gap-y-12">
             <Article article={theCourse.paragraphs} />
@@ -76,14 +62,6 @@ const Single_Course = () => {
       <Courses_Section
         course={{ title: "کلاس های مشابه", courses: similarCourses }}
       />
-      <a
-        className={`md:hidden fixed bottom-16 z-20 left-10 button button-dark rounded title-sm w-52 h-12 displayTrans ${
-          showRegisterButton ? "visible opacity-100" : "invisible opacity-0"
-        }`}
-        href="#sidebar"
-      >
-        ثبت نام
-      </a>
     </>
   );
 };
