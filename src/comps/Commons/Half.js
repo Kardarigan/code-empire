@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Loaded_Animation } from "../Portal";
+import { logo } from "../../data/Constants";
 
 const Half = ({ thing, reverse = false, bg = false }) => {
   const { ref, className } = Loaded_Animation();
@@ -50,13 +51,12 @@ const Half = ({ thing, reverse = false, bg = false }) => {
               />
             )}
           </div>
-          <span
-            className={`absolute max-md:hidden ${
+          <img
+            src={logo.icon}
+            className={`absolute max-md:hidden size-24 ${
               reverse ? "" : "left-0"
-            } translate-y-[-150%] md:text-9xl hover:rotate-180 transition-all`}
-          >
-            <i className="fa-solid fa-hashtag" />
-          </span>
+            } translate-y-[-120%] hover:rotate-180 transition-all`}
+          ></img>
         </div>
       </div>
     </section>

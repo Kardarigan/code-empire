@@ -15,7 +15,11 @@ const Footer = () => {
             <>
               <div key={index} className={item.class}>
                 <h5 className="title-sm mb-4">
-                  <i className="fa-solid fa-hashtag" />
+                  <img
+                    src={logo.icon}
+                    alt="Lotus Logo Icon"
+                    className="seze-icon"
+                  />
                   {item.title}
                 </h5>
                 <div>
@@ -47,14 +51,15 @@ const Footer = () => {
                       </ul>
                     </nav>
                   ) : (
-                    <ul className="grid gap-y-3">
+                    <ul className="grid gap-y-2">
                       {item.ways.map((way, i) => {
                         return (
                           <li key={i}>
                             <h6 className="flex items-center gap-2">
                               <i
                                 className={
-                                  way.icon + " bg-blue-500 rounded-full p-1"
+                                  way.icon +
+                                  " text-blue-500 rounded-full ps-[5px]"
                                 }
                               ></i>
                               {way.label}:

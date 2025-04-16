@@ -9,10 +9,12 @@ import Home_Academy from "../assets/pages/home-academy.png";
 import Home_Ways from "../assets/pages/home-ways.png";
 import logo_icon_title from "../assets/logo/logo.png";
 import logo_icon from "../assets/logo/logo-icon.png";
+import logo_icon_white from "../assets/logo/logo-icon-white.png";
 
 export const logo = {
   iconTitle: logo_icon_title,
   icon: logo_icon,
+  iconWhite: logo_icon_white,
 };
 
 export const navLinks = [

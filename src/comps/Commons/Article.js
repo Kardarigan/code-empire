@@ -1,3 +1,5 @@
+import { logo } from "../../data/Constants";
+
 const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
   const makeBold = (text) => {
     const index = text.indexOf(":");
@@ -32,8 +34,14 @@ const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
               </div>
             )}
             {item.title && (
-              <h2 className="title halfbg-left inline">
-                {icons && <i className="fa-solid fa-hashtag" />}
+              <h2 className="title halfbg-left inline-flex items-center">
+                {icons && (
+                  <img
+                    src={logo.icon}
+                    alt="Lotus Logo Icon"
+                    className="seze-icon"
+                  />
+                )}
                 {item.title}
               </h2>
             )}

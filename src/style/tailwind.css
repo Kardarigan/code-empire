@@ -168,6 +168,9 @@
   .size-screen {
     @apply w-screen h-screen;
   }
+  .seze-icon {
+    @apply size-7 inline-block me-2;
+  }
 }
 h1,
 h2,

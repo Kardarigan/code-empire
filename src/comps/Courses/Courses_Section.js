@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Course_Card } from "../Portal";
+import { logo } from "../../data/Constants";
 
 const Courses_Section = ({ course }) => {
   const location = useLocation().pathname;
@@ -8,8 +9,8 @@ const Courses_Section = ({ course }) => {
   return (
     <div className="case">
       <div className="flex-seperate">
-        <h2 className="title">
-          <i className="fa-solid fa-hashtag" />
+        <h2 className="title flex items-center">
+          <img src={logo.icon} alt="Lotus Logo Icon" className="seze-icon" />
           <span className="halfbg-left">{course.title}</span>
         </h2>
         {!isCoursePage && (

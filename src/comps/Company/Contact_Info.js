@@ -1,4 +1,4 @@
-import { contactInfo } from "../../data/Constants";
+import { contactInfo, logo } from "../../data/Constants";
 
 const Contact_Info = () => {
   return (
@@ -9,11 +9,15 @@ const Contact_Info = () => {
           {contactInfo.map((item, index) => {
             return (
               <li key={index}>
-                <h5 className="title-sm">
-                  <i className="fa-solid fa-hashtag"></i>
+                <h5 className="title-sm flex items-center">
+                  <img
+                    src={logo.icon}
+                    alt="Lotus Logo Icon"
+                    className="seze-icon"
+                  />
                   {item.label}
                 </h5>
-                <p className="para mt-1 text-end" dir="ltr">
+                <p className="para mt-2 text-end" dir="ltr">
                   {item.describe}
                 </p>
               </li>
