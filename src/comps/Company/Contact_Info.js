@@ -1,4 +1,5 @@
 import { contactInfo, logo } from "../../data/Constants";
+import { Bullet } from "../Portal";
 
 const Contact_Info = () => {
   return (
@@ -10,11 +11,7 @@ const Contact_Info = () => {
             return (
               <li key={index}>
                 <h5 className="title-sm flex items-center">
-                  <img
-                    src={logo.icon}
-                    alt="Lotus Logo Icon"
-                    className="seze-icon"
-                  />
+                  <Bullet />
                   {item.label}
                 </h5>
                 <p className="para mt-2 text-end" dir="ltr">

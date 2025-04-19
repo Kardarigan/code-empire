@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Course_Card } from "../Portal";
-import { logo } from "../../data/Constants";
+import { Bullet, Course_Card } from "../Portal";
 
 const Courses_Section = ({ course }) => {
   const location = useLocation().pathname;
@@ -10,7 +9,7 @@ const Courses_Section = ({ course }) => {
     <div className="case">
       <div className="flex-seperate">
         <h2 className="title flex items-center">
-          <img src={logo.icon} alt="Lotus Logo Icon" className="seze-icon" />
+          <Bullet />
           <span className="halfbg-left">{course.title}</span>
         </h2>
         {!isCoursePage && (
@@ -26,7 +25,7 @@ const Courses_Section = ({ course }) => {
         )}
       </div>
       <hr className="border-blue-500 my-5" />
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-5">
         {course.courses.map((item, index) => {
           return <Course_Card thing={item} key={index} />;
         })}

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Loaded_Animation } from "../Portal";
-import { logo } from "../../data/Constants";
+import { Bullet, Loaded_Animation } from "../Portal";
 
 const Half = ({ thing, reverse = false, bg = false }) => {
   const { ref, className } = Loaded_Animation();
@@ -51,12 +50,14 @@ const Half = ({ thing, reverse = false, bg = false }) => {
               />
             )}
           </div>
-          <img
-            src={logo.icon}
-            className={`absolute max-md:hidden size-24 ${
+
+          <span
+            className={`absolute max-md:hidden ${
               reverse ? "" : "left-0"
-            } translate-y-[-120%] hover:rotate-180 transition-all`}
-          ></img>
+            } translate-y-[-150%] hover:rotate-180 transition-all`}
+          >
+            <Bullet customClass="md:text-9xl" />
+          </span>
         </div>
       </div>
     </section>

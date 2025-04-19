@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { blogs } from "../../data/Blogs";
 import { categories, logo } from "../../data/Constants";
+import { Bullet } from "../Portal";
 
 const Blog_Side = ({ author }) => {
   const latestBlogs = blogs.slice(-3).reverse();
@@ -13,7 +14,7 @@ const Blog_Side = ({ author }) => {
       </section>
       <section className="mac-border pt-3 pb-5">
         <h4 className="title-sm flex items-center">
-          <img src={logo.icon} alt="Lotus Logo Icon" className="seze-icon" />
+          <Bullet />
           آخرین مطالب
         </h4>
         <div className="grid gap-y-3 mt-5 mb-8">
@@ -48,7 +49,7 @@ const Blog_Side = ({ author }) => {
       </section>
       <section className="mac-border pt-3 pb-5">
         <h4 className="title-sm flex items-center">
-          <img src={logo.icon} alt="Lotus Logo Icon" className="seze-icon" />
+          <Bullet />
           دسته‌بندی ها
         </h4>
         <nav className="mt-5">

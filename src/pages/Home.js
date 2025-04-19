@@ -24,11 +24,9 @@ const Home = () => {
     <>
       <Home_Hero />
       <Breadcrumb />
-      <section className="container padding-x">
-        <Courses_Section
-          course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
-        />
-      </section>
+      <Courses_Section
+        course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
+      />
       <Half thing={futureAcademy} bg />
       <Popular_Courses />
       <Half thing={newWays} reverse bg />

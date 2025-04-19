@@ -1,4 +1,4 @@
-import { logo } from "../../data/Constants";
+import { Bullet } from "../Portal";
 
 const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
   const makeBold = (text) => {
@@ -35,13 +35,7 @@ const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
             )}
             {item.title && (
               <h2 className="title halfbg-left inline-flex items-center">
-                {icons && (
-                  <img
-                    src={logo.icon}
-                    alt="Lotus Logo Icon"
-                    className="seze-icon"
-                  />
-                )}
+                {icons && <Bullet />}
                 {item.title}
               </h2>
             )}

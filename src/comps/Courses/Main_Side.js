@@ -1,4 +1,4 @@
-import { logo } from "../../data/Constants";
+import { Bullet } from "../Portal";
 
 const Main_Side = ({
   details,
@@ -54,11 +54,7 @@ const Main_Side = ({
         </section>
         <section className="warn pt-2 pb-5">
           <h4 className="title flex items-center">
-            <img
-              src={logo.iconWhite}
-              alt="Lotus Logo Icon"
-              className="seze-icon"
-            />
+            <Bullet />
             مشخصات
           </h4>
           <ul className="grid gap-y-3 mt-5">

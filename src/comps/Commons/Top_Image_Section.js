@@ -1,5 +1,4 @@
-import { logo } from "../../data/Constants";
-import { Loaded_Animation } from "../Portal";
+import { Bullet, Loaded_Animation } from "../Portal";
 
 const Top_Image_Section = ({ title = null, label = null, describe, cover }) => {
   const { ref, className } = Loaded_Animation();
@@ -17,11 +16,7 @@ const Top_Image_Section = ({ title = null, label = null, describe, cover }) => {
       </div>
       {title && (
         <h2 className="title-lg max-md:text-center flex items-center">
-          <img
-            src={logo.icon}
-            alt="Lotus Logo Icon"
-            className="size-9 me-2 max-md:hidden"
-          />
+          <Bullet customClass="size-9 title-lg max-md:hidden" />
           <span className="md:halfbg-left max-md:mac-bg">{title}</span>
         </h2>
       )}

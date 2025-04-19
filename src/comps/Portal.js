@@ -56,8 +56,10 @@ import Footer_Journal from "./Commons/Footer_Journal";
 import Carousel from "./Commons/Carousel";
 import Carousel_Title from "./Commons/Carousel_Title";
 import Courses_News from "./Courses/Courses_News";
+import Bullet from "./Commons/Icon/Bullet";
 
 export {
+  Bullet,
   Courses_News,
   Carousel_Title,
   Carousel,

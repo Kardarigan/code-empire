@@ -300,7 +300,7 @@ body {
     @apply pl-5 rounded-full;
   }
   .padding {
-    @apply md:px-16 px-6 md:py-24 py-12;
+    @apply sm:px-16 px-6 md:py-24 py-12;
   }
   .padding-x {
     @apply sm:px-16 px-6;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { footLinks, logo, socialButtons } from "../../data/Constants";
 import Footer_Journal from "./Footer_Journal";
+import { Bullet } from "../Portal";
 
 const Footer = () => {
   return (
@@ -15,11 +16,7 @@ const Footer = () => {
             <>
               <div key={index} className={item.class}>
                 <h5 className="title-sm mb-4">
-                  <img
-                    src={logo.icon}
-                    alt="Lotus Logo Icon"
-                    className="seze-icon"
-                  />
+                  <Bullet />
                   {item.title}
                 </h5>
                 <div>
@@ -89,7 +86,7 @@ const Footer = () => {
         <hr />
         <div className="flex-seperate">
           <h6>
-            <Link to="/about">Code Empire © 2024</Link>
+            <Link to="/about">Code Empire © 2025</Link>
           </h6>
           <ul className="mt-3 pb-3 grid grid-cols-2 gap-4">
             {socialButtons.map((item, index) => {
