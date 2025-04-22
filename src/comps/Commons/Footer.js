@@ -25,13 +25,22 @@ const Footer = () => {
                       <p className="text-justify lg:w-2/3 mb-5">
                         {item.describe} <Link to="/about">بیشتر...</Link>
                       </p>
-                      <Link to="/">
-                        <img
-                          src={logo.iconTitle}
-                          alt="Empire's Logo"
-                          className="w-32"
-                        />
-                      </Link>
+                      <div className="flex items-center gap-x-2">
+                        <Link to="/">
+                          <img
+                            src={logo.icon}
+                            alt="Empire's Logo"
+                            className="w-16"
+                          />
+                        </Link>
+                        <Link to="/">
+                          <img
+                            src={logo.coatOfArms}
+                            alt="Empire's Logo"
+                            className="w-16"
+                          />
+                        </Link>
+                      </div>
                     </div>
                   ) : item.links ? (
                     <nav>

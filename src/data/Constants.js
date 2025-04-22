@@ -10,11 +10,13 @@ import Home_Ways from "../assets/pages/home-ways.png";
 import logo_icon_title from "../assets/logo/logo.png";
 import logo_icon from "../assets/logo/logo-icon.png";
 import logo_icon_white from "../assets/logo/logo-icon-white.png";
+import coat_of_arms from "../assets/logo/coat-of-arms.png";
 
 export const logo = {
   iconTitle: logo_icon_title,
   icon: logo_icon,
   iconWhite: logo_icon_white,
+  coatOfArms: coat_of_arms,
 };
 
 export const navLinks = [
