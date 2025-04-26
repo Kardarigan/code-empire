@@ -22,7 +22,7 @@ const Footer = () => {
                 <div>
                   {item.describe ? (
                     <div>
-                      <p className="text-justify lg:w-2/3 mb-5">
+                      <p className="lg:w-2/3 mb-5">
                         {item.describe} <Link to="/about">بیشتر...</Link>
                       </p>
                       <div className="flex items-center gap-x-2">
@@ -36,7 +36,7 @@ const Footer = () => {
                         <Link to="/">
                           <img
                             src={logo.coatOfArms}
-                            alt="Empire's Logo"
+                            alt="Empire's Coat of Arms"
                             className="w-16"
                           />
                         </Link>
