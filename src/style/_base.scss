@@ -8,7 +8,7 @@ $color_light_high: #f8fafc;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: Yekan, sans-serif;
+  font-family: PrimeFont, sans-serif;
   scrollbar-width: thin;
   scrollbar-color: $color_prime $color_dark;
 }
@@ -18,8 +18,8 @@ $color_light_high: #f8fafc;
 }
 
 @font-face {
-  font-family: Yekan;
-  src: url(../assets/Yekan_Regular.ttf);
+  font-family: PrimeFont;
+  src: url(../assets/Dana_Variable.ttf);
 }
 
 ::-webkit-scrollbar {
