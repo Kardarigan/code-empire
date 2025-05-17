@@ -68,9 +68,8 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`bg-green-500 w-full sticky top-0 z-50 ${
-          alert ? "block" : "hidden"
-        }`}
+        className={`bg-green-500 w-full sticky top-0 z-50 ${alert ? "block" : "hidden"
+          }`}
         dir="rtl"
       >
         <div className="container flex-seperate gap-x-8 px-5 py-2">
@@ -83,16 +82,14 @@ const Navbar = () => {
             onClick={handleAlert}
             className="button button-outline-dark p-0 min-w-8 size-8"
           >
-            <i className="fas fa-xmark" />
+            <i className="fas fa-xmark mt-[5px]" />
           </button>
         </div>
       </div>
       <header
-        className={`${
-          navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"
-        } w-full fixed z-30 transition-all duration-300${
-          hamburger ? " opacity-100" : ""
-        }`}
+        className={`${navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"
+          } w-full fixed z-30 transition-all duration-300${hamburger ? " opacity-100" : ""
+          }`}
       >
         <div
           className="container flex-seperate px-5 text-slate-100 py-3"
@@ -100,15 +97,13 @@ const Navbar = () => {
         >
           <button
             aria-label="Toggle menu"
-            className={`md:hidden flex-fullcenter text-xl rounded size-10 ${
-              hamburger ? "bg-slate-700 text-slate-50" : "bg-slate-800"
-            }`}
+            className={`md:hidden flex-fullcenter text-xl rounded size-10 ${hamburger ? "bg-slate-700 text-slate-50" : "bg-slate-800"
+              }`}
             onClick={() => setHamburger(!hamburger)}
           >
             <i
-              className={`fas fa-sharp fa-bars transition-all ${
-                hamburger ? "rotate-90" : ""
-              }`}
+              className={`fas fa-sharp fa-bars transition-all ${hamburger ? "rotate-90" : ""
+                }`}
             />
           </button>
           <Link to="/">
@@ -130,9 +125,8 @@ const Navbar = () => {
         </div>
       </header>
       <section
-        className={`fixed ${
-          hamburger ? "visible opacity-100" : "invisible opacity-0"
-        } w-screen h-[calc(100%-64px)] top-[64px] left-0 right-0 z-50 bg-slate-900 transition-all duration-300`}
+        className={`fixed ${hamburger ? "visible opacity-100" : "invisible opacity-0"
+          } w-screen h-[calc(100%-64px)] top-[64px] left-0 right-0 z-50 bg-slate-900 transition-all duration-300`}
       >
         <Hamburger setHamburger={setHamburger} />
       </section>

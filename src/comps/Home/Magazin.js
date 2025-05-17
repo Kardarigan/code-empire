@@ -8,7 +8,7 @@ const Magazin = () => {
       <div className="box xl:grid grid-cols-4">
         <div className="col-span-1">
           <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-28 xl:w-[180%] text-center">
-            <h3 className="title-lg">
+            <h3 className="title">
               مجله‌ی امپراتوری از سراسر دنیای تکنولوژی
             </h3>
             <p className="para my-8 max-xl:hidden">

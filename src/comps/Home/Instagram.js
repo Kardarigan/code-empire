@@ -12,8 +12,8 @@ const Instagram = () => {
             "linear-gradient(137deg, rgba(14,30,56,1) 0%, rgba(18,36,66,1) 35%, rgba(81,26,83,1) 91%)",
         }}
       >
-        <h3 className="title-lg max-w-[600px] lg:text-justify text-center mb-5 text-slate-50 max-lg:pb-12">
-          هر روز کلی خبر و مطالب آموزشی توی پیج اینستاگرام امــپــراتــــــوری
+        <h3 className="title-lg max-w-[600px] text-center mb-5 text-slate-50 max-lg:pb-12">
+          کلی خبر و مطالب آموزشــــی در اینسـتاگرام امپراتـــــوری
         </h3>
         <div className="translate-y-[-30px]">
           <img src={instagram_logo} alt="instagram logo" className="ghost" />

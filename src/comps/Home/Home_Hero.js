@@ -13,7 +13,7 @@ const Home_Hero = () => {
           <h1 className="text-fake-border">
             امپــراتـــوری
             <br />
-            کـــــــــــــــــد
+            کـــــــــــــــد
           </h1>
           <p className="text-base max-sm:text-sm">
             <TypeAnimation
