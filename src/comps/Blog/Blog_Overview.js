@@ -95,7 +95,7 @@ const Blog_Overview = () => {
 
   return (
     <section className="case padding-t">
-      <div className="flex-seperate mb-5 max-md:flex-col gap-5 border-b border-blue-200 border-opacity-30 pb-3">
+      <div className="flex-seperate mb-5 max-lg:flex-col gap-5 border-b border-blue-200 border-opacity-30 pb-3">
         <select
           id="category"
           className="select max-md:min-w-full"
@@ -111,7 +111,7 @@ const Blog_Overview = () => {
             </option>
           ))}
         </select>
-        <div className="flex py-2 gap-x-3 md:min-w-[35vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
+        <div className="flex py-2 gap-x-3 lg:min-w-[45vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
           <button
             onClick={() =>
               setSearchValue(document.getElementById("search").value)
@@ -126,13 +126,12 @@ const Blog_Overview = () => {
             className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-100"
           />
         </div>
-        <div className="flex items-center justify-around md:min-w-[19vw] max-md:min-w-full gap-1 text-slate-400 font-thin select-none mac-border py-2">
+        <div className="flex items-center justify-around lg:min-w-[19vw] max-lg:min-w-full gap-1 text-slate-400 text-xs select-none mac-border py-3">
           {sortby.map((item, index) => (
             <React.Fragment key={index}>
               <span
-                className={`cursor-pointer ${
-                  index === sort && "text-blue-600"
-                }`}
+                className={`cursor-pointer whitespace-nowrap text-ellipsis font-bold ${index === sort && "text-blue-600"
+                  }`}
                 onClick={() => setSort(index)}
               >
                 {item}

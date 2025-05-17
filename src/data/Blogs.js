@@ -318,7 +318,7 @@ export const blogs = [
     cover: programming_magic_cover,
     category: "برنامه نویسی",
     author: "امپراتوری کد",
-    upload: "مهر 1403",
+    upload: "فروردین 1404",
     suggested: 15,
     paragraphs: [
       {
@@ -405,9 +405,9 @@ export const blogs = [
   {
     title: "استیم: اکوسیستم گیمرها!",
     cover: steam_ecosystem_cover,
-    category: "بازی‌های کامپیوتری",
+    category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "آبان 1403",
+    upload: "اردیبهشت 1404",
     suggested: 12,
     paragraphs: [
       {
@@ -497,9 +497,9 @@ export const blogs = [
   {
     title: "موتور بازی‌سازی: قلب تپنده دنیای بازی‌ها!",
     cover: game_engine_cover,
-    category: "بازی‌سازی",
+    category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "دی 1403",
+    upload: "اردیبهشت 1404",
     suggested: 14,
     paragraphs: [
       {
@@ -604,9 +604,9 @@ export const blogs = [
   {
     title: "اسکرچ و اسکرچ جونیور: بلوک‌های رنگارنگ کودکانه!",
     cover: scratch_cover,
-    category: "برنامه‌نویسی کودکان",
+    category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "بهمن 1403",
+    upload: "اردیبهشت 1404",
     suggested: 12,
     paragraphs: [
       {
@@ -712,9 +712,9 @@ export const blogs = [
   {
     title: "بازی‌های معروف با چی ساخته شدن؟",
     cover: famous_games_cover,
-    category: "بازی‌سازی",
+    category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "اسفند 1403",
+    upload: "اردیبهشت 1404",
     suggested: 8,
     paragraphs: [
       {
