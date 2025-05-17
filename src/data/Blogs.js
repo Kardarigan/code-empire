@@ -3,6 +3,11 @@ import barnamehnevisi_ta_movafaiaghit_ranpannamayi_baraye_ayandehsazan from "../
 import barnameh_nevisi_baraye_farzandan from "../assets/blogs/barnameh-nevisi-baraye-farzandan.jpeg";
 import niaz_haye_aqaz_barnameh_nevisi from "../assets/blogs/niaz-haye-aqaz-barnameh-nevisi.png";
 import barnameh_nevisi_chist from "../assets/blogs/barnameh-nevisi-chist.png";
+import programming_magic_cover from '../assets/blogs/magical_power.png'
+import steam_ecosystem_cover from '../assets/blogs/steam_game_ecosystem.jpg'
+import game_engine_cover from '../assets/blogs/game_engine.jpg'
+import scratch_cover from '../assets/blogs/scratch_and_scratchjr.png'
+import famous_games_cover from '../assets/blogs/what_are_famous_games made_of.jpg'
 
 export const blogs = [
   {
@@ -309,8 +314,8 @@ export const blogs = [
     ],
   },
   {
-    title: "مهارت جادویی!🪄",
-    cover: "programming_magic_cover",
+    title: "مهارت جادویی: چرا باید برنامه‌نویسی یاد بگیریم؟",
+    cover: programming_magic_cover,
     category: "برنامه نویسی",
     author: "امپراتوری کد",
     upload: "مهر 1403",
@@ -399,7 +404,7 @@ export const blogs = [
   },
   {
     title: "استیم: اکوسیستم گیمرها!",
-    cover: "steam_ecosystem_cover",
+    cover: steam_ecosystem_cover,
     category: "بازی‌های کامپیوتری",
     author: "امپراتوری کد",
     upload: "آبان 1403",
@@ -491,7 +496,7 @@ export const blogs = [
   },
   {
     title: "موتور بازی‌سازی: قلب تپنده دنیای بازی‌ها!",
-    cover: "game_engine_cover",
+    cover: game_engine_cover,
     category: "بازی‌سازی",
     author: "امپراتوری کد",
     upload: "دی 1403",
@@ -598,7 +603,7 @@ export const blogs = [
   },
   {
     title: "اسکرچ و اسکرچ جونیور: بلوک‌های رنگارنگ کودکانه!",
-    cover: "scratch_cover",
+    cover: scratch_cover,
     category: "برنامه‌نویسی کودکان",
     author: "امپراتوری کد",
     upload: "بهمن 1403",
@@ -706,7 +711,7 @@ export const blogs = [
   },
   {
     title: "بازی‌های معروف با چی ساخته شدن؟",
-    cover: "famous_games_cover",
+    cover: famous_games_cover,
     category: "بازی‌سازی",
     author: "امپراتوری کد",
     upload: "اسفند 1403",
