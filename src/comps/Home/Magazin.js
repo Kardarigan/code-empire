@@ -7,11 +7,11 @@ const Magazin = () => {
     <section className="case xl:mt-24 xl:mb-20">
       <div className="box xl:grid grid-cols-4">
         <div className="col-span-1">
-          <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-28 xl:w-[180%] text-center">
+          <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-20 xl:w-[154%] text-center">
             <h3 className="title">
               مجله‌ی امپراتوری از سراسر دنیای تکنولوژی
             </h3>
-            <p className="para my-8 max-xl:hidden">
+            <p className="para-sm my-5 max-xl:hidden">
               سربازان امپراتوری کد، هر روز و هر شب در حال گردآوری کارا ترین و
               مفید ترین مطالب از تمام دنیای تکنولوژی، به ویژه برنامه نویسی،
               هستند تا شما دوستان گرامی بتوانید در راه تبدیل شدن به یک برنامه
@@ -25,7 +25,7 @@ const Magazin = () => {
           </div>
         </div>
         <div className="col-span-3 relative">
-          <div className="xl:absolute grid md:grid-cols-2 xl:-translate-x-32 xl:-translate-y-24 gap-3">
+          <div className="xl:absolute grid md:grid-cols-2 xl:-translate-x-20 xl:-translate-y-24 gap-3">
             {blogs.slice(-4).map((blog, index) => {
               return (
                 <Blog_Card

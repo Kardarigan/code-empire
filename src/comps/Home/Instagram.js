@@ -2,10 +2,10 @@ import instagram_logo from "../../assets/instagram-logo.png";
 
 const Instagram = () => {
   return (
-    <section className="case">
+    <section className="case mt-36">
       <a
         href="https://www.instagram.com/codeempire/"
-        className="flex-seperate max-lg:flex-col-reverse padding-x rounded-lg"
+        className="flex-seperate max-lg:flex-col-reverse padding-x rounded-3xl"
         style={{
           background: "rgb(14,30,56)",
           background:
