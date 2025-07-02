@@ -255,7 +255,7 @@ export const categories = [
   "برنامه نویسی",
 ];
 
-export const sortby = ["تازه ترین", "قدیمی ترین", "بیشترین پیشنهاد"];
+export const sortby = ["تازه ترین", "قدیمی ترین", "پیشنهادات"];
 
 export const registerForm = [
   {
