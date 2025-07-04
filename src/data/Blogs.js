@@ -408,7 +408,7 @@ export const blogs = [
     cover: steam_ecosystem_cover,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "اردیبهشت 1404",
+    upload: "خرداد 1404",
     suggested: 12,
     paragraphs: [
       {
@@ -504,7 +504,7 @@ export const blogs = [
     cover: game_engine_cover,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "اردیبهشت 1404",
+    upload: "تیر 1404",
     suggested: 14,
     paragraphs: [
       {
@@ -617,7 +617,7 @@ export const blogs = [
     cover: scratch_cover,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "اردیبهشت 1404",
+    upload: "تیر 1404",
     suggested: 12,
     paragraphs: [
       {
@@ -727,7 +727,7 @@ export const blogs = [
     cover: famous_games_cover,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
-    upload: "اردیبهشت 1404",
+    upload: "تیر 1404",
     suggested: 8,
     paragraphs: [
 
