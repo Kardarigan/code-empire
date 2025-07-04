@@ -7,24 +7,22 @@ const Half = ({ thing, reverse = false, bg = false }) => {
   return (
     <section ref={ref} className={bg ? "bg-blue-50" : ""}>
       <div
-        className={`flex flex-col-reverse container padding-x mo ${
-          reverse ? "md:flex-row-reverse" : "md:flex-row"
-        }`}
+        className={`flex flex-col-reverse container padding-x mo ${reverse ? "md:flex-row-reverse" : "md:flex-row"
+          }`}
       >
         <div className="md:w-1/2 flex-fullcenter z-10">
           <div className={reverse ? "" : "text-end"}>
             <h3 className="lg:text-7xl md:text-5xl text-2xl font-bold relative max-md:px-2">
               <span
-                className={`absolute max-md:right-3 max-md:halfbg-left max-md:text-slate-50 ${
-                  reverse
-                    ? "md:left-0 md:halfbg-right"
-                    : "right-0 md:halfbg-left"
-                } translate-y-[-150%] text-nowrap`}
+                className={`absolute max-md:right-3 max-md:halfbg-left max-md:text-slate-50 ${reverse
+                  ? "md:left-0 md:halfbg-right"
+                  : "right-0 md:halfbg-left"
+                  } translate-y-[20%] text-nowrap`}
               >
                 {thing.title}
               </span>
             </h3>
-            <p className="my-5 para max-w-[500px]">{thing.describe}</p>
+            <p className="mt-36 my-5 para max-w-[500px]">{thing.describe}</p>
             <Link to="/courses" className="button button-dark">
               مشاهده‌ی کلاس ها
             </Link>
@@ -52,9 +50,8 @@ const Half = ({ thing, reverse = false, bg = false }) => {
           </div>
 
           <span
-            className={`absolute max-md:hidden ${
-              reverse ? "" : "left-0"
-            } translate-y-[-150%] hover:rotate-180 transition-all`}
+            className={`absolute max-md:hidden ${reverse ? "" : "left-0"
+              } translate-y-[-150%] hover:rotate-180 transition-all`}
           >
             <Bullet customClass="md:text-9xl" />
           </span>

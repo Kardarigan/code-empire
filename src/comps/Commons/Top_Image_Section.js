@@ -15,9 +15,9 @@ const Top_Image_Section = ({ title = null, label = null, describe, cover }) => {
         {label && <p className="label mt-2">- {label}</p>}
       </div>
       {title && (
-        <h2 className="title-lg max-md:text-center flex items-center">
-          <Bullet customClass="size-9 title-lg max-md:hidden" />
-          <span className="md:halfbg-left max-md:mac-bg">{title}</span>
+        <h2 className="title-lg max-md:text-center flex items-start">
+          <Bullet customClass="size-9 title-lg max-md:hidden me-3" />
+          <span className="md:halfbg-left max-md:mac-bg mt-1">{title}</span>
         </h2>
       )}
       <p className="para">{describe}</p>

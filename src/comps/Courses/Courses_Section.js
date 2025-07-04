@@ -8,7 +8,7 @@ const Courses_Section = ({ course }) => {
   return (
     <div className="case">
       <div className="flex-seperate">
-        <h2 className="title flex items-center">
+        <h2 className="title flex items-start">
           <Bullet />
           <span className="halfbg-left">{course.title}</span>
         </h2>

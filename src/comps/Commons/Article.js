@@ -34,7 +34,7 @@ const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
               </div>
             )}
             {item.title && (
-              <h2 className="title halfbg-left inline-flex items-center">
+              <h2 className="title halfbg-left inline-flex items-start">
                 {icons && <Bullet />}
                 {item.title}
               </h2>
