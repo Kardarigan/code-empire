@@ -113,10 +113,15 @@ export const footLinks = [
 
 export const socialButtons = [
   {
+    href: "https://m.youtube.com/@EmpireOfCodes",
+    iconClass: "fa-brands fa-youtube",
+  },
+  { href: "https://t.me/codeOFempire", iconClass: "fa-brands fa-telegram" },
+  {
     href: "https://www.instagram.com/codeempire/",
     iconClass: "fa-brands fa-instagram",
   },
-  { href: "https://t.me/codeOFempire", iconClass: "fa-brands fa-telegram" },
+
 ];
 
 export const futureAcademy = {

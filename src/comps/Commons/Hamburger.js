@@ -36,7 +36,7 @@ const Hamburger = ({ setHamburger }) => {
         })}
       </ul>
       <div className="flex justify-center">
-        <ul className="grid grid-cols-2 gap-3">
+        <ul className="grid grid-cols-3 gap-3">
           {socialButtons.map((item, index) => {
             return (
               <li key={index}>

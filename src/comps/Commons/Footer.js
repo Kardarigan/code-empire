@@ -97,7 +97,7 @@ const Footer = () => {
           <h6>
             <Link to="/about">Code Empire © 2025</Link>
           </h6>
-          <ul className="mt-3 pb-3 grid grid-cols-2 gap-4">
+          <ul className="mt-3 pb-3 grid grid-cols-3 gap-4">
             {socialButtons.map((item, index) => {
               return (
                 <li key={index}>
