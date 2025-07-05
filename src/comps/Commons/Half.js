@@ -11,10 +11,11 @@ const Half = ({ thing, reverse = false, bg = false }) => {
           }`}
       >
         <div className="md:w-1/2 flex-fullcenter z-10">
-          <div className={reverse ? "" : "text-end"}>
-            <h3 className="lg:text-7xl md:text-5xl text-2xl font-bold relative max-md:px-2">
+          <div className={reverse ? "" : "md:text-end"}>
+            <h3 className="lg:text-7xl md:text-5xl text-2xl font-bold relative">
+              <Bullet customClass="title-lg md:hidden" />
               <span
-                className={`absolute max-md:right-3 max-md:halfbg-left max-md:text-slate-50 ${reverse
+                className={`md:absolute max-md:halfbg-left ${reverse
                   ? "md:left-0 md:halfbg-right"
                   : "right-0 md:halfbg-left"
                   } translate-y-[20%] text-nowrap`}
@@ -22,7 +23,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
                 {thing.title}
               </span>
             </h3>
-            <p className="mt-36 my-5 para max-w-[500px]">{thing.describe}</p>
+            <p className="md:mt-36 my-5 para max-w-[500px]">{thing.describe}</p>
             <Link to="/courses" className="button button-dark">
               مشاهده‌ی کلاس ها
             </Link>
@@ -31,7 +32,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
         <div className="md:w-1/2 relative">
           <div className={`md:p-12 flex-fullcenter ${className}`}>
             {thing.cover?.endsWith(".mp4") || thing.cover?.endsWith(".webm") ? (
-              <video autoPlay muted loop className="bg-fullobject ghost w-full">
+              <video autoPlay muted loop className="bg-fullobject rounded-3xl ghost w-full">
                 <source
                   src={thing.cover}
                   type={`video/${thing.cover.split(".").pop()}`}
@@ -44,7 +45,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
               <img
                 src={thing.cover}
                 alt={thing.title}
-                className="w-full bg-fullobject ghost rounded filter-blue"
+                className="w-full bg-fullobject rounded-3xl ghost filter-blue"
               />
             )}
           </div>
