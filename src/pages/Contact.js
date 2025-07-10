@@ -29,7 +29,7 @@ const Contact = () => {
         />
         <Tip
           className="mt-12"
-          message='<a href="mailto:duckduckstay@hotmail.com">اگه ازین فرما خوشت نمیاد یه ایمیل ساده میتونی بفرستی</a>.'
+          message='<a href="mailto:info@codeempire.ir">اگه ازین فرما خوشت نمیاد یه ایمیل ساده میتونی بفرستی. <b>کلیک کن!</b></a>'
         />
       </section>
     </>

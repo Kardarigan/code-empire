@@ -40,7 +40,7 @@ const Footer_Journal = () => {
     <div className="absolute lg:top-[-15%] top-[-15%] right-0 w-full">
       <div className="lg:w-[50vw] w-[90vw] mx-auto bg text-slate-100 md:p-12 px-5 py-8 rounded-3xl gird grid-cols-2">
         <div className="text-center">
-          <h4 className="title">عضویت در ماهنامه‌ی امپراتوری</h4>
+          <h4 className="title">پیوستن به ماهنامه‌ی امپراتوری</h4>
           <div className="flex-fullcenter max-lg:flex-col mt-3">
             <p>با عضویت ماهنامه، همیشه به‌روز باشید:</p>
             <ul className="flex gap-x-2 ms-1">
@@ -81,9 +81,8 @@ const Footer_Journal = () => {
 
       {/* Message Notification */}
       <div
-        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${
-          showMessage ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
+        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${showMessage ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
       >
         <p>{message}</p>
       </div>

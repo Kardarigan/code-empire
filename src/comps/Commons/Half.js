@@ -15,7 +15,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
             <h3 className="lg:text-7xl md:text-5xl text-2xl font-bold relative">
               <Bullet customClass="title-lg md:hidden" />
               <span
-                className={`md:absolute max-md:halfbg-left ${reverse
+                className={`md:absolute max-md:halfbg-left text-nowrap ${reverse
                   ? "md:left-0 md:halfbg-right"
                   : "right-0 md:halfbg-left"
                   } translate-y-[20%] text-nowrap`}

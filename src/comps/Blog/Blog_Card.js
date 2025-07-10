@@ -16,10 +16,10 @@ const Blog_Card = ({ blog, customClass = "" }) => {
         </span>
       </p>
       <div className="h-[300px] w-full">
-        <img src={blog.cover} alt={blog.title} className="bg-fullobject" />
+        <img src={blog.cover} alt={blog.title} className="bg-fullobject size-full" />
       </div>
-      <div className="px-3 pt-2 pb-1 absolute bottom-0 transition-all bg-white/55 backdrop-blur-sm rounded-t-lg md:group-hover:pb-8 max-md:pb-8">
-        <h3 className="md:text-2xl text-xl flex items-center transition-all md:group-hover:text-xl">
+      <div className="px-3 pt-2 absolute bottom-0 transition-all bg-white/55 backdrop-blur-sm rounded-t-lg md:group-hover:pb-8 max-md:pb-8">
+        <h3 className="md:text-2xl text-xl flex items-center transition-all md:group-hover:text-xl line-clamp-2">
           {blog.title}
         </h3>
         <p className="line-clamp-2 text-ellipsis text-sm mt-3 displayTrans md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible">
