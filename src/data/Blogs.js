@@ -3,12 +3,13 @@ import barnamehnevisi_ta_movafaiaghit_ranpannamayi_baraye_ayandehsazan from "../
 import barnameh_nevisi_baraye_farzandan from "../assets/blogs/barnameh-nevisi-baraye-farzandan.jpeg";
 import niaz_haye_aqaz_barnameh_nevisi from "../assets/blogs/niaz-haye-aqaz-barnameh-nevisi.png";
 import barnameh_nevisi_chist from "../assets/blogs/barnameh-nevisi-chist.png";
-import programming_magic_cover from '../assets/blogs/magical_power.png'
-import steam_ecosystem_cover from '../assets/blogs/steam_game_ecosystem.jpg'
-import game_engine_cover from '../assets/blogs/game_engine.jpg'
-import scratch_cover from '../assets/blogs/scratch_and_scratchjr.png'
-import famous_games_cover from '../assets/blogs/what_are_famous_games made_of.jpg'
-import bitchat_cover from '../assets/blogs/bitchat.png'
+import programming_magic_cover from '../assets/blogs/magical_power.png';
+import steam_ecosystem_cover from '../assets/blogs/steam_game_ecosystem.jpg';
+import game_engine_cover from '../assets/blogs/game_engine.jpg';
+import scratch_cover from '../assets/blogs/scratch_and_scratchjr.png';
+import famous_games_cover from '../assets/blogs/what_are_famous_games made_of.jpg';
+import bitchat_cover from '../assets/blogs/bitchat.png';
+import when_codes_becom_doctor from '../assets/blogs/when_codes_becom_doctor.png'
 
 export const blogs = [
   {
@@ -809,6 +810,7 @@ export const blogs = [
     title: "Bitchat: انقلابی در ارتباطات آفلاین یا ابزار امنیتی تازه وارد؟",
     cover: bitchat_cover,
     category: "تکنولوژی",
+    author: "امپراتوری کد",
     upload: "تیر 1404",
     suggested: 15,
     paragraphs: [
@@ -852,14 +854,73 @@ export const blogs = [
       },
     ],
   },
-
+  {
+    title: "وقتی کدها، پزشک می‌شوند: برنامه‌نویسی در خدمت سلامت",
+    cover: when_codes_becom_doctor,
+    category: "برنامه نویسی",
+    author: "امپراتوری کد",
+    upload: "تیر 1404",
+    suggested: 15,
+    paragraphs: [
+      {
+        title: "پیشگفتار",
+        paragraph: ['سلام به کدنویس‌های خلاق امپراتوری کد! و البته اونایی که هنوز دو دلن که کد بزنن!', 'تا حالا فکر کردید که کدهایی که می‌نویسید، می‌تونن جون آدم‌ها رو نجات بدن؟ شاید براتون عجیب باشه، اما برنامه‌نویسی داره انقلاب بزرگی رو توی دنیای پزشکی و سلامت ایجاد می‌کنه.', ' امروز می‌خوایم با هم ببینیم که چطور کدها دارن به پزشک‌ها کمک می‌کنن تا بیماری‌ها رو بهتر شناسایی کنن، درمان‌های بهتری ارائه بدن و زندگی سالم‌تری رو برای همه فراهم کنن.'],
+      },
+      {
+        title: " ابزارهای شناسایی پیشرفته: کامپیوترها، چشم پزشک می‌شوند!",
+        paragraph: ['تصور کنید یک پزشک باید صدها تصویر رادیولوژی (Radiology) یا MRI (تصویربرداری رزونانس مغناطیسی) رو بررسی کنه تا بتونه یک تومور (Tumor) کوچک رو پیدا کنه. این کار نه تنها زمان‌بره، بلکه شاید اشتباه انسانی هم پدید آید. اینجاست که برنامه‌نویسی کمکمون میکنه:'],
+        hints: [
+          'الگوریتم‌های تحلیل تصویر: برنامه‌نویس‌ها الگوریتم‌هایی (Algorithms) می‌نویسند که می‌تونن تصاویر پزشکی رو به صورت خودکار تحلیل کنن و الگوهای مشکوک رو شناسایی کنن. این الگوریتم‌ها می‌تونن تومورها، شکستگی‌ها یا سایر ناهنجاری‌ها (Abnormalities) رو با دقت بالا بشناسن و به پزشک‌ها کمک کنن تا شناسایی دقیق و سریعی داشته باشن.',
+          'برای مثال یک شرکت نرم‌افزاری یک الگوریتم هوش مصنوعی (Artificial Intelligence - AI) ساخته که می‌تونه سرطان ریه رو توی تصاویر سی‌تی‌اسکن (CT Scan) با دقتی بیشتر از یک رادیولوژیست (Radiologist) تشخیص بده!',
+          'واقعیت افزوده (Augmented Reality - AR) در جراحی: تصور کنید یه جراح داره یک عمل پیچیده رو انجام می‌ده و همزمان می‌تونه داده‌های مربوط به بیمار (مانند تصاویر رادیولوژی، نشانه‌های حیاتی و ...) رو به شکل یک لایه مجازی (Virtual Layer) روی بدن بیمار ببینه. این کار به جراح کمک می‌کنه تا عمل رو با دقت و ایمنی بیشتری انجام بده.',
+        ]
+      },
+      {
+        title: "ربات‌های جراح: وقتی دقت، حرف اول رو می‌زنه!",
+        paragraph: ['جراحی (Surgery) همیشه یه کار پر ریسک بوده. اما حالا ربات‌ها دارن وارد اتاق عمل می‌شن تا به جراح‌ها کمک کنن عمل‌ها رو با دقت و ظرافت بیشتری انجام بدن:'],
+        hints: [
+          'جراحی با کمترین تهاجم (Minimally Invasive Surgery): ربات‌های جراح می‌تونن عمل‌ها رو به شیوه برش‌های کوچیک انجام بدن. این کار باعث می‌شه بیمار درد کمتری رو تحمل کنه، زودتر بهبود پیدا کنه و جای زخم کمتری روی بدنش بمونه. مانند ربات داوینچی (Da Vinci Surgical System) که یکی از شناخته‌شده‌ ترین ربات‌های جراحه که به جراح‌ها کمک می‌کنه عمل‌های پیچیده‌ای مثل برداشتن پروستات (Prostate) یا ترمیم دریچه قلب (Heart Valve Repair) رو با دقت بالا انجام بدن.',
+          'کنترل از راه دور: در بعضی از موارد، جراح می‌تونه از راه دور (Remote) یه ربات رو کنترل کنه و عمل جراحی رو انجام بده. این کار می‌تونه برای بیمارانی که در مناطق دورافتاده هستن یا دسترسی به جراح متخصص ندارن، بسیار مفید باشه.',
+        ]
+      },
+      {
+        title: "مدیریت امن داده‌های بیماران: وقتی داده‌ها، گرانبهاترین دارایی می‌شوند!",
+        paragraph: ['هر بیمار یه کلی داده پزشکی داره: پیشینه‌های بیماری، نتایج آزمایش‌ها، تصاویر پزشکی، داروهایی که استفاده می‌کنه و ... . مدیریت امن و کارآمد این داده‌ها (Data) بسیار مهمه:'],
+        hints: [
+          'پرونده الکترونیکی سلامت (Electronic Health Record - EHR): سیستم‌های EHR به پزشک‌ها و بیمارستان‌ها کمک می‌کنن تا داده‌های بیماران رو به صورت الکترونیکی نگهداری و مدیریت کنن. این کار باعث می‌شه داده‌ها به آسانی در دسترس باشن، نابود نشن و از دسترسی افراد غیرمجاز پنهان بمانند.',
+          'حریم خصوصی و امنیت (Privacy & Secret): برنامه‌نویس‌ها الگوریتم‌های رمزنگاری (Encryption Algorithms) و سیستم‌های امنیتی پیشرفته‌ای رو توسعه میدن تا از داده‌های بیماران در برابر حملات سایبری (Cyber Attacks) و دسترسی‌های غیرمجاز نگهبانی کنن.',
+        ]
+      },
+      {
+        title: "کشف داروهای جدید و پژوهش‌های ژنتیکی: کدها، رازهای زندگی را کشف می‌کنند!",
+        paragraph: [
+          'برنامه‌نویسی داره به دانشمندان کمک می‌کنه تا داروهای جدید رو زودتر و ارزان‌تر کشف کنن و رازهای ژنتیک (Genetics) رو فاش کنن:',
+        ],
+        hints: [
+          'مدل‌سازی مولکولی (Molecular Modeling): برنامه‌نویس‌ها نرم‌افزارهایی می‌نویسند که می‌تونن رفتار مولکول‌ها (Molecules) رو شبیه‌سازی کنن. این کار به دانشمندان کمک می‌کنه تا داروهای جدید رو طراحی کنن و اثر اون‌ها رو پیش از اینکه روی انسان‌ها آزمایش بشن، پیش‌بینی کنن.',
+          'تحلیل داده‌های ژنوم (Genome Data Analysis): ژنوم انسان (Human Genome) پر از داده‌های ژنتیکی هست. برنامه‌نویس‌ها ابزارهایی می‌سازند که می‌تونن این داده‌ها رو تحلیل کنن و ژن‌هایی رو که در بیماری‌ها نقش دارن، شناسایی کنن. این کار به دانشمندان کمک می‌کنه تا داروهای هدفمندتری (Targeted Drugs) رو برای درمان بیماری‌های ژنتیکی (Genetic Diseases) طراحی کنن.',
+        ]
+      },
+      {
+        title: "سخن پایانی",
+        paragraph: [
+          'همونطور که خواندید، برنامه‌نویسی داره جهان پزشکی و سلامت رو دگرگون می‌کنه. از شناسایی دقیق‌تر بیماری‌ها گرفته تا درمان‌های مؤثرتر و کشف داروهای جدید، کدها دارن به پزشک‌ها کمک می‌کنن تا زندگی سالم‌تری رو برای همه فراهم کنن. اگه شما هم یه برنامه‌نویس هستید، بدونید که می‌تونید با مهارت‌هاتون تغییری بزرگ در جهان سلامت ایجاد کنید.'
+        ],
+      },
+      {
+        title: "",
+        paragraph: [''],
+      },
+    ],
+  },
 ];
 
 // {
 //   title: "",
 //   cover: Freelancer_Cover,
 //   category: "",
-//   upload: "",
+// author: "امپراتوری کد",
+//   upload: "تیر 1404",
 //   suggested: 15,
 //   paragraphs: [
 //     {

@@ -1,6 +1,6 @@
 import { Bullet } from "../Portal";
 
-const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
+const Article = ({ article, icons = true, space = "space-y-24" }) => {
   const makeBold = (text) => {
     const index = text.indexOf(":");
     if (index === -1) {
@@ -10,7 +10,7 @@ const Article = ({ article, icons = true, gap = "gap-y-12" }) => {
   };
 
   return (
-    <article className={`grid ${gap}`}>
+    <article className={space}>
       {article.map((item, index) => {
         return (
           <section key={index}>
