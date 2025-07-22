@@ -8,8 +8,8 @@ const Home_Hero = () => {
       className="h-screen bg-fullcenter relative"
       style={{ backgroundImage: "url(" + Hero_Bg + ")" }}
     >
-      <div className="w-full text-center absolute z-10 md:mt-24 mt-44">
-        <div className="sm:text-7xl text-6xl text-slate-50 mx-auto padding max-w-[800px]">
+      <div className="size-full text-center absolute z-10 flex-fullcenter">
+        <div className="sm:text-7xl text-6xl text-slate-50 padding-x max-w-[800px]">
           <h1 className="text-fake-border">
             امپــراتـــوری
             <br />

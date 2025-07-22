@@ -97,7 +97,7 @@ const Navbar = () => {
         >
           <button
             aria-label="Toggle menu"
-            className={`md:hidden flex-fullcenter text-xl rounded size-10 ${hamburger ? "bg-slate-700 text-slate-50" : "bg-slate-800"
+            className={`md:hidden flex-fullcenter text-xl rounded-xl size-10 ${hamburger ? "bg-slate-700 text-slate-50" : "bg-slate-800"
               }`}
             onClick={() => setHamburger(!hamburger)}
           >

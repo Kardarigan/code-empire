@@ -111,7 +111,7 @@ const Blog_Overview = () => {
             </option>
           ))}
         </select>
-        <div className="flex py-2 gap-x-3 lg:min-w-[45vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
+        <div className="flex py-2 gap-x-3 lg:min-w-[43vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
           <button
             onClick={() =>
               setSearchValue(document.getElementById("search").value)
@@ -126,7 +126,7 @@ const Blog_Overview = () => {
             className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-100"
           />
         </div>
-        <div className="flex items-center justify-around overflow-hidden lg:min-w-[19vw] max-lg:min-w-full gap-1 text-slate-400 text-xs select-none mac-border py-3">
+        <div className="flex items-center justify-around overflow-hidden lg:min-w-[16vw] max-lg:min-w-full gap-1 text-slate-400 text-xs select-none mac-border py-3">
           {sortby.map((item, index) => (
             <React.Fragment key={index}>
               <span
