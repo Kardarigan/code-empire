@@ -95,24 +95,27 @@ const Blog_Overview = () => {
 
   return (
     <section className="case padding-t">
-      <div className="flex-seperate mb-5 max-lg:flex-col gap-5 border-b border-blue-200 border-opacity-30 pb-3">
-        <select
-          id="category"
-          className="select max-md:min-w-full"
-          onChange={handleCategoryChange}
-          value={category || ""}
-        >
-          <option value="" disabled>
-            انتخاب دسته
-          </option>
-          {categories.map((item, index) => (
-            <option key={index} value={item}>
-              {item}
+      <div className="grid grid-cols-12 gap-5 border-b pb-3 mb-5">
+        <div className="lg:col-span-2 col-span-12">
+          <select
+            id="category"
+            className="select min-w-5 px-2"
+            onChange={handleCategoryChange}
+            value={category || ""}
+          >
+            <option value="" disabled>
+              انتخاب دسته
             </option>
-          ))}
-        </select>
-        <div className="flex py-2 gap-x-3 lg:min-w-[43vw] min-w-full mac-border rounded-full bg-blue-500 text-blue-50">
+            {categories.map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="lg:col-span-7 col-span-12 flex items-center px-5 py-2 h-full rounded-full bg-blue-500 text-blue-50">
           <button
+            className="pt-1"
             onClick={() =>
               setSearchValue(document.getElementById("search").value)
             }
@@ -126,7 +129,7 @@ const Blog_Overview = () => {
             className="py-0 field focus:ring-0 bg-transparent w-full text-slate-50 placeholder-slate-100"
           />
         </div>
-        <div className="flex items-center justify-around overflow-hidden lg:min-w-[16vw] max-lg:min-w-full gap-1 text-slate-400 text-xs select-none mac-border py-3">
+        <div className="lg:col-span-3 col-span-12 flex items-center py-3 justify-around overflow-hidden gap-1 text-slate-400 text-xs select-none mac-border border-4">
           {sortby.map((item, index) => (
             <React.Fragment key={index}>
               <span
@@ -183,7 +186,7 @@ const Blog_Overview = () => {
           </>
         )}
       </div>
-    </section>
+    </section >
   );
 };
 
