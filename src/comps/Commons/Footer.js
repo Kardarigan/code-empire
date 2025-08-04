@@ -85,7 +85,10 @@ const Footer = () => {
                 </div>
               </div>
               {index < footLinks.length - 1 && (
-                <hr className="lg:hidden opacity-40" />
+                <hr
+                  key={"g" + toString(index)}
+                  className="lg:hidden opacity-40"
+                />
               )}
             </>
           );

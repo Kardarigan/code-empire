@@ -5,9 +5,9 @@ const Main_Side = ({
   specs,
   links,
   title,
+  hint,
   price = false,
   capacity = false,
-  hint = false,
 }) => {
   const formattedPrice = price
     ? price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")

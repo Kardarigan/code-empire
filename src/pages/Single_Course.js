@@ -16,6 +16,10 @@ const Single_Course = () => {
   const { course } = useParams();
   const theCourse = courses.find((e) => e && e.path === course);
   const subtitle = theCourse.persianTitle + ", " + theCourse.describe;
+  const tenPercentDiscount =
+    theCourse.privatePrice > 2000000
+      ? "با پرداخت یکجا از 10% تخفیف روی بهای این کلاس بهره‌مند میشوید!"
+      : null;
 
   const links = [
     {
@@ -56,7 +60,7 @@ const Single_Course = () => {
           title={theCourse.title}
           capacity={theCourse.capacity}
           price={theCourse.price}
-          hint="در صورت پرداخت یکجا از 10% تخفیف روی بهای کلاس بهره‌مند میشوید!"
+          hint={tenPercentDiscount}
         />
       </section>
       <Courses_Section

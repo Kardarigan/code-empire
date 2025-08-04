@@ -58,7 +58,6 @@ export const courses = [
     privatePrice: 1980000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
-
     rank: 2,
     capacity: "32",
     specs: [
@@ -166,7 +165,6 @@ export const courses = [
     privatePrice: 1190000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
-
     rank: 2,
     capacity: "36",
     specs: [

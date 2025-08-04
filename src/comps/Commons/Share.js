@@ -23,7 +23,6 @@ const Share = ({ text = null, customClass = null }) => {
       alert("Sharing is not supported on this browser");
     }
   };
-  console.log(customClass);
 
   return (
     <section id="firstSection" className={"flex-seperate py-2 " + customClass}>
