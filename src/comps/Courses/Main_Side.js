@@ -16,6 +16,11 @@ const Main_Side = ({
   capacity = Number(capacity);
   const updatedDetails = [...details];
 
+  updatedDetails.push({
+    label: "",
+    describe,
+  });
+
   if (
     price &&
     !updatedDetails.some((item) => item.label === "بهای کلاس گروهی")
