@@ -82,7 +82,6 @@ export const courses = [
       { label: "نام کلاس", describe: "HTML و CSS" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "1,980,000 تومان" },
     ],
     paragraphs: [
       {
@@ -188,7 +187,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Tailwind" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "1,190,000 تومان" },
     ],
     paragraphs: [
       {
@@ -295,7 +293,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Bootstrap" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "1,299,000 تومان" },
     ],
     paragraphs: [
       {
@@ -388,7 +385,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Unrael Engine" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "6,399,000 تومان" },
     ],
     paragraphs: [
       {
@@ -515,7 +511,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Scratch Junior" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "ترکیبی" },
-      { label: "بهای کلاس خصوصی", describe: "2,400,000 تومان" },
     ],
     paragraphs: [
       {
@@ -624,7 +619,6 @@ export const courses = [
       { label: "نام کلاس", describe: "#C" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "ترکیبی" },
-      { label: "بهای کلاس خصوصی", describe: "3,980,000 تومان" },
     ],
     paragraphs: [
       {
@@ -737,7 +731,6 @@ export const courses = [
       { label: "نام کلاس", describe: "++C" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "مرحله ای" },
-      { label: "بهای کلاس خصوصی", describe: "5,200,000 تومان" },
     ],
     paragraphs: [
       {
@@ -843,7 +836,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Java" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "3,899,000 تومان" },
     ],
     paragraphs: [
       {
@@ -943,7 +935,6 @@ export const courses = [
       { label: "نام کلاس", describe: "Unity 6" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1049,7 +1040,6 @@ export const courses = [
       { label: "نام کلاس", describe: "آموزش طراحی وبسایت تمام عیار" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "6,299,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1174,7 +1164,6 @@ export const courses = [
       { label: "نام کلاس", describe: "JavaScript" },
       { label: "پیش نیاز", describe: "HTML و CSS" },
       { label: "روش آموزش", describe: "ترکیبی" },
-      { label: "بهای کلاس خصوصی", describe: "3,599,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1290,7 +1279,6 @@ export const courses = [
       { label: "نام کلاس", describe: "پایتون ابتدایی" },
       { label: "پیش نیاز", describe: "ندارد" },
       { label: "روش آموزش", describe: "مرحله ای" },
-      { label: "بهای کلاس خصوصی", describe: "3,999,000 تومان" },
     ],
     paragraphs: [
       {
@@ -1397,7 +1385,6 @@ export const courses = [
       { label: "نام کلاس", describe: "پایتون پیشرفته" },
       { label: "پیش نیاز", describe: "پایتون ابتدایی" },
       { label: "روش آموزش", describe: "پروژه محور" },
-      { label: "بهای کلاس خصوصی", describe: "5,000,000 تومان" },
     ],
     paragraphs: [
       {

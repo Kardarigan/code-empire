@@ -60,6 +60,7 @@ const Single_Course = () => {
           title={theCourse.title}
           capacity={theCourse.capacity}
           price={theCourse.price}
+          privatePrice={theCourse.privatePrice}
           hint={tenPercentDiscount}
         />
       </section>

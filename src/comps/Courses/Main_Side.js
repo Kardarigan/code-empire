@@ -1,4 +1,4 @@
-import { Bullet } from "../Portal";
+import { Bullet, Price_Display } from "../Portal";
 
 const Main_Side = ({
   details,
@@ -6,6 +6,7 @@ const Main_Side = ({
   links,
   title,
   hint,
+  privatePrice,
   price = false,
   capacity = false,
 }) => {
@@ -17,8 +18,8 @@ const Main_Side = ({
   const updatedDetails = [...details];
 
   updatedDetails.push({
-    label: "",
-    describe,
+    label: "بهای کلاس خصوصی",
+    describe: <Price_Display price={privatePrice} />,
   });
 
   if (

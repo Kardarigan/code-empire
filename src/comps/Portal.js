@@ -57,6 +57,7 @@ import Carousel from "./Commons/Carousel";
 import Carousel_Title from "./Commons/Carousel_Title";
 import Courses_News from "./Courses/Courses_News";
 import Bullet from "./Commons/Icon/Bullet";
+import Price_Display from "./Courses/Price_Display";
 
 export {
   Bullet,
@@ -115,4 +116,5 @@ export {
   Home_Hero,
   Hero,
   Half,
+  Price_Display,
 };
