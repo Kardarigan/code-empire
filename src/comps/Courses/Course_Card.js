@@ -1,19 +1,15 @@
 import { Link } from "react-router-dom";
-import { Loaded_Animation } from "../Portal";
+import { Loaded_Animation, Price_Display } from "../Portal";
 
 const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
 
-  var formattedPrice = null;
+  var thePrice = null;
 
   if (thing.publicLink) {
-    formattedPrice = thing.price
-      ? thing.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-      : null;
+    thePrice = <Price_Display price={thing.price} discount={10} />;
   } else {
-    formattedPrice = thing.privatePrice
-      ? thing.privatePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-      : null;
+    thePrice = <Price_Display price={thing.privatePrice} discount={10} />;
   }
 
   return (
@@ -72,7 +68,7 @@ const Course_Card = ({ thing }) => {
           </h6>
           <div className="flex relative">
             <h3 className="md:text-2xl sm:text-xl text-lg  font-sans font-extrabold me-[15px]">
-              {formattedPrice}
+              {thePrice}
             </h3>
             <span className="absolute text-[10px] left-0 top-0 bottom-0 -rotate-90 max-sm:text-[10px]">
               تومان

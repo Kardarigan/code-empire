@@ -19,7 +19,7 @@ const Main_Side = ({
 
   updatedDetails.push({
     label: "بهای کلاس خصوصی",
-    describe: <Price_Display price={privatePrice} />,
+    describe: <Price_Display price={privatePrice} discount={20} />,
   });
 
   if (
@@ -28,7 +28,7 @@ const Main_Side = ({
   ) {
     updatedDetails.push({
       label: "بهای کلاس گروهی",
-      describe: formattedPrice + " تومان",
+      describe: formattedPrice,
     });
   }
 
@@ -58,12 +58,12 @@ const Main_Side = ({
             );
           })}
         </section>
-        <section className="warn pt-2 pb-5">
-          <h4 className="title flex items-center">
-            <Bullet />
+        <section className="warn pt-3 pb-5">
+          <h4 className="title flex items-start ps-1">
+            <Bullet customClass="text-slate-100" />
             مشخصات
           </h4>
-          <ul className="grid gap-y-3 mt-5">
+          <ul className="grid gap-y-3 mt-2">
             {updatedDetails.map((item, index) => {
               return (
                 <li
@@ -71,7 +71,10 @@ const Main_Side = ({
                   key={index}
                 >
                   <h5 className="font-bold">{item.label} :</h5>
-                  <h5>{item.describe}</h5>
+                  <h5>
+                    {item.describe}
+                    {item.label.startsWith("بهای") ? " تومان" : ""}
+                  </h5>
                 </li>
               );
             })}
