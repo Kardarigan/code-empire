@@ -19,7 +19,7 @@ const Main_Side = ({
 
   updatedDetails.push({
     label: "بهای کلاس خصوصی",
-    describe: <Price_Display price={privatePrice} discount={20} />,
+    describe: <Price_Display price={privatePrice} discount={20} side />,
   });
 
   if (

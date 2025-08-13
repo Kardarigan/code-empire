@@ -48,14 +48,14 @@ const Course_Card = ({ thing }) => {
           {thing.specs[0].describe}
         </h4>
       </div>
-      <div className="mac-border mt-12 md:pt-36 pt-32 md:pb-5 pb-3 text-start">
+      <div className="mac-border mt-14 md:pt-36 pt-32 md:pb-5 pb-3 text-start">
         <h2 className="title-sm line-clamp-1 text-ellipsis">
           {thing.fullTitle}
         </h2>
         <p className="line-clamp-2 text-ellipsis text-sm mt-3">
           {thing.paragraphs[0].paragraph[0]}
         </p>
-        <div className="md:mt-12 mt-3 flex-seperate">
+        <div className="mt-8 flex-seperate">
           <h6 className="max-sm:text-xs">
             <span className="text-blue-600 flex items-center">
               <i
