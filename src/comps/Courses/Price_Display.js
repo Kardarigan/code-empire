@@ -15,7 +15,9 @@ export default function Price_Display({
   let totalPrice = formatPrice(price);
   if (discount === false || (price < 2000000 && !side)) return totalPrice;
 
-  const totalDiscount = price * (discount * 0.01);
+  const totalDiscount = side
+    ? price * (discount * 0.005)
+    : price * (discount * 0.01);
   let discountPrice = price - totalDiscount;
   discountPrice = formatPrice(discountPrice);
 
