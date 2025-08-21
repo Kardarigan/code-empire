@@ -1,16 +1,20 @@
 import { Link } from "react-router-dom";
-import { Loaded_Animation, Price_Display } from "../Portal";
+import { Loaded_Animation, Price_Display, useDsicountPrice } from "../Portal";
 
 const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
 
-  var thePrice = null;
+  const { discountedPrice, originalPrice, discountPercent } = useDsicountPrice(
+    thing.publicLink ? thing.price : thing.privatePrice
+  );
 
-  if (thing.publicLink) {
-    thePrice = <Price_Display price={thing.price} discount={10} />;
-  } else {
-    thePrice = <Price_Display price={thing.privatePrice} discount={10} />;
-  }
+  const thePrice = (
+    <Price_Display
+      price={discountedPrice}
+      originalPrice={originalPrice}
+      discount={discountPercent}
+    />
+  );
 
   return (
     <Link
@@ -21,7 +25,6 @@ const Course_Card = ({ thing }) => {
       <div
         className="max-w-[90%] w-full absolute right-[5%] rounded-3xl"
         style={{
-          backgroundColor: thing.color[0],
           background: `linear-gradient(0deg, ${thing.color[0]} 0%, ${thing.color[1]} 100%)`,
         }}
       >
@@ -67,7 +70,7 @@ const Course_Card = ({ thing }) => {
             </span>
           </h6>
           <div className="flex relative">
-            <h3 className="md:text-2xl sm:text-xl text-lg  font-sans font-extrabold me-[15px]">
+            <h3 className="md:text-2xl sm:text-xl text-lg font-sans font-extrabold me-[15px]">
               {thePrice}
             </h3>
             <span className="absolute text-[10px] left-0 top-0 bottom-0 -rotate-90 max-sm:text-[10px]">

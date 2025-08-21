@@ -1,6 +1,7 @@
 // hooks
 import { Loaded_Animation } from "./Commons/Loaded_Animation";
 import { Count_Animation } from "./Commons/Count_Animation";
+import { useDsicountPrice } from "./Utility/useDsicountPrice";
 
 // components
 import Contact from "../pages/Contact";
@@ -117,4 +118,5 @@ export {
   Hero,
   Half,
   Price_Display,
+  useDsicountPrice,
 };

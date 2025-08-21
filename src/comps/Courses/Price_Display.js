@@ -2,40 +2,23 @@ import React from "react";
 
 export default function Price_Display({
   price,
+  originalPrice,
   discount = false,
-  side = false,
 }) {
-  const formatPrice = (price) => {
-    const formattedPrice = price
-      ? price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-      : null;
-    return formattedPrice;
-  };
-
-  let totalPrice = formatPrice(price);
-  if (discount === false || (price < 2000000 && !side)) return totalPrice;
-
-  const totalDiscount = side
-    ? price * (discount * 0.005)
-    : price * (discount * 0.01);
-  let discountPrice = price - totalDiscount;
-  discountPrice = formatPrice(discountPrice);
+  const formatPrice = (p) =>
+    p ? p.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : null;
 
   return (
     <>
-      <div className="absolute -translate-y-3 text-xs">
-        <span
-          className={
-            side
-              ? "hidden"
-              : "px-2 pt-1 rounded-md text-slate-100 bg-blue-500 text-[10px] ms-2"
-          }
-        >
-          {discount}%
-        </span>
-        <del className="opacity-50">{totalPrice}</del>
-      </div>
-      <span>{discountPrice}</span>
+      {discount && (
+        <div className="absolute -translate-y-3 text-xs">
+          <span className="px-2 pt-1 rounded-md text-slate-100 bg-blue-500 text-[10px] ms-2">
+            {discount}%
+          </span>
+          <del className="opacity-50">{formatPrice(originalPrice)}</del>
+        </div>
+      )}
+      <span>{formatPrice(price)}</span>
     </>
   );
 }
