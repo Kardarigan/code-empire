@@ -1,4 +1,4 @@
-import { Bullet, Price_Display } from "../Portal";
+import { Bullet, Price_Display, useDsicountPrice } from "../Portal";
 
 const Main_Side = ({
   details,
@@ -16,10 +16,18 @@ const Main_Side = ({
 
   capacity = Number(capacity);
   const updatedDetails = [...details];
+  const { discountedPrice, originalPrice, discountPercent } =
+    useDsicountPrice(privatePrice);
 
   updatedDetails.push({
     label: "بهای کلاس خصوصی",
-    describe: <Price_Display price={privatePrice} discount={20} side />,
+    describe: (
+      <Price_Display
+        price={discountedPrice}
+        originalPrice={originalPrice}
+        discount={discountPercent}
+      />
+    ),
   });
 
   if (

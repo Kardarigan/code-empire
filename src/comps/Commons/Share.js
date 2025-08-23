@@ -26,19 +26,19 @@ const Share = ({ text = null, customClass = null }) => {
 
   return (
     <section id="firstSection" className={"flex-seperate py-2 " + customClass}>
-      <div className="flex">
-        اشتراک گذاری:
+      <div className="flex-seperate w-full">
+        <span>اشتراک گذاری:</span>
         <ul className="flex items-center md:gap-x-3 gap-x-2 ms-2 title-sm text-blue-600">
           {shareButtons.map((item, index) => {
             return (
-              <li key={index}>
+              <li key={index} className="translate-y-1">
                 <a href={item.href + hereUrl} title={item.title}>
                   <i className={item.icon + " hover:opacity-60"} />
                 </a>
               </li>
             );
           })}
-          <li>
+          <li className="translate-y-1">
             <button
               className="hover:opacity-60"
               onClick={handleShare}
