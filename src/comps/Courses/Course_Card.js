@@ -23,11 +23,16 @@ const Course_Card = ({ thing }) => {
       className={`text-center rounded-lg relative transition-all duration-300 group hover:scale-105 ${className}`}
     >
       <div
-        className="max-w-[90%] w-full absolute right-[5%] rounded-3xl"
+        className="max-w-[90%] w-full absolute right-[5%] rounded-3xl overflow-hidden"
         style={{
           background: `linear-gradient(0deg, ${thing.color[0]} 0%, ${thing.color[1]} 100%)`,
         }}
       >
+        {parseInt(thing.capacity) <= 0 && (
+          <div className="absolute size-full bg-slate-800 bg-opacity-90 top-0 z-10 flex-fullcenter">
+            <h5 className="text-slate-100 title">تکمیل ظرفیت</h5>
+          </div>
+        )}
         <div className="flex-fullcenter pt-5 pb-1">
           {thing.title === "HTML,CSS" && (
             <img

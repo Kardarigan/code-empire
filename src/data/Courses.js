@@ -59,12 +59,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
     rank: 2,
-    capacity: "32",
+    capacity: "19",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 68,
+        describe: 81,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -165,12 +165,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
     rank: 2,
-    capacity: "36",
+    capacity: "42",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 34,
+        describe: 28,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -269,14 +269,13 @@ export const courses = [
     privatePrice: 1299000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
-
     rank: 2,
-    capacity: "11",
+    capacity: "15",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 59,
+        describe: 65,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -363,12 +362,12 @@ export const courses = [
     color: ["#2b2d42", "#8d99ae"],
 
     rank: 2,
-    capacity: "12",
+    capacity: "20",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 38,
+        describe: 80,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -489,12 +488,12 @@ export const courses = [
     color: ["#ff9100", "#ffb600"],
 
     rank: 2,
-    capacity: "32",
+    capacity: "7",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 48,
+        describe: 63,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -595,14 +594,13 @@ export const courses = [
     privatePrice: 3980000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
-
     rank: 2,
-    capacity: "12",
+    capacity: "0",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 18,
+        describe: 50,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -709,12 +707,12 @@ export const courses = [
     color: ["#001845", "#0466c8"],
 
     rank: 2,
-    capacity: "2",
+    capacity: "9",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 38,
+        describe: 41,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -911,14 +909,14 @@ export const courses = [
     price: 688000,
     privatePrice: 6299000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
-    color: ["#222c37"],
+    color: ["#222c37", "#222c37"],
     rank: 2,
-    capacity: "20",
+    capacity: "31",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 20,
+        describe: 29,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1018,12 +1016,12 @@ export const courses = [
     logo: website_logo,
     color: ["#52E5E7", "#130CB7"],
     rank: 1,
-    capacity: "32",
+    capacity: "27",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 118,
+        describe: 143,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1142,12 +1140,12 @@ export const courses = [
     color: ["#e09b31", "#ebdd4e"],
 
     rank: 1,
-    capacity: "22",
+    capacity: "39",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 78,
+        describe: 91,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1257,12 +1255,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 1,
-    capacity: "22",
+    capacity: "26",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 98,
+        describe: 124,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1363,12 +1361,12 @@ export const courses = [
     color: ["#1e96fc", "#072ac8"],
 
     rank: 2,
-    capacity: "25",
+    capacity: "30",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 75,
+        describe: 90,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
