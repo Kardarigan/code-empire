@@ -61,7 +61,7 @@ const Single_Course = () => {
           capacity={theCourse.capacity}
           price={theCourse.price}
           privatePrice={theCourse.privatePrice}
-          hint={tenPercentDiscount}
+          hint={null}
         />
       </section>
       <Courses_Section
