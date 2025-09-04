@@ -1011,7 +1011,7 @@ export const courses = [
     category: "web",
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
     price: 799000,
-    privatePrice: 6299000,
+    privatePrice: 6900000,
     logo: website_logo,
     color: ["#52E5E7", "#130CB7"],
     rank: 1,
