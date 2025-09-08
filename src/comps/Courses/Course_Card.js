@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
-import { Loaded_Animation, Price_Display, useDsicountPrice } from "../Portal";
+import {
+  Loaded_Animation,
+  Price_Display,
+  useDsicountPrice,
+  useEstimatePrice,
+} from "../Portal";
 
 const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
-
-  const { discountedPrice, originalPrice, discountPercent } = useDsicountPrice(
+  const estimatedPrice = useEstimatePrice(
     thing.publicLink ? thing.price : thing.privatePrice
   );
+  const { discountedPrice, originalPrice, discountPercent } =
+    useDsicountPrice(estimatedPrice);
 
   const thePrice = (
     <Price_Display

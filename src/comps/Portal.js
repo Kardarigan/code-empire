@@ -2,6 +2,7 @@
 import { Loaded_Animation } from "./Commons/Loaded_Animation";
 import { Count_Animation } from "./Commons/Count_Animation";
 import { useDsicountPrice } from "./Utility/useDsicountPrice";
+import { useEstimatePrice } from "./Utility/useEstimatePrice";
 
 // components
 import Contact from "../pages/Contact";
