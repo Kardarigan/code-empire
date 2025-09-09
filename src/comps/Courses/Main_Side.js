@@ -1,4 +1,9 @@
-import { Bullet, Price_Display, useDsicountPrice } from "../Portal";
+import {
+  Bullet,
+  Price_Display,
+  useDsicountPrice,
+  useEstimatePrice,
+} from "../Portal";
 
 const Main_Side = ({
   details,
@@ -16,8 +21,15 @@ const Main_Side = ({
 
   capacity = Number(capacity);
   const updatedDetails = [...details];
+  const estimatedPrice = useEstimatePrice({
+    course: {
+      price: price,
+      privatePrice: privatePrice,
+      specs: specs,
+    },
+  });
   const { discountedPrice, originalPrice, discountPercent } =
-    useDsicountPrice(privatePrice);
+    useDsicountPrice(estimatedPrice);
 
   updatedDetails.push({
     label: "بهای کلاس خصوصی",

@@ -8,9 +8,7 @@ import {
 
 const Course_Card = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
-  const estimatedPrice = useEstimatePrice(
-    thing.publicLink ? thing.price : thing.privatePrice
-  );
+  const estimatedPrice = useEstimatePrice({ course: thing });
   const { discountedPrice, originalPrice, discountPercent } =
     useDsicountPrice(estimatedPrice);
 
