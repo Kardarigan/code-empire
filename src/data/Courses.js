@@ -54,17 +54,17 @@ export const courses = [
     path: "html-css",
     category: "web",
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
-    price: 220000,
-    privatePrice: 1980000,
+    price: 140000,
+    privatePrice: 120000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
     rank: 2,
-    capacity: "17",
+    capacity: "10",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 83,
+        describe: 90,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -160,16 +160,16 @@ export const courses = [
     category: "web",
     describe: "استایل دهی پویاتر و رسپانسیو کردن اصولی تر",
     price: 188000,
-    privatePrice: 1190000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
     rank: 2,
-    capacity: "31",
+    capacity: "29",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 39,
+        describe: 41,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -265,16 +265,16 @@ export const courses = [
     category: "web",
     describe: "برای رسپانسیو کردن سریع و استایل دهی آماده",
     price: 198000,
-    privatePrice: 1299000,
+    privatePrice: 130000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
     rank: 2,
-    capacity: "11",
+    capacity: "13",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 69,
+        describe: 67,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -356,17 +356,16 @@ export const courses = [
     category: "game",
     describe: "ساخت بازی با موتور بازی سازی Unreal Engine",
     price: 666000,
-    privatePrice: 6399000,
+    privatePrice: 280000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
     color: ["#2b2d42", "#8d99ae"],
-
     rank: 2,
-    capacity: "18",
+    capacity: "25",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 82,
+        describe: 75,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -482,10 +481,9 @@ export const courses = [
     category: "game",
     describe: "ساخت بازی برای کودکان با موتور بازی سازی Scratch Junior",
     price: 299000,
-    privatePrice: 2400000,
+    privatePrice: 100000,
     logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
-
     rank: 2,
     capacity: "29",
     specs: [
@@ -585,21 +583,21 @@ export const courses = [
   {
     title: "#C",
     persianTitle: "سی شارپ",
-    fullTitle: "آموزش برنامه نویس با زبان #C",
+    fullTitle: "آموزش برنامه نویسی با زبان #C",
     path: "c-sharp",
     category: "software",
     describe: "برنامه نویسی با زبان پرقدرت #C",
     price: 399000,
-    privatePrice: 3980000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
     rank: 2,
-    capacity: "0",
+    capacity: "3",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 55,
+        describe: 52,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -696,22 +694,21 @@ export const courses = [
   {
     title: "++C",
     persianTitle: "سی پلاس پلاس",
-    fullTitle: "آموزش برنامه نویس با زبان ++C",
+    fullTitle: "آموزش برنامه نویسی با زبان ++C",
     path: "c-plus-plus",
     category: "software",
     describe: "برنامه نویسی با زبان پرقدرت ++C",
     price: 499000,
-    privatePrice: 5200000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     color: ["#001845", "#0466c8"],
-
     rank: 2,
-    capacity: "9",
+    capacity: "4",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 41,
+        describe: 46,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -801,22 +798,21 @@ export const courses = [
   {
     title: "Java",
     persianTitle: "جاوا",
-    fullTitle: "آموزش برنامه نویس اندروید با زبان Java",
+    fullTitle: "آموزش برنامه نویسی اندروید با زبان Java",
     path: "java",
     category: "software",
     describe: "برنامه نویسی با Java (ربطی به JavaScript نداره!)",
     price: 411000,
-    privatePrice: 3899000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
-
     rank: 11,
-    capacity: "7",
+    capacity: "2",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 43,
+        describe: 48,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -906,7 +902,7 @@ export const courses = [
     category: "game",
     describe: "ساخت بازی با موتور بازی سازی Unity 6",
     price: 688000,
-    privatePrice: 6299000,
+    privatePrice: 250000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
     color: ["#222c37", "#222c37"],
     rank: 2,
@@ -1011,16 +1007,16 @@ export const courses = [
     category: "web",
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
     price: 799000,
-    privatePrice: 6900000,
+    privatePrice: 118000,
     logo: website_logo,
     color: ["#52E5E7", "#130CB7"],
     rank: 1,
-    capacity: "23",
+    capacity: "20",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 147,
+        describe: 150,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1134,16 +1130,16 @@ export const courses = [
     category: "web",
     describe: "زبان برنامه نویسی مخصوص ساخت و طراحی وبسایت",
     price: 459900,
-    privatePrice: 3599000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: ["#e09b31", "#ebdd4e"],
     rank: 1,
-    capacity: "31",
+    capacity: "29",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 99,
+        describe: 101,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1244,21 +1240,21 @@ export const courses = [
   {
     title: "Python - Beginner",
     persianTitle: "پایتون ابتدایی",
-    fullTitle: "آموزش برنامه نویس با Python ابتدایی",
+    fullTitle: "آموزش برنامه نویسی با Python ابتدایی",
     path: "python-beginner",
     category: "software",
     describe: "شروع برنامه نویسی با پایتون مخصوص مبتدیا",
     price: 399000,
-    privatePrice: 3999000,
+    privatePrice: 118000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 1,
-    capacity: "15",
+    capacity: "11",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 135,
+        describe: 139,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1349,22 +1345,21 @@ export const courses = [
   {
     title: "Python - Advanced",
     persianTitle: "پایتون پیشرفته",
-    fullTitle: "آموزش برنامه نویس با Python پیشرفته",
+    fullTitle: "آموزش برنامه نویسی با Python پیشرفته",
     path: "python-advanced",
     category: "software",
     describe: "مکلمل کلاس ابتدایی برای حرفه ای شدن",
     price: 522000,
-    privatePrice: 5000000,
+    privatePrice: 200000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
-
     rank: 2,
-    capacity: "9",
+    capacity: "33",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 10,
+        describe: 87,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",

@@ -2,7 +2,7 @@ import { useMemo } from "react";
 
 export const useDsicountPrice = (price, options = {}) => {
   const { minPrice = 2000000, discountPercent = 10 } = options;
-  const thePrice = Math.round((price + (price * 20) / 100) / 1000) * 1000;
+  const thePrice = price; // Math.round((price + (price * 20) / 100) / 1000) * 1000;
 
   return useMemo(() => {
     return {
