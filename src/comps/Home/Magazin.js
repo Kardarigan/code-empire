@@ -8,9 +8,7 @@ const Magazin = () => {
       <div className="box xl:grid grid-cols-4">
         <div className="col-span-1">
           <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-20 xl:w-[154%] text-center">
-            <h3 className="title">
-              مجله‌ی امپراتوری از سراسر دنیای تکنولوژی
-            </h3>
+            <h3 className="title">مجله‌ی امپراتوری از سراسر دنیای تکنولوژی</h3>
             <p className="para-sm my-5 max-xl:hidden">
               سربازان امپراتوری کد، هر روز و هر شب در حال گردآوری کارا ترین و
               مفید ترین مطالب از تمام دنیای تکنولوژی، به ویژه برنامه نویسی،
@@ -24,19 +22,19 @@ const Magazin = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-3 relative">
+        <div className="col-span-3 relative text-center">
           <div className="xl:absolute grid md:grid-cols-2 xl:-translate-x-20 xl:-translate-y-24 gap-3">
             {blogs.slice(-4).map((blog, index) => {
+              const newClasses = index % 2 === 0 ? " xl:-translate-y-20" : "";
               return (
                 <Blog_Card
                   blog={blog}
                   key={index}
-                  customClass={index % 2 === 0 ? "xl:-translate-y-20" : ""}
+                  customClass={"text-start" + newClasses}
                 />
               );
             })}
           </div>
-
           <Link to="/blog" className="button button-dark mt-5 xl:hidden">
             مشاهده تمام مقالات
             <i className="fa-duotone fa-solid fa-sword rotate-[225deg] ms-2" />
