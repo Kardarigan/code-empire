@@ -7,6 +7,7 @@ const Layout = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const location = useLocation();
   const prevPathname = useRef(location.pathname);
+  const [alert, setAlert] = useState(true);
 
   useEffect(() => {
     if (prevPathname.current !== location.pathname) {
@@ -38,14 +39,14 @@ const Layout = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar alert={alert} setAlert={setAlert} />
       <main className="relative" dir="rtl">
         <div
           className={`loading ${loading ? "loading-enter" : "loading-exit"}`}
         >
           درحال بارگزاری...
         </div>
-        {!loading && <Outlet />}
+        {!loading && <Outlet context={{ alert, setAlert }} />}
       </main>
       <Footer />
       <button

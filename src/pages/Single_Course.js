@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useOutletContext, useParams } from "react-router-dom";
 import {
   Article,
   Breadcrumb,
@@ -13,6 +13,7 @@ import { useEffect, useState, useMemo } from "react";
 import { shuffle } from "../comps/Utility/shuffle";
 
 const Single_Course = () => {
+  const { alert } = useOutletContext();
   const { course } = useParams();
   const theCourse = courses.find((e) => e && e.path === course);
   const subtitle = theCourse.persianTitle + ", " + theCourse.describe;
@@ -62,6 +63,7 @@ const Single_Course = () => {
           price={theCourse.price}
           privatePrice={theCourse.privatePrice}
           hint={null}
+          alert={alert}
         />
       </section>
       <Courses_Section
