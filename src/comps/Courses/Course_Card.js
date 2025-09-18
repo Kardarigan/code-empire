@@ -48,7 +48,7 @@ const Course_Card = ({ thing }) => {
           <img
             src={thing.logo}
             alt={thing.title + " logo"}
-            className="center-obj object-contain max-w-20 w-1/4 sm:min-h-20"
+            className="bg-fullobject max-w-20 w-1/4 sm:min-h-20"
           />
         </div>
         <div className="text-slate-50 relative pb-5">

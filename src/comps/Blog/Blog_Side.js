@@ -29,7 +29,7 @@ const Blog_Side = ({ author }) => {
                   <img
                     src={item.cover}
                     alt={item.title}
-                    className="size-20 rounded-lg"
+                    className="size-20 rounded-lg bg-fullobject"
                   />
                   <div className="flex flex-col justify-between">
                     <h3 className="line-clamp-2 text-ellipsis">{item.title}</h3>
