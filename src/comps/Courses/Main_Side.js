@@ -78,7 +78,9 @@ const Main_Side = ({
               <div className="bg w-1/3 sm:py-5 py-4 rounded-3xl" key={index}>
                 <i className={item.icon + " lg:text-lg"} />
                 <h5 className="font-thin opacity-75 text-xs">{item.label}</h5>
-                <h5 className="title-sm">{item.describe}</h5>
+                <h5 className="title-sm line-clamp-2 text-ellipsis">
+                  {item.describe}
+                </h5>
               </div>
             );
           })}
