@@ -72,7 +72,7 @@
   }
 
   .navitem {
-    @apply transition text-sm font-semibold rounded px-3 py-2 bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
+    @apply transition text-sm font-semibold rounded-xl px-3 py-2 bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
   }
 
   .title {
@@ -118,10 +118,12 @@
 
   .mac-bg {
     background: rgb(59, 130, 246);
-    background: linear-gradient(90deg,
-        rgba(59, 130, 246, 1) 0%,
-        rgba(59, 130, 246, 0.3537146931950568) 68%,
-        rgba(59, 130, 246, 0.20976369778923742) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(59, 130, 246, 1) 0%,
+      rgba(59, 130, 246, 0.3537146931950568) 68%,
+      rgba(59, 130, 246, 0.20976369778923742) 100%
+    );
     @apply px-5 rounded-full inline-block;
   }
 

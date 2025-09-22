@@ -14,10 +14,9 @@ const Layout = () => {
       setLoading(true);
       prevPathname.current = location.pathname;
 
-      window.scrollTo(0, 0);
-
       const loadTimeout = setTimeout(() => {
         setLoading(false);
+        window.scrollTo(0, 0);
       }, 500);
 
       return () => clearTimeout(loadTimeout);
@@ -50,7 +49,7 @@ const Layout = () => {
       </main>
       <Footer />
       <button
-        className={`fixed bottom-16 z-20 right-10 button-dark rounded title-sm size-12 displayTrans ${
+        className={`fixed bottom-16 z-20 right-10 button-dark rounded-2xl title-sm size-12 displayTrans ${
           showBackToTop ? "visible opacity-100" : "invisible opacity-0"
         }`}
         onClick={() => window.scrollTo(0, 0)}
