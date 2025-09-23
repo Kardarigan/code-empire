@@ -1003,7 +1003,7 @@ export const courses = [
     title: "Total Web",
     persianTitle: "طراحی وبسایت",
     fullTitle: "آموزش طراحی وبسایت تمام عیار",
-    path: "website",
+    path: "total-web",
     category: "web",
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
     price: 799000,
