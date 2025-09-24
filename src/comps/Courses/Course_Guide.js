@@ -10,6 +10,8 @@ const Course_Guide = () => {
       />
       <Breadcrumb />
       <Half />
+      <Half reverse />
+      <Half />
     </>
   );
 };

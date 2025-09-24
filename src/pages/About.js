@@ -17,9 +17,9 @@ const About = () => {
         subtitle="میتونی هر چی که میخوای از ما بدونی، تو این بخش پیدا کنی"
       />
       <Breadcrumb />
-      <Half thing={about.job} reverse />
+      <Half thing={about.job} />
       <About_Numbers />
-      <Half thing={about.reagon} />
+      <Half thing={about.reagon} reverse />
       <Top_Image_Section
         label="دسته ی یکم لشگر تازه کار ها درحال یافتن راهی برای وسط آوردن یک المنت"
         cover={Cover_2}
