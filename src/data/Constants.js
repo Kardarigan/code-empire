@@ -15,6 +15,7 @@ import guide_intro from "../assets/guide/guide-intro.png";
 import guide_type_1 from "../assets/guide/guide-type-1.png";
 import guide_type_2 from "../assets/guide/guide-type-2.png";
 import guide_type_3 from "../assets/guide/guide-type-3.png";
+import guide_cta from "../assets/guide/guide-cta.png";
 
 export const logo = {
   iconTitle: logo_icon_title,
@@ -282,12 +283,70 @@ export const guide = {
         "کلاس‌های گروهی هم مثل خصوصی در Google Meet برگزار می‌شن و برای یادگیری در کنار بقیه طراحی شدن؛ جایی که هم انگیزه جمعی داری و هم می‌تونی از پرسش‌ها و تجربه‌های بقیه استفاده کنی. این کلاس‌ها طبق برنامه آکادمی و بعد از تکمیل ظرفیت اعلام می‌شن. علاوه بر یادگیری فردی، تجربه کار تیمی و تبادل ایده هم بخشی از مسیرته، چیزی که در آینده‌ی شغلی هم به کارت میاد.",
       cover: guide_type_3,
     },
-    {
-      title: "",
-      describe: "",
-      cover: about_3,
-    },
   ],
+  method: {
+    title: "متد آموزشی",
+    describe:
+      "روش آموزش در امپراتوری کد فقط تدریس ساده نیست؛ بلکه ترکیبی از پروژه‌های واقعی، مسیر اختصاصی، پشتیبانی مداوم و انعطاف زمانی است تا هر دانشجو مطابق شرایط خودش به نتیجه برسد.",
+    items: [
+      {
+        title: "پروژه‌محور",
+        icon: "fa-duotone fa-solid fa-project-diagram",
+        describe:
+          "تمام مفاهیم در قالب پروژه‌های واقعی آموزش داده می‌شوند تا دانشجو از همان ابتدا تجربه کار عملی داشته باشد.",
+      },
+      {
+        title: "مسیر اختصاصی",
+        icon: "fa-duotone fa-solid fa-route",
+        describe:
+          "برای هر دانشجو مسیر یادگیری متناسب با سطح و هدفش طراحی می‌شود؛ هیچ دو نفر دقیقا یک مسیر ندارند.",
+      },
+      {
+        title: "پشتیبانی مداوم",
+        icon: "fa-duotone fa-solid fa-headset",
+        describe:
+          "در طول دوره، استاد و تیم پشتیبانی همیشه آماده پاسخگویی به سوالات و رفع مشکلات هستند.",
+      },
+      {
+        title: "انعطاف زمانی",
+        icon: "fa-duotone fa-solid fa-clock",
+        describe:
+          "کلاس‌ها و تمرین‌ها با انعطاف کامل زمانی پیش می‌روند تا دانشجو بتواند یادگیری را با زندگی روزمره هماهنگ کند.",
+      },
+    ],
+  },
+  structure: {
+    title: "ساختار هر جلسه",
+    describe:
+      "هر جلسه در امپراتوری کد بر اساس یک الگوی ساده ولی قدرتمند طراحی شده: آموزش، تمرین، بازخورد و جمع‌بندی. این چرخه باعث میشه دانشجو همزمان با یادگیری، تجربه عملی و مسیر روشن برای ادامه داشته باشه.",
+    items: [
+      {
+        title: "آموزش",
+        icon: "fa-duotone fa-solid fa-chalkboard-teacher",
+        describe:
+          "هر جلسه با آموزش شفاف و هدفمند شروع می‌شود تا دانشجو به درک دقیق مفاهیم برسد.",
+      },
+      {
+        title: "تمرین",
+        icon: "fa-duotone fa-solid fa-laptop-code",
+        describe:
+          "بلافاصله بعد از یادگیری، تمرین‌های عملی طراحی می‌شود تا دانشجو دانشش را تبدیل به مهارت کند.",
+      },
+      {
+        title: "بازخورد",
+        icon: "fa-duotone fa-solid fa-comments",
+        describe:
+          "استاد تمرین‌ها را بررسی می‌کند و بازخورد مستقیم می‌دهد تا نقاط ضعف و قوت مشخص شوند.",
+      },
+      {
+        title: "جمع‌بندی",
+        icon: "fa-duotone fa-solid fa-book-open",
+        describe:
+          "در پایان جلسه، مرور کلی انجام می‌شود تا مسیر جلسه‌ی بعد روشن باشد و هیچ نکته‌ای جا نماند.",
+      },
+    ],
+  },
+  ctaCover: guide_cta,
 };
 
 export const categories = [

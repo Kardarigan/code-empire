@@ -41,8 +41,8 @@ import Contact_Us from "./Company/Contact_Us";
 import Contact_Info from "./Company/Contact_Info";
 import Not_Found from "../pages/Not_Found";
 import About_Team from "./Company/About_Team";
-import Infobox from "./Courses/Infobox";
-import Benefit_Card from "./Courses/Benefit_Card";
+import Infobox from "./Commons/Infobox";
+import Info_Card from "./Commons/Info_Card";
 import Learners_Rank from "./Courses/Learners_Rank";
 import Main_Side from "./Courses/Main_Side";
 import Rules from "../pages/Rules";
@@ -78,7 +78,7 @@ export {
   Rules,
   Single_Rule,
   Learners_Rank,
-  Benefit_Card,
+  Info_Card,
   Infobox,
   Course_Guide,
   Count_Animation,

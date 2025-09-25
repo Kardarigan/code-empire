@@ -1,6 +1,6 @@
 import { Loaded_Animation } from "../Portal";
 
-const Benefit_Card = ({ benefit, i }) => {
+const Info_Card = ({ benefit, i }) => {
   const { ref, className } = Loaded_Animation();
 
   return (
@@ -29,4 +29,4 @@ const Benefit_Card = ({ benefit, i }) => {
   );
 };
 
-export default Benefit_Card;
+export default Info_Card;
