@@ -41,7 +41,7 @@ import Contact_Us from "./Company/Contact_Us";
 import Contact_Info from "./Company/Contact_Info";
 import Not_Found from "../pages/Not_Found";
 import About_Team from "./Company/About_Team";
-import Course_Benefits from "./Courses/Course_Benefits";
+import Infobox from "./Courses/Infobox";
 import Benefit_Card from "./Courses/Benefit_Card";
 import Learners_Rank from "./Courses/Learners_Rank";
 import Main_Side from "./Courses/Main_Side";
@@ -60,6 +60,7 @@ import Carousel_Title from "./Commons/Carousel_Title";
 import Courses_News from "./Courses/Courses_News";
 import Bullet from "./Commons/Icon/Bullet";
 import Price_Display from "./Courses/Price_Display";
+import Course_Guide from "./Courses/Course_Guide";
 
 export {
   Bullet,
@@ -78,7 +79,8 @@ export {
   Single_Rule,
   Learners_Rank,
   Benefit_Card,
-  Course_Benefits,
+  Infobox,
+  Course_Guide,
   Count_Animation,
   About_Team,
   Not_Found,

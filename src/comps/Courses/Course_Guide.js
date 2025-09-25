@@ -1,5 +1,6 @@
 import React from "react";
-import { Breadcrumb, Half, Hero } from "../Portal";
+import { Breadcrumb, Half, Hero, Top_Image_Section } from "../Portal";
+import { guide } from "../../data/Constants";
 
 const Course_Guide = () => {
   return (
@@ -9,9 +10,10 @@ const Course_Guide = () => {
         subtitle="با ساختار و روند آموزش در کلاس آنلاین-خصوصی آشنا بشید."
       />
       <Breadcrumb />
-      <Half />
-      <Half reverse />
-      <Half />
+      <Top_Image_Section thing={guide.intro} />
+      {guide.types.map((type, index) => (
+        <Half thing={type} reverse={index % 2 !== 0 ? true : false} />
+      ))}
     </>
   );
 };

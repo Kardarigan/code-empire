@@ -3,7 +3,7 @@ import {
   Half,
   Popular_Courses,
   Instagram,
-  Course_Benefits,
+  Infobox,
   Breadcrumb,
   Courses_Section,
   Magazin,
@@ -15,7 +15,7 @@ import {
   newWays,
   whatWeAre,
 } from "../data/Constants";
-import { courses } from "../data/Courses";
+import { courseBenefits, courses } from "../data/Courses";
 
 const Home = () => {
   const slicedCourses = courses.slice(-6);
@@ -30,7 +30,7 @@ const Home = () => {
       <Half thing={futureAcademy} bg />
       <Popular_Courses />
       <Half thing={newWays} reverse bg />
-      <Course_Benefits />
+      <Infobox thing={courseBenefits} />
       <Half thing={whatWeAre} bg />
       <Magazin />
       <Instagram />

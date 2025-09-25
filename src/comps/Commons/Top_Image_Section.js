@@ -1,8 +1,8 @@
 import { Bullet, Loaded_Animation } from "../Portal";
 
-const Top_Image_Section = ({ title = null, label = null, describe, cover }) => {
+const Top_Image_Section = ({ thing }) => {
   const { ref, className } = Loaded_Animation();
-
+  const { label, cover, title, describe } = thing;
   return (
     <section className="case grid gap-y-5">
       <div>

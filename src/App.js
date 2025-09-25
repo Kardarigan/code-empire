@@ -12,6 +12,7 @@ import {
   Not_Found,
   Rules,
   Single_Rule,
+  Course_Guide,
 } from "./comps/Portal";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/blog/:blog" element={<Single_Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/policy" element={<Rules />} />
+          <Route path="/guide" element={<Course_Guide />} />
           <Route path="/policy/:rule" element={<Single_Rule />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:course" element={<Single_Course />} />

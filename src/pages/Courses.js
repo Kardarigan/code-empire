@@ -1,14 +1,14 @@
 import {
   All_Courses,
   Breadcrumb,
-  Course_Benefits,
+  Infobox,
   // Courses_News,
   FAQ,
   Hero,
   Learners_Rank,
 } from "../comps/Portal";
 import Cover from "../assets/courses.png";
-import { coursesQuestions } from "../data/Courses";
+import { courseBenefits, coursesQuestions } from "../data/Courses";
 
 const Courses = () => {
   return (
@@ -18,7 +18,7 @@ const Courses = () => {
       <Breadcrumb />
       <All_Courses />
       <Learners_Rank />
-      <Course_Benefits />
+      <Infobox thing={courseBenefits} />
       <FAQ questions={coursesQuestions} className="case" />
     </>
   );
