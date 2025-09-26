@@ -61,8 +61,10 @@ import Courses_News from "./Courses/Courses_News";
 import Bullet from "./Commons/Icon/Bullet";
 import Price_Display from "./Courses/Price_Display";
 import Course_Guide from "./Courses/Course_Guide";
+import Image_Section from "./Commons/Image_Section";
 
 export {
+  Image_Section,
   Bullet,
   Courses_News,
   Carousel_Title,

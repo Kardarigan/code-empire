@@ -6,9 +6,9 @@ const Learners_Rank = () => {
   return (
     <section className="case text-center">
       <h3 className="title-lg mac-bg">برترین دانشجویان شهریور ماه </h3>
-      <div className="rounded-xl overflow-hidden mt-12 border-2 border-slate-500">
+      <div className="rounded-3xl overflow-hidden mt-12 border-2 border-slate-950 bg-slate-900">
         <table className="w-full">
-          <thead className="bg-slate-900 text-slate-100">
+          <thead className="text-slate-100">
             <tr>
               {tableHeading.map((item, index) => {
                 return (
@@ -24,7 +24,7 @@ const Learners_Rank = () => {
               })}
             </tr>
           </thead>
-          <tbody>
+          <tbody className="bg-slate-100">
             {learnersRank.map((item, index) => {
               return (
                 <tr className="border-b" key={index}>
@@ -39,11 +39,11 @@ const Learners_Rank = () => {
                   <td className="md:p-5 p-2">{item.name}</td>
                   <td className="p-5 max-md:hidden">
                     {item.isLearning ? (
-                      <span className="rounded bg-slate-900 text-slate-100 p-2">
+                      <span className="rounded-xl bg-slate-900 text-slate-100 p-2">
                         درحال یادگیری
                       </span>
                     ) : (
-                      <span className="rounded bg-blue-600 text-blue-100 p-2">
+                      <span className="rounded-xl bg-blue-600 text-blue-100 p-2">
                         پـایـان یادگیری
                       </span>
                     )}

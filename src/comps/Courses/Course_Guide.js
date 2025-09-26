@@ -1,7 +1,12 @@
-import React from "react";
-import { Breadcrumb, Half, Hero, Infobox, Top_Image_Section } from "../Portal";
+import {
+  Breadcrumb,
+  Half,
+  Hero,
+  Image_Section,
+  Infobox,
+  Top_Image_Section,
+} from "../Portal";
 import { guide } from "../../data/Constants";
-import { Link } from "react-router-dom";
 
 const Course_Guide = () => {
   return (
@@ -19,11 +24,7 @@ const Course_Guide = () => {
         <>
           <Infobox thing={info} />
           {index === 0 && (
-            <section className="case">
-              <Link to="/courses">
-                <img src={guide.ctaCover} className="rounded-3xl" />
-              </Link>
-            </section>
+            <Image_Section cover={guide.ctaCover} link="/courses" />
           )}
         </>
       ))}

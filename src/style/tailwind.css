@@ -109,11 +109,11 @@
   }
 
   .warn {
-    @apply mac-border bg text-slate-50;
+    @apply bg text-slate-50 rounded-3xl px-4 shadow-md;
   }
 
   .mac-border {
-    @apply border-2 border-blue-400 rounded-[25px] px-4;
+    @apply border-2 border-blue-400 rounded-3xl px-4;
   }
 
   .mac-bg {
