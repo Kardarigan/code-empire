@@ -27,8 +27,8 @@ export const logo = {
 export const navLinks = [
   { href: "/", label: "خانه" },
   {
-    href: "/about",
-    label: "درباره",
+    href: "/guide",
+    label: "راهنما",
   },
   {
     href: "/courses",
@@ -40,6 +40,10 @@ export const navLinks = [
 
 export const hamburgerLinks = [
   { href: "/", label: "خانه" },
+  {
+    href: "/guide",
+    label: "راهنما",
+  },
   {
     href: "/about",
     label: "درباره",

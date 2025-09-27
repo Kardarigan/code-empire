@@ -4,7 +4,7 @@ const Accordion = ({ question }) => {
   const [open, setOpen] = useState(false);
   return (
     <div
-      className={`w-full border-2 transition-[max-height] duration-200 rounded-xl px-5 py-3 border-blue-400 overflow-hidden ${
+      className={`w-full border-2 transition-[max-height] duration-200 rounded-3xl px-5 py-3 border-blue-400 overflow-hidden ${
         open ? "max-h-80" : "max-h-[72px]"
       }`}
       onClick={() => setOpen(!open)}

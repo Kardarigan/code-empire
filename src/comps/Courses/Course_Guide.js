@@ -1,5 +1,6 @@
 import {
   Breadcrumb,
+  FAQ,
   Half,
   Hero,
   Image_Section,
@@ -8,6 +9,7 @@ import {
   Top_Image_Section,
 } from "../Portal";
 import { guide, middleSupport } from "../../data/Constants";
+import { coursesQuestions } from "../../data/Courses";
 
 const Course_Guide = () => {
   return (
@@ -30,6 +32,9 @@ const Course_Guide = () => {
         </>
       ))}
       <Middle_Section thing={middleSupport} />
+      <section className="case">
+        <FAQ questions={coursesQuestions} />
+      </section>
     </>
   );
 };

@@ -4,17 +4,18 @@ const Middle_Section = ({ thing }) => {
   const { title, subtitle, links } = thing;
   return (
     <section className="case container">
-      <div className="mac-border flex-seperate max-md:flex-col max-md:text-center px-8 py-10">
+      <div className="mac-border flex-seperate max-lg:flex-col max-lg:text-center px-8 py-10">
         <div>
           <h2 className="title">{title}</h2>
           <p className="para">{subtitle}</p>
         </div>
-        <div className="max-md:mt-8">
+        <div className="max-lg:mt-8 md:flex lg:justify-end gap-2">
           {links.map((link, index) => (
             <Link
+              key={index}
               to={link.href}
               className={`button ${
-                index === 0 ? "button-dark" : "button-blue mt-2"
+                index === 0 ? "button-dark" : "button-blue max-md:mt-2"
               }`}
             >
               <div className="flex-fullcenter gap-1">
