@@ -349,6 +349,23 @@ export const guide = {
   ctaCover: guide_cta,
 };
 
+export const middleSupport = {
+  title: "سوالی داری؟",
+  subtitle: "خیالت راحت، تیم امپراتوری کد همیشه کنارت هست.",
+  links: [
+    {
+      label: "تـمــاس بـا مـا",
+      href: "/contact",
+      icon: "fa-solid fa-headset",
+    },
+    {
+      label: "پشتیبانی تلگرام",
+      href: "https://t.me/codeempire_support",
+      icon: "fa-brands fa-telegram",
+    },
+  ],
+};
+
 export const categories = [
   "همه",
   "امپراتوری",

@@ -4,9 +4,10 @@ import {
   Hero,
   Image_Section,
   Infobox,
+  Middle_Section,
   Top_Image_Section,
 } from "../Portal";
-import { guide } from "../../data/Constants";
+import { guide, middleSupport } from "../../data/Constants";
 
 const Course_Guide = () => {
   return (
@@ -28,6 +29,7 @@ const Course_Guide = () => {
           )}
         </>
       ))}
+      <Middle_Section thing={middleSupport} />
     </>
   );
 };

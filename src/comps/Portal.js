@@ -62,8 +62,10 @@ import Bullet from "./Commons/Icon/Bullet";
 import Price_Display from "./Courses/Price_Display";
 import Course_Guide from "./Courses/Course_Guide";
 import Image_Section from "./Commons/Image_Section";
+import Middle_Section from "./Commons/Middle_Section";
 
 export {
+  Middle_Section,
   Image_Section,
   Bullet,
   Courses_News,
