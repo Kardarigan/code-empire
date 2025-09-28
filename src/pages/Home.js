@@ -9,12 +9,7 @@ import {
   Magazin,
   Carousel_Title,
 } from "../comps/Portal";
-import {
-  customerReviews,
-  futureAcademy,
-  newWays,
-  whatWeAre,
-} from "../data/Constants";
+import { home } from "../data/Constants";
 import { courseBenefits, courses } from "../data/Courses";
 
 const Home = () => {
@@ -27,36 +22,12 @@ const Home = () => {
       <Courses_Section
         course={{ title: "تازه‌ترین کلاس ها", courses: slicedCourses }}
       />
-      <Half thing={futureAcademy} bg />
       <Popular_Courses />
-      <Half thing={newWays} reverse bg />
+      <Half thing={home.newWays} bg />
       <Infobox thing={courseBenefits} />
-      <Half thing={whatWeAre} bg />
-      <Magazin />
+      <Half thing={home.whatWeAre} reverse bg />
       <Instagram />
-      <Carousel_Title
-        title="چیزی که دیگران دربارمون میگن"
-        type="review"
-        things={customerReviews}
-        options={{
-          perMove: 1,
-          type: "loop",
-          arrows: true,
-          autoplay: true,
-          pagination: false,
-          gap: "1em",
-          perPage: 3,
-          breakpoints: {
-            780: {
-              perPage: 1,
-            },
-            1200: {
-              perPage: 2,
-            },
-          },
-          focus: "center",
-        }}
-      />
+      <Magazin />
     </>
   );
 };

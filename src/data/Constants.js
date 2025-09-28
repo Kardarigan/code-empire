@@ -1,12 +1,11 @@
-import Persians_Parade from "../assets/persians_parade.jpg";
 import about_1 from "../assets/about/about-1.png";
 import about_2 from "../assets/about/about-2.png";
 import about_3 from "../assets/about/about-3.png";
 import Team_1 from "../assets/team/team_1.png";
 import Team_2 from "../assets/team/team_2.png";
 import Team_3 from "../assets/team/team_3.png";
-import Home_Academy from "../assets/pages/home-academy.png";
-import Home_Ways from "../assets/pages/home-ways.png";
+import home_codeempire from "../assets/pages/what-codeempire-is.png";
+import home_ways from "../assets/pages/our-way.png";
 import logo_icon_title from "../assets/logo/logo.png";
 import logo_icon from "../assets/logo/logo-icon.png";
 import logo_icon_white from "../assets/logo/logo-icon-white.png";
@@ -132,27 +131,6 @@ export const socialButtons = [
   },
 ];
 
-export const futureAcademy = {
-  title: "امپراتوری کد؛ مسیر آینده",
-  describe:
-    "آکادمی آنلاین امپراتوری کد با هدف ارتقای سطح یادگیری و آموزش مهارت‌های برنامه‌نویسی، طراحی وبسایت، و بازی‌سازی تأسیس شده است. ما متعهدیم که برای تمامی افرادی که به دنبال آینده‌ای متفاوت هستند، مسیری الهام‌بخش و ارزشمند ایجاد کنیم؛ آینده‌ای که بر پایه مهارت‌های حرفه‌ای، درآمد پایدار و زندگی‌ای راحت و پیشرو در دنیای فناوری شکل می‌گیرد.",
-  cover: Home_Academy,
-};
-
-export const newWays = {
-  title: "یادگیری نوین و بی‌همتا",
-  describe:
-    "در آکادمی آنلاین امپراتوری کد، با بهره‌گیری از به‌روزترین و مؤثرترین روش‌های آموزش آنلاین، به شما کمک می‌کنیم تا در زمینه‌های برنامه‌نویسی، طراحی وبسایت و بازی‌سازی به مهارت‌های مورد علاقه خود مسلط شوید. اینجا جایی است که می‌توانید رویای خود را در دنیای کدها بسازید و آینده‌ای متفاوت رقم بزنید.",
-  cover: Home_Ways,
-};
-
-export const whatWeAre = {
-  title: "امپراتوری کد چیست؟",
-  describe:
-    "امپراتوری کد، گروهی توانمند و استوار است که آرزوی دگرگونی بنیادین در جهان وب‌سایت‌ها، برنامه‌ها و بازی‌ها را در سر دارد. خواهران و برادران ما در این امپراتوری، شبانه‌روز می‌کوشند تا با بهره‌گیری از شیوه‌های نوین و کارآمد، آموزشی بی‌مانند را به همه کسانی که می‌خواهند آینده خود را با یادگیری مهارت‌های برنامه‌نویسی، طراحی وب‌سایت یا بازی‌سازی بسازند، ارائه دهند. آموزش تازه‌ترین فناوری‌ها و زبان‌های نوین، با هدف ارتقای کیفیت برنامه‌ها، وب‌سایت‌ها و بازی‌ها، سرلوحه این حرکت است.",
-  cover: Persians_Parade,
-};
-
 export const customerReviews = [
   {
     name: "محمد‌امین شربلو",
@@ -233,6 +211,21 @@ export const contactForm = [
     required: true,
   },
 ];
+
+export const home = {
+  whatWeAre: {
+    title: "امپراتوری کد؛ مسیر آینده‌ی شما",
+    describe:
+      "آکادمی آنلاین امپراتوری کد با هدف ارتقای مهارت‌های برنامه‌نویسی، طراحی وب و بازی‌سازی تأسیس شده است. ما متعهدیم مسیری الهام‌بخش و ارزشمند برای تمام کسانی ایجاد کنیم که به دنبال آینده‌ای متفاوت هستند؛ آینده‌ای بر پایه مهارت‌های حرفه‌ای، درآمد پایدار و زندگی راحت در دنیای فناوری. در این امپراتوری، تیم ما با شیوه‌های نوین آموزشی، دانش و تجربه‌ای بی‌همتا را در اختیار شما قرار می‌دهد تا مسیر یادگیری‌تان کوتاه‌تر، جذاب‌تر و مؤثرتر شود.",
+    cover: home_codeempire,
+  },
+  newWays: {
+    title: "یادگیری نوین و بی‌همتا",
+    describe:
+      "در امپراتوری کد، آموزش فقط تئوری نیست؛ ما با روش‌های به‌روز و تجربه‌محور، مسیر یادگیری را برای شما زنده می‌کنیم. از برنامه‌نویسی تا طراحی وب و بازی‌سازی، اینجا جایی است که مهارت می‌سازید، خلاقیت‌تان را پرورش می‌دهید و آینده‌ای واقعی در دنیای کد رقم می‌زنید.",
+    cover: home_ways,
+  },
+};
 
 export const about = {
   job: {
