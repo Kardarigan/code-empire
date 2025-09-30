@@ -7,14 +7,12 @@ import {
   Hero,
   Learners_Rank,
 } from "../comps/Portal";
-import Cover from "../assets/courses.png";
 import { courseBenefits, coursesQuestions } from "../data/Courses";
 
 const Courses = () => {
   return (
     <>
-      <Hero title="کلاس های امپراتوری" background={Cover} />
-      {/* <Courses_News /> */}
+      <Hero title="کلاس های امپراتوری" />
       <Breadcrumb />
       <All_Courses />
       <Learners_Rank />
