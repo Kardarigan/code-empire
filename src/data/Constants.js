@@ -1,10 +1,9 @@
-import about_1 from "../assets/about/about-1.png";
 import about_about from "../assets/pages/about_about.png";
 import about_mission from "../assets/pages/about_mission.png";
 import about_why_us from "../assets/pages/about_why_us.png";
-import Team_1 from "../assets/team/team_1.png";
-import Team_2 from "../assets/team/team_2.png";
-import Team_3 from "../assets/team/team_3.png";
+import team_parsa from "../assets/team/profile_parsa.png";
+import team_shahriar from "../assets/team/profile_shahriar.png";
+import team_setareh from "../assets/team/profile_setareh.png";
 import home_codeempire from "../assets/pages/what-codeempire-is.png";
 import home_ways from "../assets/pages/our-way.png";
 import logo_icon_title from "../assets/logo/logo.png";
@@ -450,20 +449,20 @@ export const teamMembers = [
   {
     name: "شهریار سرگورابی",
     role: "مدیرعامل",
-    profile: Team_1,
-    bio: "برنامه‌نویس و طراح وبسایت و دانشجوی ارشد علوم کامپیوتر. بنده به عنوان مدیرعامل این امپراتوری و یکی از اعضای تیم آموزشی آکادمی آنلاین امپراتوری کد بسیار خوشنودم که به شما بزرگواران خدمت میکنم.",
+    profile: team_shahriar,
+    bio: "برنامه‌نویس و طراح وب و دانشجوی ارشد علوم کامپیوتر که به عنوان مدیرعامل آکادمی امپراتوری کد هدایت این مجموعه رو بر عهده دارم، تا باهم فضایی کاربردی و پویا برای یادگیری و نوآوری بسازیم.",
   },
   {
     name: "پارسا آریا",
     role: "هم بنیانگزار و رئیس هیت مدیره",
-    profile: Team_2,
-    bio: "بنده به عنوان یک برنامه‌نویس، مربی و دانشجوی رشته‌ی انیمیشن، با افتخار یکی از اعضای ارشد امپراتوری کد هستم و ریاست هیئت مدیره امپراتوری کد رو بر عهده دارم و در خدمت شما بزرگوارانم تا در این امپراتوری آینده ای شگفت‌انگیز بسازیم.",
+    profile: team_parsa,
+    bio: "برنامه‌نویس و مربی و دانشجوی رشته انیمیشن که به عنوان رئیس هیئت مدیره امپراتوری کد مسئولیت راهبری عالیه مجموعه را دارم. همراه شما هستم تا مسیر هیجان‌انگیزی از پیشرفت و تجربه داشته باشیم.",
   },
   {
-    name: "کیان خسروشاهی",
+    name: "ستاره اسدالهی",
     role: "سرپرست تیم آموزشی",
-    profile: Team_3,
-    bio: "برنامه‌نویس ارشد بلاکچین و هوش مصنوعی که در جهت ارائه‌ی بهترین آموزش ممکن و فرای آن در امپراتوری کد به شما دوستان گرامی در جایگاه سرپست تیم آموزشی خدمت میکنم.",
+    profile: team_setareh,
+    bio: "برنامه‌نویس وب و یادگیری ماشین که به عنوان سرپرست تیم آموزشی امپراتوری کد مسیر یادگیری و رشد دانشجویان رو هموار می‌کنم. اینجاییم تا  یادگیری رو ساده، جذاب و لذت‌بخش کنیم.",
   },
 ];
 
