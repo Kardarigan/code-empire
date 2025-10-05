@@ -8,7 +8,7 @@ import {
   Middle_Section,
   Top_Image_Section,
 } from "../Portal";
-import { guide, middleSupport } from "../../data/Constants";
+import { cta, guide, middleSupport } from "../../data/Constants";
 import { coursesQuestions } from "../../data/Courses";
 
 const Course_Guide = () => {
@@ -26,9 +26,7 @@ const Course_Guide = () => {
       {[guide.method, guide.structure].map((info, index) => (
         <>
           <Infobox thing={info} />
-          {index === 0 && (
-            <Image_Section cover={guide.ctaCover} link="/courses" />
-          )}
+          {index === 0 && <Image_Section thing={cta.start} />}
         </>
       ))}
       <Middle_Section thing={middleSupport} />

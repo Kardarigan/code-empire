@@ -7,9 +7,10 @@ import {
   Breadcrumb,
   Courses_Section,
   Magazin,
-  Carousel_Title,
+  Image_Section,
+  Middle_Section,
 } from "../comps/Portal";
-import { home } from "../data/Constants";
+import { cta, home } from "../data/Constants";
 import { courseBenefits, courses } from "../data/Courses";
 
 const Home = () => {
@@ -26,8 +27,9 @@ const Home = () => {
       <Half thing={home.newWays} bg />
       <Infobox thing={courseBenefits} />
       <Half thing={home.whatWeAre} reverse bg />
-      <Instagram />
+      <Image_Section thing={cta.instagram} />
       <Magazin />
+      <Middle_Section thing={home.finalCta} />
     </>
   );
 };

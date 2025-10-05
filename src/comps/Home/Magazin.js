@@ -4,7 +4,7 @@ import { Blog_Card } from "../Portal";
 
 const Magazin = () => {
   return (
-    <section className="case xl:mt-24 xl:mb-20">
+    <section className="case xl:mt-36 xl:mb-32">
       <div className="box xl:grid grid-cols-4">
         <div className="col-span-1">
           <div className="card max-xl:p-5 block max-xl:-translate-y-16 xl:translate-x-20 xl:w-[154%] text-center">

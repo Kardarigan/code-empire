@@ -36,7 +36,6 @@ import Course_Form from "./Courses/Course_Form";
 import Courses_Section from "./Courses/Courses_Section";
 import Hamburger from "./Commons/Hamburger";
 import Popular_Courses from "./Home/Popular_Courses";
-import Instagram from "./Home/Instagram";
 import Contact_Us from "./Company/Contact_Us";
 import Contact_Info from "./Company/Contact_Info";
 import Not_Found from "../pages/Not_Found";
@@ -91,7 +90,6 @@ export {
   Contact_Info,
   Contact_Us,
   Loaded_Animation,
-  Instagram,
   Popular_Courses,
   Hamburger,
   Courses_Section,

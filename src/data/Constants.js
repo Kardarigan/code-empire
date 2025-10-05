@@ -14,7 +14,8 @@ import guide_intro from "../assets/guide/guide-intro.png";
 import guide_type_1 from "../assets/guide/guide-type-1.png";
 import guide_type_2 from "../assets/guide/guide-type-2.png";
 import guide_type_3 from "../assets/guide/guide-type-3.png";
-import guide_cta from "../assets/guide/guide-cta.png";
+import cta_start from "../assets/pages/cta/start-cta.png";
+import cta_instagram from "../assets/pages/cta/instagram-cta.png";
 
 export const logo = {
   iconTitle: logo_icon_title,
@@ -212,6 +213,17 @@ export const contactForm = [
   },
 ];
 
+export const cta = {
+  start: {
+    cover: cta_start,
+    href: "/courses",
+  },
+  instagram: {
+    cover: cta_instagram,
+    href: "https://www.instagram.com/codeempire/",
+  },
+};
+
 export const home = {
   whatWeAre: {
     title: "امپراتوری کد؛ مسیر آینده‌ی شما",
@@ -224,6 +236,22 @@ export const home = {
     describe:
       "در امپراتوری کد، آموزش فقط تئوری نیست؛ ما با روش‌های به‌روز و تجربه‌محور، مسیر یادگیری را برای شما زنده می‌کنیم. از برنامه‌نویسی تا طراحی وب و بازی‌سازی، اینجا جایی است که مهارت می‌سازید، خلاقیت‌تان را پرورش می‌دهید و آینده‌ای واقعی در دنیای کد رقم می‌زنید.",
     cover: home_ways,
+  },
+  finalCta: {
+    title: "همین حالا مسیرت رو آغاز کن!",
+    subtitle: "با ما همراه شو و اولین قدمتو در دنیای برنامه‌نویسی محکم بردار.",
+    links: [
+      {
+        label: "مشاهده کلاس‌ها",
+        href: "/contact",
+        icon: "fa-solid fa-chalkboard-teacher",
+      },
+      {
+        label: "پشـتیبانی تلگرام",
+        href: "https://t.me/codeempire_support",
+        icon: "fa-brands fa-telegram",
+      },
+    ],
   },
 };
 
@@ -345,7 +373,6 @@ export const guide = {
       },
     ],
   },
-  ctaCover: guide_cta,
 };
 
 export const middleSupport = {

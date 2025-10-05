@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Image_Section = ({ cover, link }) => {
+const Image_Section = ({ thing }) => {
+  const { cover, link } = thing;
   return (
     <section className="case">
       <Link to={link}>
