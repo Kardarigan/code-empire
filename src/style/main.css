@@ -39,11 +39,12 @@
 }
 
 body {
-  background: linear-gradient(109.6deg, #fff 30%, rgba(161, 206, 255, 0.3) 50%, #fff 70%);
-}
-
-.filter-blue {
-  filter: hue-rotate(180deg);
+  background: linear-gradient(
+    109.6deg,
+    #fff 30%,
+    rgba(161, 206, 255, 0.3) 50%,
+    #fff 70%
+  );
 }
 
 .allunset {
@@ -133,17 +134,20 @@ body {
   background-color: #3b82f6;
   transform: rotate(-30deg);
 }
-.checkWrapp input:checked ~ .checkMark::after, .checkWrapp input:checked ~ .checkMark::before {
+.checkWrapp input:checked ~ .checkMark::after,
+.checkWrapp input:checked ~ .checkMark::before {
   scale: 1;
 }
 
-.snipCorner, .stand::after {
+.snipCorner,
+.stand::after {
   border-left-color: transparent;
   border-right-color: transparent;
   border-left-width: 20px;
   border-right-width: 20px;
 }
-.snipCorner-bot, .stand::after {
+.snipCorner-bot,
+.stand::after {
   border-bottom: 20px solid;
   border-bottom-color: #172554;
 }
@@ -168,7 +172,8 @@ body {
   .container-sm {
     @apply max-w-[800px] mx-auto;
   }
-  .flex-fullcenter, .loading {
+  .flex-fullcenter,
+  .loading {
     @apply flex justify-center items-center;
   }
   .flex-seperate {
@@ -229,7 +234,8 @@ body {
   .label {
     @apply text-slate-700 md:text-sm text-xs font-bold;
   }
-  .para, .hints {
+  .para,
+  .hints {
     @apply opacity-90 max-sm:text-sm text-justify max-w-[800px];
   }
   .para-sm {
@@ -243,10 +249,24 @@ body {
   }
   .mac-bg {
     background: rgb(59, 130, 246);
-    background: linear-gradient(90deg, rgba(59, 130, 246, 1) 0%, rgba(59, 130, 246, 0.3537146932) 68%, rgba(59, 130, 246, 0.2097636978) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(59, 130, 246, 1) 0%,
+      rgba(59, 130, 246, 0.3537146932) 68%,
+      rgba(59, 130, 246, 0.2097636978) 100%
+    );
     @apply px-5 rounded-full inline-block;
   }
-  .thatch, .stand-found::after, .stand-found::before, .stand-found, .stand-column::after, .stand-column::before, .stand-column, .scroll-end::before, .scroll-end::after, .scroll-end {
+  .thatch,
+  .stand-found::after,
+  .stand-found::before,
+  .stand-found,
+  .stand-column::after,
+  .stand-column::before,
+  .stand-column,
+  .scroll-end::before,
+  .scroll-end::after,
+  .scroll-end {
     @apply bg-blue-950 border-2 border-blue-800;
   }
   .box {
@@ -378,7 +398,8 @@ textarea.field {
   background-color: #e2e8f0 !important;
   border-radius: 0.375rem;
   transition: all 0.3s;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 .splide__arrow--next {
   right: -20px;
@@ -464,7 +485,8 @@ textarea.field {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-.stand-found::after, .stand-found::before {
+.stand-found::after,
+.stand-found::before {
   content: "";
   display: block;
   height: 2.5rem;
@@ -496,4 +518,4 @@ textarea.field {
   --color_prime: rgb(37, 99, 235);
   --color_dark: #121b33;
   --color_light: #f3f4f4;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

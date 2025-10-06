@@ -14,7 +14,7 @@ const Stand = ({ thing, index }) => {
       <div ref={ref} className={`stand ${className}`}>
         <Link
           to={path}
-          className="text-center text-slate-100 translate-y-[-20%] md:py-8 pb-7 pt-4 block lg:mx-8 md:mx-3 mx-2 rounded-lg"
+          className="text-center text-slate-100 translate-y-[-20%] md:py-8 pb-7 pt-4 block lg:mx-8 md:mx-3 mx-2 rounded-t-3xl"
           style={{
             backgroundColor: thing.color[0],
             background: `-webkit-linear-gradient(0deg, ${thing.color[0]} 0%, ${thing.color[1]} 100%)`,

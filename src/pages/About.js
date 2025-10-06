@@ -1,12 +1,12 @@
 import {
   Half,
   Hero,
-  Top_Image_Section,
   About_Numbers,
   About_Team,
   Breadcrumb,
+  Middle_Section,
 } from "../comps/Portal";
-import { about, logo } from "../data/Constants";
+import { about, logo, middleJoinUs } from "../data/Constants";
 
 const About = () => {
   console.log([about.about, about.mission]);
@@ -29,6 +29,7 @@ const About = () => {
           )}
         </>
       ))}
+      <Middle_Section thing={middleJoinUs} />
       <section className="case text-center">
         <div className="inline-block min-w-52 w-1/4 card bg-gradient-to-br from-slate-900 to-blue-600 from-65%">
           <img src={logo.iconTitle} alt="Empire's Official Logo" />

@@ -1,10 +1,13 @@
-// hooks
+/**
+ * Portal.js - Central export file for components and pages used throughout the app.
+ * This file consolidates imports and exports for easier management and cleaner imports elsewhere.
+ */
+
 import { Loaded_Animation } from "./Commons/Loaded_Animation";
 import { Count_Animation } from "./Commons/Count_Animation";
 import { useDsicountPrice } from "./Utility/useDsicountPrice";
 import useEstimatePrice from "./Utility/useEstimatePrice";
 
-// components
 import Contact from "../pages/Contact";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
@@ -25,7 +28,7 @@ import Single_Blog from "../pages/Single_Blog";
 import Blog_Main from "./Blog/Blog_Main";
 import Blog_Side from "./Blog/Blog_Side";
 import Courses from "../pages/Courses";
-import All_Courses from "../comps/Courses/All_Courses";
+import All_Courses from "../comps/courses/All_Courses";
 import Course_Card from "./Courses/Course_Card";
 import Single_Course from "../pages/Single_Course";
 import Article from "./Commons/Article";

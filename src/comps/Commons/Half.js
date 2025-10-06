@@ -13,7 +13,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
       >
         <div className="lg:w-1/2 flex-fullcenter z-10">
           <div className={reverse ? "" : "lg:text-end"}>
-            <h3 className="lg:text-7xl lg:text-5xl text-2xl font-bold relative">
+            <h3 className="lg:text-7xl text-2xl font-bold relative">
               <Bullet customClass="title-lg lg:hidden" />
               <span
                 className={`lg:absolute max-lg:halfbg-left whitespace-nowrap ${
@@ -52,7 +52,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
               <img
                 src={thing.cover}
                 alt={thing.title}
-                className="w-full bg-fullobject rounded-3xl ghost filter-blue"
+                className="w-full bg-fullobject rounded-3xl ghost"
               />
             )}
           </div>

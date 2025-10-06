@@ -243,7 +243,7 @@ export const home = {
     links: [
       {
         label: "مشاهده کلاس‌ها",
-        href: "/contact",
+        href: "/courses",
         icon: "fa-solid fa-chalkboard-teacher",
       },
       {
@@ -388,6 +388,23 @@ export const middleSupport = {
       label: "پشتیبانی تلگرام",
       href: "https://t.me/codeempire_support",
       icon: "fa-brands fa-telegram",
+    },
+  ],
+};
+
+/**
+ * middleJoinUs - Section data for the "Join the Empire" call to action.
+ * Encourages users to start learning real skills and build their professional path.
+ */
+export const middleJoinUs = {
+  title: "به امپراتوری بپیوندید!",
+  subtitle:
+    "اگر آماده‌اید تا مهارت‌های واقعی یاد بگیرید و مسیر حرفه‌ای خودتون رو بسازید، همین حالا شروع کنید.",
+  links: [
+    {
+      label: "شروع یـادگیـری", // Label for the call to action button
+      href: "/courses", // Link to the courses page
+      icon: "fa-solid fa-rocket", // Icon class for the button
     },
   ],
 };
