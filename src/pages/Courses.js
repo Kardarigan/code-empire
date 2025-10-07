@@ -2,7 +2,6 @@ import {
   All_Courses,
   Breadcrumb,
   Infobox,
-  // Courses_News,
   FAQ,
   Hero,
   Learners_Rank,

@@ -33,18 +33,22 @@
   background: rgba(59, 130, 246, 0.8);
 }
 
+::-moz-selection {
+  color: #f3f4f4;
+  background-color: rgba(36, 69, 165, 0.8);
+}
+
 ::selection {
   color: #f3f4f4;
   background-color: rgba(36, 69, 165, 0.8);
 }
 
 body {
-  background: linear-gradient(
-    109.6deg,
-    #fff 30%,
-    rgba(161, 206, 255, 0.3) 50%,
-    #fff 70%
-  );
+  background: linear-gradient(109.6deg, #fff 30%, rgba(161, 206, 255, 0.3) 50%, #fff 70%);
+}
+
+.filter-blue {
+  filter: hue-rotate(180deg);
 }
 
 .allunset {
@@ -53,14 +57,10 @@ body {
 
 .link {
   transition: all 150ms ease;
-  -webkit-box-shadow: inset 0 -2px 0 0 #3b82f6;
-  -moz-box-shadow: inset 0 -2px 0 0 #3b82f6;
   box-shadow: inset 0 -2px 0 0 #3b82f6;
 }
 .link:hover {
   color: #f8fafc;
-  -webkit-box-shadow: inset 0 -22px 0 0 #3b82f6;
-  -moz-box-shadow: inset 0 -22px 0 0 #3b82f6;
   box-shadow: inset 0 -22px 0 0 #3b82f6;
 }
 
@@ -134,20 +134,17 @@ body {
   background-color: #3b82f6;
   transform: rotate(-30deg);
 }
-.checkWrapp input:checked ~ .checkMark::after,
-.checkWrapp input:checked ~ .checkMark::before {
+.checkWrapp input:checked ~ .checkMark::after, .checkWrapp input:checked ~ .checkMark::before {
   scale: 1;
 }
 
-.snipCorner,
-.stand::after {
+.snipCorner, .stand::after {
   border-left-color: transparent;
   border-right-color: transparent;
   border-left-width: 20px;
   border-right-width: 20px;
 }
-.snipCorner-bot,
-.stand::after {
+.snipCorner-bot, .stand::after {
   border-bottom: 20px solid;
   border-bottom-color: #172554;
 }
@@ -172,8 +169,7 @@ body {
   .container-sm {
     @apply max-w-[800px] mx-auto;
   }
-  .flex-fullcenter,
-  .loading {
+  .flex-fullcenter, .loading {
     @apply flex justify-center items-center;
   }
   .flex-seperate {
@@ -189,7 +185,7 @@ body {
     @apply bg-transparent;
   }
   .button-outline-light {
-    @apply text-slate-50  fakeBorderLight hover:bg-slate-50 hover:text-slate-800;
+    @apply text-slate-50 fakeBorderLight hover:bg-slate-50 hover:text-slate-800;
   }
   .button-outline-dark {
     @apply text-slate-950 bg-transparent fakeBorderDark hover:bg-slate-900 hover:text-slate-200;
@@ -213,7 +209,7 @@ body {
     @apply object-center object-cover;
   }
   .navitem {
-    @apply transition text-sm font-semibold rounded px-3 py-2  bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
+    @apply transition text-sm font-semibold rounded-xl px-3 py-2 bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
   }
   .title {
     @apply md:text-3xl text-xl font-extrabold;
@@ -229,44 +225,29 @@ body {
     @apply autofill:bg-slate-300 autofill:text-blue-900;
   }
   .select {
-    @apply bg-blue-500 text-blue-50 accent-white border-0 text-sm rounded-full transition-all duration-100 focus-within:ring-0 block w-full p-3 min-w-44;
+    @apply bg-blue-500 text-blue-50 accent-white border-0 text-sm rounded-full transition-all duration-100 focus-within:ring-0 block w-full p-3;
   }
   .label {
     @apply text-slate-700 md:text-sm text-xs font-bold;
   }
-  .para,
-  .hints {
+  .para, .hints {
     @apply opacity-90 max-sm:text-sm text-justify max-w-[800px];
   }
   .para-sm {
     @apply opacity-90 md:text-xs text-[8px] text-justify max-w-[800px];
   }
   .warn {
-    @apply mac-border bg text-slate-50;
+    @apply bg text-slate-50 rounded-3xl px-4 shadow-md;
   }
   .mac-border {
-    @apply border-2 border-blue-400 rounded-[25px] px-4;
+    @apply border-2 border-blue-400 rounded-3xl px-4;
   }
   .mac-bg {
     background: rgb(59, 130, 246);
-    background: linear-gradient(
-      90deg,
-      rgba(59, 130, 246, 1) 0%,
-      rgba(59, 130, 246, 0.3537146932) 68%,
-      rgba(59, 130, 246, 0.2097636978) 100%
-    );
+    background: linear-gradient(90deg, rgba(59, 130, 246, 1) 0%, rgba(59, 130, 246, 0.3537146932) 68%, rgba(59, 130, 246, 0.2097636978) 100%);
     @apply px-5 rounded-full inline-block;
   }
-  .thatch,
-  .stand-found::after,
-  .stand-found::before,
-  .stand-found,
-  .stand-column::after,
-  .stand-column::before,
-  .stand-column,
-  .scroll-end::before,
-  .scroll-end::after,
-  .scroll-end {
+  .thatch, .stand-found::after, .stand-found::before, .stand-found, .stand-column::after, .stand-column::before, .stand-column, .scroll-end::before, .scroll-end::after, .scroll-end {
     @apply bg-blue-950 border-2 border-blue-800;
   }
   .box {
@@ -351,9 +332,15 @@ textarea.field {
 @keyframes ghostRase {
   from {
     transform: translateY(0);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
   }
   to {
     transform: translateY(-10px);
+    box-shadow: 0 25px 20px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 25px 20px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 25px 20px 10px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -398,8 +385,7 @@ textarea.field {
   background-color: #e2e8f0 !important;
   border-radius: 0.375rem;
   transition: all 0.3s;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 .splide__arrow--next {
   right: -20px;
@@ -485,8 +471,7 @@ textarea.field {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-.stand-found::after,
-.stand-found::before {
+.stand-found::after, .stand-found::before {
   content: "";
   display: block;
   height: 2.5rem;
@@ -518,4 +503,4 @@ textarea.field {
   --color_prime: rgb(37, 99, 235);
   --color_dark: #121b33;
   --color_light: #f3f4f4;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

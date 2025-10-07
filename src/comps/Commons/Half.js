@@ -14,7 +14,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
         <div className="lg:w-1/2 flex-fullcenter z-10">
           <div className={reverse ? "" : "lg:text-end"}>
             <h3 className="lg:text-7xl text-2xl font-bold relative">
-              <Bullet customClass="title-lg lg:hidden" />
+              <Bullet customClass="title-lg lg:hidden drop-shadow-xl" />
               <span
                 className={`lg:absolute max-lg:halfbg-left whitespace-nowrap ${
                   reverse

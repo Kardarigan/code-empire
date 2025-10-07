@@ -92,7 +92,11 @@ export const footLinks = [
       },
       {
         label: "ارتباط با ما",
-        path: "/contact",
+        path: "/about",
+      },
+      {
+        label: "راهنما",
+        path: "/guide",
       },
       {
         label: "درباره امپراتوری",
@@ -392,19 +396,15 @@ export const middleSupport = {
   ],
 };
 
-/**
- * middleJoinUs - Section data for the "Join the Empire" call to action.
- * Encourages users to start learning real skills and build their professional path.
- */
 export const middleJoinUs = {
   title: "به امپراتوری بپیوندید!",
   subtitle:
     "اگر آماده‌اید تا مهارت‌های واقعی یاد بگیرید و مسیر حرفه‌ای خودتون رو بسازید، همین حالا شروع کنید.",
   links: [
     {
-      label: "شروع یـادگیـری", // Label for the call to action button
-      href: "/courses", // Link to the courses page
-      icon: "fa-solid fa-rocket", // Icon class for the button
+      label: "شروع یـادگیـری",
+      href: "/courses",
+      icon: "fa-solid fa-rocket",
     },
   ],
 };

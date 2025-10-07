@@ -28,7 +28,7 @@ import Single_Blog from "../pages/Single_Blog";
 import Blog_Main from "./Blog/Blog_Main";
 import Blog_Side from "./Blog/Blog_Side";
 import Courses from "../pages/Courses";
-import All_Courses from "../comps/courses/All_Courses";
+import All_Courses from "../comps/Courses/All_Courses";
 import Course_Card from "./Courses/Course_Card";
 import Single_Course from "../pages/Single_Course";
 import Article from "./Commons/Article";
