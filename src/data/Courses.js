@@ -41,10 +41,10 @@ import scratchjr_1 from "../assets/course/scratch-junior/scratchjr-1.webp";
 import scratchjr_2 from "../assets/course/scratch-junior/scratchjr-2.webp";
 import scratchjr_3 from "../assets/course/scratch-junior/scratchjr-3.webp";
 import scratch_logo from "../assets/course/scratch-junior/scractch-logo.png";
-import website_1 from "../assets/course/website/website-1.webp";
-import website_2 from "../assets/course/website/website-2.webp";
-import website_3 from "../assets/course/website/website-3.webp";
-import website_logo from "../assets/course/website/website-logo.png";
+import total_web_1 from "../assets/course/total-web/total_web_1.webp";
+import total_web_2 from "../assets/course/total-web/total_web_2.webp";
+import total_web_3 from "../assets/course/total-web/total_web_3.webp";
+import total_web_logo from "../assets/course/total-web/total_web_logo.png";
 
 export const courses = [
   {
@@ -59,12 +59,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: ["#2965f1", "#f06529"],
     rank: 2,
-    capacity: "25",
+    capacity: "120",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 95,
+        describe: 111,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -164,12 +164,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: ["#06b6d4", "#6d28d9"],
     rank: 2,
-    capacity: "21",
+    capacity: "60",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 49,
+        describe: 55,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -269,12 +269,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
     rank: 2,
-    capacity: "15",
+    capacity: "80",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 65,
+        describe: 68,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -360,12 +360,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
     color: ["#2b2d42", "#8d99ae"],
     rank: 2,
-    capacity: "17",
+    capacity: "100",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 83,
+        describe: 91,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -485,12 +485,12 @@ export const courses = [
     logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
     rank: 2,
-    capacity: "35",
+    capacity: "120",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 95,
+        describe: 89,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -592,12 +592,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
     rank: 2,
-    capacity: "7",
+    capacity: "70",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 63,
+        describe: 61,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -703,12 +703,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     color: ["#001845", "#0466c8"],
     rank: 2,
-    capacity: "28",
+    capacity: "80",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 52,
+        describe: 72,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -807,12 +807,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
     rank: 11,
-    capacity: "7",
+    capacity: "60",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 53,
+        describe: 58,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -906,12 +906,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
     color: ["#222c37", "#222c37"],
     rank: 2,
-    capacity: "31",
+    capacity: "80",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 49,
+        describe: 51,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1008,15 +1008,15 @@ export const courses = [
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
     price: 799000,
     privatePrice: 140000,
-    logo: website_logo,
+    logo: total_web_logo,
     color: ["#52E5E7", "#130CB7"],
     rank: 1,
-    capacity: "11",
+    capacity: "180",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 169,
+        describe: 177,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1037,14 +1037,14 @@ export const courses = [
     paragraphs: [
       {
         title: "پیش درآمدی بر دوره",
-        cover: website_1,
+        cover: total_web_1,
         paragraph: [
           "در دنیای دیجیتال امروز، تقریباً هر کسب‌وکاری به یک وبسایت نیاز دارد و تقاضا برای توسعه‌دهندگان وب بیشتر از همیشه است. طراحی وبسایت دیگر یک مهارت لوکس نیست، بلکه یکی از ضروری‌ترین توانایی‌ها برای ورود به دنیای فناوری و کسب درآمد محسوب می‌شود. اگر همیشه دوست داشته‌اید وبسایت‌های زیبا و حرفه‌ای بسازید اما نمی‌دانستید از کجا شروع کنید، این دوره دقیقاً برای شماست! در این مسیر، از مفاهیم پایه تا تکنیک‌های پیشرفته را یاد می‌گیرید و در نهایت می‌توانید وبسایت‌های واکنش‌گرا، مدرن و کاربرپسند طراحی کنید.",
         ],
       },
       {
         title: "آشنایی با تکنولوژی‌های کلیدی",
-        cover: website_2,
+        cover: total_web_2,
         paragraph: [
           "در این دوره، شما با HTML، CSS، JavaScript و Bootstrap آشنا خواهید شد. HTML ساختار اصلی صفحات وب را تشکیل می‌دهد، CSS به آن‌ها زیبایی و استایل می‌بخشد، JavaScript امکان تعامل و پویایی را فراهم می‌کند و Bootstrap ابزاری است که طراحی واکنش‌گرا را آسان‌تر و سریع‌تر می‌کند. این چهار تکنولوژی پایه، اساس طراحی وب مدرن را تشکیل می‌دهند.",
         ],
@@ -1063,7 +1063,7 @@ export const courses = [
       },
       {
         title: "تمرکز بر فرانت‌اند: دنیای رابط‌های کاربری جذاب",
-        cover: website_3,
+        cover: total_web_3,
         paragraph: [
           "تمرکز اصلی این دوره بر فرانت‌اند (Front-end) است. فرانت‌اند به بخشی از یک وبسایت گفته می‌شود که کاربران آن را مشاهده و با آن تعامل می‌کنند. در این دوره یاد می‌گیرید چگونه رابط‌های کاربری زیبا و کاربردی طراحی کنید و تجربه‌ای روان و جذاب برای کاربران ایجاد کنید. اگر می‌خواهید دنیای برنامه‌نویسی و طراحی وب را با قدرت آغاز کنید، این دوره نقطه‌ی شروع ایده‌آلی برای شما خواهد بود!",
         ],
@@ -1134,12 +1134,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: ["#e09b31", "#ebdd4e"],
     rank: 1,
-    capacity: "13",
+    capacity: "120",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 107,
+        describe: 111,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1249,12 +1249,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 1,
-    capacity: "36",
+    capacity: "160",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 144,
+        describe: 139,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1354,12 +1354,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 2,
-    capacity: "28",
+    capacity: "120",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 92,
+        describe: 85,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1499,7 +1499,7 @@ export const courseBenefits = {
       title: "ارتباط مستقیم",
       icon: "fa-duotone fa-solid fa-people-arrows",
       describe:
-        "مستقیم با استاد و تیم پشتیبانی در ارتباطی — بدون واسطه، بدون تأخیر.",
+        "مستقیم با استاد و تیم پشتیبانی در ارتباطی بدون واسطه، بدون تأخیر.",
     },
     {
       title: "گواهی‌نامه امپراتوری",

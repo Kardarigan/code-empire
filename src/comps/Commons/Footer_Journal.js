@@ -81,8 +81,9 @@ const Footer_Journal = () => {
 
       {/* Message Notification */}
       <div
-        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${showMessage ? "opacity-100 visible" : "opacity-0 invisible"
-          }`}
+        className={`fixed flex items-center bottom-[22vw] right-[1vh] displayTrans duration-500 card size-auto p-5 ${
+          showMessage ? "opacity-100 visible" : "opacity-0 invisible"
+        }`}
       >
         <p>{message}</p>
       </div>

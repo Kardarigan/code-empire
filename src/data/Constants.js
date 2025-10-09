@@ -95,7 +95,7 @@ export const footLinks = [
         path: "/about",
       },
       {
-        label: "راهنما",
+        label: "راهنما کلاس‌ها",
         path: "/guide",
       },
       {

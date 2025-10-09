@@ -5,7 +5,7 @@ export const useDsicountPrice = (price, options = {}) => {
   const thePrice = price; // Math.round((price + (price * 20) / 100) / 1000) * 1000;
 
   return useMemo(() => {
-    if (price !== 8400000) {
+    if (price) {
       return {
         originalPrice: thePrice,
         discountedPrice: thePrice,

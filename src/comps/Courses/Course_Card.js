@@ -32,7 +32,7 @@ const Course_Card = ({ thing }) => {
           background: `linear-gradient(0deg, ${thing.color[0]} 0%, ${thing.color[1]} 100%)`,
         }}
       >
-        {parseInt(thing.capacity) <= 0 && (
+        {parseInt(thing.capacity - thing.specs[0].describe) <= 0 && (
           <div className="absolute size-full bg-slate-800 bg-opacity-90 top-0 z-10 flex-fullcenter">
             <h5 className="text-slate-100 title">تکمیل ظرفیت</h5>
           </div>

@@ -20,7 +20,7 @@ const Main_Side = ({
     ? price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
     : null;
 
-  capacity = Number(capacity);
+  capacity = Number(capacity) - specs[0].describe;
   const updatedDetails = [...details];
   const estimatedPrice = useEstimatePrice({
     course: {
@@ -62,7 +62,7 @@ const Main_Side = ({
       >
         <section
           className={`py-3 mac-border text-slate-50 flex-seperate ${
-            capacity === 0
+            capacity < 1
               ? "border-red-500 bg-red-500 text-slate-50"
               : capacity < 10
               ? "border-yellow-400 bg-yellow-400 text-slate-900"

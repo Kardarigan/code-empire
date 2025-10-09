@@ -7,10 +7,7 @@ const About_Team = () => {
   return (
     <section className="case text-center">
       <h3 className="title-lg mb-10 mac-bg">آینده‌ی شما در دستان امنی است</h3>
-      <p>
-        با تیم کار کشته ی امپراتوری کد آشنا شو! البته که اینا عکسای خودمون نیستن
-        :)
-      </p>
+      <p>با تیم کار کشته ی امپراتوری کد آشنا شو!</p>
       <div className="flex max-sm:flex-col gap-y-5 mt-12">
         {teamMembers.map((item, index) => {
           const { ref, className } = Loaded_Animation();
