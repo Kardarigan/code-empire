@@ -66,16 +66,14 @@ const Navbar = ({ alert, setAlert }) => {
 
   return (
     <>
-      <div
+      {/* <div
         className={`bg-green-500 w-full sticky top-0 z-50 ${
-          alert ? "block" : "hidden"
+          alert ? "" : "hidden"
         }`}
         dir="rtl"
       >
         <div className="container flex-seperate gap-x-8 px-5 py-2">
           <p className="para text-[11px]">
-            از این پس، به‌منظور اطمینان دانشجویان، تمامی کلاس‌های گروهی با
-            همکاری پلتفرم معتبر و شناخته‌شده‌ی <b>ایوند</b> برگزار خواهند شد.
           </p>
           <button
             aria-label="Close alert"
@@ -85,7 +83,7 @@ const Navbar = ({ alert, setAlert }) => {
             <i className="fas fa-xmark mt-[5px]" />
           </button>
         </div>
-      </div>
+      </div> */}
       <header
         className={`${
           navbarBackground || hamburger ? "bg-slate-900 " : "bg-transparent"

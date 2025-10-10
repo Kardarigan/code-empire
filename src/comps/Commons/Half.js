@@ -5,7 +5,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
   const { ref, className } = Loaded_Animation();
 
   return (
-    <section ref={ref} className={bg ? "bg-blue-50" : ""}>
+    <section ref={ref} className={`padding-y ${bg ? "bg-blue-50" : ""}`}>
       <div
         className={`flex flex-col-reverse container padding-x mo ${
           reverse ? "lg:flex-row-reverse" : "lg:flex-row"
