@@ -6,10 +6,13 @@ const Footer_Journal = () => {
   const form = useRef();
   const [message, setMessage] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formDisabled, setFormDisabled] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setIsSubmitting(true);
+    setFormDisabled(true);
     const formData = new FormData(form.current);
     formData.append("sender_name", "Journal Member");
 
@@ -19,6 +22,7 @@ const Footer_Journal = () => {
       })
       .then(
         () => {
+          setIsSubmitting(false);
           setShowMessage(true);
           setMessage("هم اکنون شما عضو ماهنامه هستید");
           setTimeout(() => {
@@ -27,6 +31,8 @@ const Footer_Journal = () => {
           }, 2000);
         },
         () => {
+          setIsSubmitting(false);
+          setFormDisabled(true);
           setShowMessage(true);
           setMessage("مشکلی پیش آمده!؟");
           setTimeout(() => {
@@ -62,18 +68,26 @@ const Footer_Journal = () => {
             className="flex p-2 gap-x-3 md:min-w-[35vw] min-w-full bg rounded-full"
           >
             <input
+              disabled={formDisabled}
               type="email"
               id="sender_email"
               name="sender_email"
-              className="py-0 field rounded-full bg-opacity-80 focus-within:bg-opacity-100 transition-all"
+              className={`py-0 field rounded-full bg-opacity-80 focus-within:bg-opacity-100 transition-all ${
+                formDisabled ? "opacity-65" : ""
+              }`}
               placeholder="ایمیل خود را وارد کنید..."
               required
             />
             <button
+              disabled={formDisabled}
               type="submit"
-              className="md:p-3 py-3 md:pl-5 pl-2 hover:opacity-80"
+              className={`md:py-5 py-5 md:pr-9 md:pl-10 pl-10 pr-8 flex-fullcenter ${
+                formDisabled ? "opacity-65" : "hover:opacity-80"
+              }`}
             >
-              ثبت
+              <span className="absolute">
+                {formDisabled ? "ارسال شد" : "ثبت نام"}
+              </span>
             </button>
           </form>
         </div>
