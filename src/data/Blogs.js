@@ -8,8 +8,8 @@ import steam_ecosystem_cover from "../assets/blogs/steam_game_ecosystem.jpg";
 import game_engine_cover from "../assets/blogs/game_engine.jpg";
 import scratch_cover from "../assets/blogs/scratch_and_scratchjr.png";
 import famous_games_cover from "../assets/blogs/what_are_famous_games made_of.jpg";
-import bitchat_cover from "../assets/blogs/bitchat.png";
-import when_codes_becom_doctor from "../assets/blogs/when_codes_becom_doctor.png";
+import bitchat_revolution from "../assets/blogs/bitchat_revolution.png";
+import when_codes_become_doctor from "../assets/blogs/when_codes_become_doctor.png";
 import meet_backend_technologies from "../assets/blogs/meet-backend-technologies.jpeg";
 import laptop_or_pc_for_coding from "../assets/blogs/laptop_or_pc_for_coding.png";
 import university_or_skill from "../assets/blogs/university_or_skill.png";
@@ -807,7 +807,7 @@ export const blogs = [
   },
   {
     title: "Bitchat: انقلابی در ارتباطات آفلاین یا ابزار امنیتی تازه وارد؟",
-    cover: bitchat_cover,
+    cover: bitchat_revolution,
     category: "تکنولوژی",
     author: "امپراتوری کد",
     upload: "تیر 1404",
@@ -868,7 +868,7 @@ export const blogs = [
   },
   {
     title: "وقتی کدها، پزشک می‌شوند: برنامه‌نویسی در خدمت سلامت",
-    cover: when_codes_becom_doctor,
+    cover: when_codes_become_doctor,
     category: "برنامه نویسی",
     author: "امپراتوری کد",
     upload: "تیر 1404",
