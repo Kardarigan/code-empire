@@ -1,17 +1,23 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+
+const LOCAL_STORAGE_KEY = "formDisabled";
 
 const Footer_Journal = () => {
   const benefits = ["تخفیف ها", "رویداد ها", "بروزرسانی ها"];
   const form = useRef();
   const [message, setMessage] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formDisabled, setFormDisabled] = useState(false);
+  const [formDisabled, setFormDisabled] = useState(() => {
+    const storedValue = localStorage.getItem(LOCAL_STORAGE_KEY);
+    return storedValue === "true";
+  });
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_KEY, formDisabled);
+  }, [formDisabled]);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
     setFormDisabled(true);
     const formData = new FormData(form.current);
     formData.append("sender_name", "Journal Member");
@@ -22,7 +28,6 @@ const Footer_Journal = () => {
       })
       .then(
         () => {
-          setIsSubmitting(false);
           setShowMessage(true);
           setMessage("هم اکنون شما عضو ماهنامه هستید");
           setTimeout(() => {
@@ -31,7 +36,6 @@ const Footer_Journal = () => {
           }, 2000);
         },
         () => {
-          setIsSubmitting(false);
           setFormDisabled(true);
           setShowMessage(true);
           setMessage("مشکلی پیش آمده!؟");
