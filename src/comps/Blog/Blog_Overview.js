@@ -94,7 +94,7 @@ const Blog_Overview = () => {
   }, [page]);
 
   return (
-    <section className="case padding-t">
+    <section className="case">
       <div className="grid grid-cols-12 gap-5 border-b pb-3 mb-5">
         <div className="lg:col-span-2 col-span-12">
           <select
@@ -133,8 +133,9 @@ const Blog_Overview = () => {
           {sortby.map((item, index) => (
             <React.Fragment key={index}>
               <span
-                className={`cursor-pointer whitespace-nowrap text-ellipsis font-bold ${index === sort && "text-blue-600"
-                  }`}
+                className={`cursor-pointer whitespace-nowrap text-ellipsis font-bold ${
+                  index === sort && "text-blue-600"
+                }`}
                 onClick={() => setSort(index)}
               >
                 {item}
@@ -186,7 +187,7 @@ const Blog_Overview = () => {
           </>
         )}
       </div>
-    </section >
+    </section>
   );
 };
 

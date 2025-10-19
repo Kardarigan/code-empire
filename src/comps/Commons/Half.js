@@ -7,7 +7,7 @@ const Half = ({ thing, reverse = false, bg = false }) => {
   return (
     <section ref={ref} className={`padding-y ${bg ? "bg-blue-50" : ""}`}>
       <div
-        className={`flex flex-col-reverse container padding-x mo ${
+        className={`flex flex-col-reverse container padding-x ${
           reverse ? "lg:flex-row-reverse" : "lg:flex-row"
         }`}
       >

@@ -4,7 +4,7 @@
 
 @layer components {
   .case {
-    @apply lg:max-w-[1180px] md:max-w-[950px] sm:max-w-[700px] padding-x lg:pt-24 pt-32 mx-auto;
+    @apply lg:max-w-[1180px] md:max-w-[950px] sm:max-w-[700px] padding mx-auto;
   }
 
   .mo {
@@ -72,7 +72,7 @@
   }
 
   .navitem {
-    @apply transition text-sm font-semibold rounded-xl px-3 py-2 bg-opacity-0 hover:bg-opacity-40 hover:bg-slate-500 hover:backdrop-blur-sm;
+    @apply transition text-sm font-semibold rounded-xl px-3 py-2 bg-opacity-0 backdrop-blur-sm hover:bg-opacity-40 hover:bg-slate-500;
   }
 
   .title {

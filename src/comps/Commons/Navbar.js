@@ -114,7 +114,10 @@ const Navbar = ({ alert, setAlert }) => {
           <nav className="flex flex-row items-center gap-4 ms-6 font-bold max-md:hidden">
             {navLinks.map((item, index) => (
               <NavLink to={item.href} key={index} className="navitem">
-                {item.label}
+                <span>{item.label}</span>
+                {index === 1 && (
+                  <span className="absolute top-1 left-1 block size-2 bg-blue-500 rounded-full"></span>
+                )}
               </NavLink>
             ))}
           </nav>

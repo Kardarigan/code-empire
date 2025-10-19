@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Middle_Section = ({ thing }) => {
   const { title, subtitle, links } = thing;
   return (
-    <section className="case container">
+    <section className="case">
       <div className="mac-border flex-seperate max-lg:flex-col max-lg:text-center px-8 py-10">
         <div>
           <h2 className="title">{title}</h2>

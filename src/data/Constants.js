@@ -27,12 +27,12 @@ export const logo = {
 export const navLinks = [
   { href: "/", label: "خانه" },
   {
-    href: "/guide",
-    label: "راهنما",
-  },
-  {
     href: "/courses",
     label: "کلاس ها",
+  },
+  {
+    href: "/guide",
+    label: "راهنما",
   },
   { href: "/blog", label: "مقالات" },
   { href: "/contact", label: "ارتباط با ما" },
@@ -41,16 +41,16 @@ export const navLinks = [
 export const hamburgerLinks = [
   { href: "/", label: "خانه" },
   {
+    href: "/courses",
+    label: "کلاس ها",
+  },
+  {
     href: "/guide",
     label: "راهنما",
   },
   {
     href: "/about",
     label: "درباره",
-  },
-  {
-    href: "/courses",
-    label: "کلاس ها",
   },
   { href: "/blog", label: "مقالات" },
   { href: "/contact", label: "ارتباط با ما" },
@@ -95,11 +95,11 @@ export const footLinks = [
         path: "/about",
       },
       {
-        label: "راهنما کلاس‌ها",
+        label: "راهنمای کلاس‌ها",
         path: "/guide",
       },
       {
-        label: "درباره امپراتوری",
+        label: "درباره ما",
         path: "/about",
       },
     ],
