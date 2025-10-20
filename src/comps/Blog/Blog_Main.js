@@ -18,7 +18,13 @@ const Blog_Main = ({ blog }) => {
         className="bg-fullobject rounded-xl w-full h-[400px]"
       />
       <Article article={blog.paragraphs} />
-      {blog.faq && <FAQ questions={blog.faq} />}
+
+      {blog.faq && (
+        <>
+          <hr className="border-blue-500 my-5" />
+          <FAQ questions={blog.faq} />
+        </>
+      )}
     </main>
   );
 };

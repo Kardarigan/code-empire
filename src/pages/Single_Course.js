@@ -51,6 +51,7 @@ const Single_Course = () => {
           <Share customClass="mac-border mb-5" />
           <div className="grid gap-y-12">
             <Article article={theCourse.paragraphs} />
+            <hr className="border-blue-500 my-5" />
             <FAQ questions={theCourse.faq} />
           </div>
         </main>

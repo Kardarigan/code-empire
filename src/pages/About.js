@@ -9,8 +9,6 @@ import {
 import { about, logo, middleJoinUs } from "../data/Constants";
 
 const About = () => {
-  console.log([about.about, about.mission]);
-
   return (
     <>
       <Hero

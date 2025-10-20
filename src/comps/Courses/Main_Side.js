@@ -57,7 +57,7 @@ const Main_Side = ({
     <aside className="md:col-span-2" id="sidebar">
       <div
         className={`flex flex-col gap-y-3 max-md:h-[115%] sticky ${
-          alert ? "top-32" : "top-20"
+          alert ? "top-20" : "top-20"
         }`}
       >
         <section

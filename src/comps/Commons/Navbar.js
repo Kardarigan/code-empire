@@ -12,7 +12,7 @@ const Navbar = ({ alert, setAlert }) => {
 
   const handleAlert = () => {
     setAlert(false);
-    setAlertFlag(true);
+    setAlertFlag(false);
   };
 
   useEffect(() => {

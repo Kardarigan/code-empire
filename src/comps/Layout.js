@@ -7,7 +7,7 @@ const Layout = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const location = useLocation();
   const prevPathname = useRef(location.pathname);
-  const [alert, setAlert] = useState(true);
+  const [alert, setAlert] = useState(false);
 
   useEffect(() => {
     if (prevPathname.current !== location.pathname) {
