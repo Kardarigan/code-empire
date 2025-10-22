@@ -13,6 +13,7 @@ import when_codes_become_doctor from "../assets/blogs/when_codes_become_doctor.p
 import meet_backend_technologies from "../assets/blogs/meet-backend-technologies.jpeg";
 import laptop_or_pc_for_coding from "../assets/blogs/laptop_or_pc_for_coding.png";
 import university_or_skill from "../assets/blogs/university_or_skill.png";
+import computer_maintenance from "../assets/blogs/computer_maintenance.png";
 
 export const blogs = [
   {
@@ -1370,7 +1371,7 @@ export const blogs = [
   },
   {
     title: "راهنمای کامل نگهداری اصولی از کامپیوتر و لپ‌تاپ",
-    cover: "",
+    cover: computer_maintenance,
     category: "تکنولوژی",
     author: "حامد آذرشهری",
     upload: "مهر 1404",
