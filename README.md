@@ -17,8 +17,8 @@ Our website is the public face of that empire — designed for clarity, speed, a
 
 ## 🚀 Run Locally
 ```bash
-git clone https://github.com/CodeEmpire/website.git
-cd website
+git clone https://github.com/Kardarigan/code-empire
+cd code-empire
 npm install
 npm run dev
 ```
