@@ -7,9 +7,8 @@ Our website is the public face of that empire — designed for clarity, speed, a
 
 ## ⚙️ Tech Stack
 
-- **React + Vite** — fast, modular foundation  
+- **React** — fast, modular foundation  
 - **Tailwind CSS** — modern utility-first styling  
-- **Framer Motion** — subtle animations and scroll effects  
 - **Font Awesome** — iconography  
 - **React Router DOM** — page routing and transitions  
 
