@@ -1,6 +1,6 @@
 # 🏛️ Code Empire Website
 
-Welcome to **Code Empire**, a digital academy forged to teach **programming**, **web development**, and **game creation** with a blend of modern tech and Persian myth energy.  
+Welcome to **Code Empire**, a digital academy forged to teach **programming**, **web development**, and **game development** with a blend of modern tech and Persian myth energy.  
 Our website is the public face of that empire — designed for clarity, speed, and a touch of cinematic style.
 
 ---
