@@ -5,9 +5,9 @@ import niaz_haye_aqaz_barnameh_nevisi from "../assets/blogs/niaz-haye-aqaz-barna
 import barnameh_nevisi_chist from "../assets/blogs/barnameh-nevisi-chist.png";
 import programming_magic_cover from "../assets/blogs/magical_power.png";
 import steam_ecosystem_cover from "../assets/blogs/steam_game_ecosystem.jpg";
-import game_engine_cover from "../assets/blogs/game_engine.jpg";
-import scratch_cover from "../assets/blogs/scratch_and_scratchjr.png";
-import famous_games_cover from "../assets/blogs/what_are_famous_games made_of.jpg";
+import game_engine_cover from "../assets/blogs/game_engine.png";
+import scratch_and_scratchjr from "../assets/blogs/scratch_and_scratchjr.png";
+import games_designed_with from "../assets/blogs/games_designed_with.png";
 import bitchat_revolution from "../assets/blogs/bitchat_revolution.png";
 import when_codes_become_doctor from "../assets/blogs/when_codes_become_doctor.png";
 import meet_backend_technologies from "../assets/blogs/meet-backend-technologies.jpeg";
@@ -617,7 +617,7 @@ export const blogs = [
   },
   {
     title: "اسکرچ و اسکرچ جونیور: بلوک‌های رنگارنگ کودکانه!",
-    cover: scratch_cover,
+    cover: scratch_and_scratchjr,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
     upload: "تیر 1404",
@@ -727,7 +727,7 @@ export const blogs = [
   },
   {
     title: "بازی‌های معروف با چی ساخته شدن؟",
-    cover: famous_games_cover,
+    cover: games_designed_with,
     category: "بازی ویدئویی",
     author: "امپراتوری کد",
     upload: "تیر 1404",
