@@ -64,7 +64,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 114,
+        describe: 111,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -169,7 +169,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 59,
+        describe: 55,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -365,7 +365,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 73,
+        describe: 79,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -481,7 +481,7 @@ export const courses = [
     category: "game",
     describe: "ساخت بازی برای کودکان با موتور بازی سازی Scratch Junior",
     price: 299000,
-    privatePrice: 120000,
+    privatePrice: 140000,
     logo: scratch_logo,
     color: ["#ff9100", "#ffb600"],
     rank: 2,
@@ -490,17 +490,17 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 81,
+        describe: 90,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
         label: "زمان کل کلاس",
-        describe: "24 ساعت",
+        describe: "20 ساعت",
       },
       {
         icon: "fa-duotone fa-regular fa-chalkboard-user",
         label: "جلسات",
-        describe: "24",
+        describe: "20",
       },
     ],
     details: [
@@ -597,7 +597,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 52,
+        describe: 62,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -803,7 +803,7 @@ export const courses = [
     category: "software",
     describe: "برنامه نویسی با Java (ربطی به JavaScript نداره!)",
     price: 411000,
-    privatePrice: 180000,
+    privatePrice: 200000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
     rank: 11,
@@ -812,7 +812,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 58,
+        describe: 57,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -911,7 +911,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 51,
+        describe: 59,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1016,17 +1016,17 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 153,
+        describe: 164,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
         label: "زمان کل کلاس",
-        describe: "60 ساعت",
+        describe: "48 ساعت",
       },
       {
         icon: "fa-duotone fa-regular fa-chalkboard-user",
         label: "جلسات",
-        describe: "60",
+        describe: "48",
       },
     ],
     details: [
@@ -1130,7 +1130,7 @@ export const courses = [
     category: "web",
     describe: "زبان برنامه نویسی مخصوص ساخت و طراحی وبسایت",
     price: 459900,
-    privatePrice: 140000,
+    privatePrice: 150000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: ["#e09b31", "#ebdd4e"],
     rank: 1,
@@ -1139,7 +1139,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 88,
+        describe: 92,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1245,7 +1245,7 @@ export const courses = [
     category: "software",
     describe: "شروع برنامه نویسی با پایتون مخصوص مبتدیا",
     price: 399000,
-    privatePrice: 150000,
+    privatePrice: 140000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 1,
@@ -1254,7 +1254,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 149,
+        describe: 151,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1350,7 +1350,7 @@ export const courses = [
     category: "software",
     describe: "مکلمل کلاس ابتدایی برای حرفه ای شدن",
     price: 522000,
-    privatePrice: 180000,
+    privatePrice: 160000,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 2,
@@ -1359,7 +1359,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 99,
+        describe: 101,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
