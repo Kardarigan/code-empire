@@ -20,9 +20,10 @@ const Share = ({ text = null, customClass = null }) => {
         console.error("Error sharing:", error);
       }
     } else {
-      alert("Sharing is not supported on this browser");
+      alert("مرورگر شما از قابلیت همرسانی پشتیبانی نمیکند");
     }
   };
+  console.log(navigator);
 
   return (
     <section id="firstSection" className={"flex-seperate py-2 " + customClass}>

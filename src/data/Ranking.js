@@ -15,7 +15,7 @@ export const learnersRank = [
   },
   {
     name: "کیان مسیب زاده",
-    profile: "https://avatar.iran.liara.run/public/girl",
+    profile: "https://avatar.iran.liara.run/public/boy",
     isLearning: false,
     rank: "دانشور نخبه",
     course: "پایتون ابتدایی",
