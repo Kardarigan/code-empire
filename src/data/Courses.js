@@ -64,7 +64,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 112,
+        describe: 95,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -169,7 +169,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 54,
+        describe: 60,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -274,7 +274,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 51,
+        describe: 72,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -365,7 +365,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 82,
+        describe: 79,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -490,7 +490,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 95,
+        describe: 111,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -597,7 +597,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 64,
+        describe: 68,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -708,7 +708,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 80,
+        describe: 71,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -911,7 +911,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 68,
+        describe: 55,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1016,7 +1016,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 171,
+        describe: 134,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1139,7 +1139,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 91,
+        describe: 114,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1254,7 +1254,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 142,
+        describe: 123,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1359,7 +1359,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 99,
+        describe: 100,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",

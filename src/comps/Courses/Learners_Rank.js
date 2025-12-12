@@ -5,7 +5,7 @@ const Learners_Rank = () => {
   const tableHeading = ["جایگاه", "پروفایل", "نام", "وضعیت", "رتبه", "کلاس"];
   return (
     <section className="case text-center">
-      <h3 className="title-lg mac-bg">برگزیدگان ماه شهریور</h3>
+      <h3 className="title-lg mac-bg">برگزیدگان ماه آبان</h3>
       <div className="rounded-3xl overflow-hidden mt-12 border-2 border-slate-950 bg-slate-900">
         <table className="w-full">
           <thead className="text-slate-100">
