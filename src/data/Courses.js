@@ -64,7 +64,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 95,
+        describe: 115,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -169,7 +169,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 60,
+        describe: 58,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -269,12 +269,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     color: ["#6e44ff", "#b892ff"],
     rank: 2,
-    capacity: "80",
+    capacity: "90",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 72,
+        describe: 81,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -365,7 +365,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 79,
+        describe: 76,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -490,7 +490,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 111,
+        describe: 113,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -592,12 +592,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     color: ["#7209b7", "#3a0ca3"],
     rank: 2,
-    capacity: "70",
+    capacity: "80",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 68,
+        describe: 73,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -708,7 +708,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 71,
+        describe: 75,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -807,12 +807,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     color: ["#4c334d", "#7c2e41"],
     rank: 11,
-    capacity: "60",
+    capacity: "70",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 60,
+        describe: 64,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -911,7 +911,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 55,
+        describe: 73,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1016,7 +1016,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 134,
+        describe: 155,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1139,7 +1139,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 114,
+        describe: 112,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1254,7 +1254,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 123,
+        describe: 150,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1354,12 +1354,12 @@ export const courses = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
     color: ["#1e96fc", "#072ac8"],
     rank: 2,
-    capacity: "120",
+    capacity: "130",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 100,
+        describe: 119,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
