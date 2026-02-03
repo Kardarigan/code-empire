@@ -38,13 +38,6 @@ const Course_Card = ({ thing }) => {
           </div>
         )}
         <div className="flex-fullcenter pt-5 pb-1">
-          {thing.title === "HTML,CSS" && (
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-              alt={thing.title + " logo"}
-              className="center-obj max-w-20 w-1/4"
-            />
-          )}
           <img
             src={thing.logo}
             alt={thing.title + " logo"}

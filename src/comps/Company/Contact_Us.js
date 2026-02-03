@@ -39,7 +39,7 @@ const Contact_Us = () => {
                     <li key={index}>
                       <a
                         href={item.href}
-                        className="button button-outline-blue rounded-lg p-0 text-2xl size-16 flex flex-fullcenter hover:text-2xl"
+                        className="button button-outline-blue rounded-xl p-0 text-2xl size-16 flex flex-fullcenter hover:text-2xl"
                       >
                         <i className={item.iconClass} />
                       </a>

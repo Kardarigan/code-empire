@@ -3,8 +3,8 @@ import { Bullet } from "../Portal";
 
 const Contact_Info = () => {
   return (
-    <section className="case container-sm">
-      <h3 className="title text-center mac-bg">راه های ارتباط با امپراتوری</h3>
+    <section className="case container-sm  text-center">
+      <h3 className="title mac-bg">راه های ارتباط با امپراتوری</h3>
       <div className="box mt-5">
         <ul className="grid gap-y-5">
           {contactInfo.map((item, index) => {

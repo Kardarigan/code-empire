@@ -5,13 +5,13 @@ export const useDsicountPrice = (price, options = {}) => {
   const thePrice = Math.round((price + (price * 20) / 100) / 1000) * 1000;
 
   return useMemo(() => {
-    // if (price) {
-    //   return {
-    //     originalPrice: thePrice,
-    //     discountedPrice: thePrice,
-    //     discountPercent: 0,
-    //   };
-    // }
+    if (price) {
+      return {
+        originalPrice: thePrice,
+        discountedPrice: thePrice,
+        discountPercent: 0,
+      };
+    }
 
     const discountedPrice = thePrice - (thePrice * discountPercent) / 100;
 

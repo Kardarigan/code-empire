@@ -1,50 +1,61 @@
 import java_1 from "../assets/course/java/java-course-1.webp";
 import java_2 from "../assets/course/java/java-course-2.webp";
 import java_3 from "../assets/course/java/java-course-3.webp";
+import java_logo from "../assets/course/java/java_transparent_logo.svg";
 import bootstrap_1 from "../assets/course/bootstrap/bootstrap-1.webp";
 import bootstrap_2 from "../assets/course/bootstrap/bootstrap-2.webp";
 import bootstrap_3 from "../assets/course/bootstrap/bootstrap-3.webp";
+import bootstrap_logo from "../assets/course/bootstrap/bootstrap_transparent_logo.svg";
 import tailwind_1 from "../assets/course/tailwind/tailwind-1.png";
 import tailwind_2 from "../assets/course/tailwind/tailwind-2.png";
 import tailwind_3 from "../assets/course/tailwind/tailwind-3.png";
 import tailwind_4 from "../assets/course/tailwind/tailwind-4.png";
+import tailwind_logo from "../assets/course/tailwind/tailwindcss_transparent_logo.svg";
 import htmlcss_1 from "../assets/course/html-css/html-css-1.png";
 import htmlcss_2 from "../assets/course/html-css/html-css-2.png";
 import htmlcss_3 from "../assets/course/html-css/html-css-3.webp";
 import htmlcss_4 from "../assets/course/html-css/html-css-4.png";
+import htmlcss_logo from "../assets/course/html-css/html_css_transparent_logo.png";
 import python_1 from "../assets/course/python-beginner/python-beginner-cover-1.webp";
 import python_2 from "../assets/course/python-beginner/python-beginner-cover-2.webp";
 import python_3 from "../assets/course/python-beginner/python-beginner-cover-3.webp";
+import python_logo from "../assets/course/python-beginner/python_transparent_logo.svg";
 import python_adv_1 from "../assets/course/python-adv/python-adv-1.webp";
 import python_adv_2 from "../assets/course/python-adv/python-adv-2.webp";
 import python_adv_3 from "../assets/course/python-adv/python-adv-3.webp";
+import python_adv_logo from "../assets/course/python-adv/python_plain_transparent_logo.svg";
 import js_1 from "../assets/course/javascript/javascript-course-1.jpeg";
 import js_2 from "../assets/course/javascript/javascript-course-2.jpeg";
 import js_3 from "../assets/course/javascript/javascript-course-3.jpeg";
 import js_4 from "../assets/course/javascript/javascript-course-4.jpeg";
+import js_logo from "../assets/course/javascript/javascript_transparent_logo.svg";
 import csharp_1 from "../assets/course/c-sharp/csharp-1.jpeg";
 import csharp_2 from "../assets/course/c-sharp/csharp-2.jpeg";
 import csharp_4 from "../assets/course/c-sharp/csharp-4.jpeg";
-import cplus_1 from "../assets/course/c-plusplus/cplusplus-1.jpeg";
-import cplus_2 from "../assets/course/c-plusplus/cplusplus-2.jpeg";
-import cplus_3 from "../assets/course/c-plusplus/cplusplus-3.jpeg";
-import cplus_4 from "../assets/course/c-plusplus/cplusplus-4.jpeg";
+import csharp_logo from "../assets/course/c-sharp/csharp_transparent_logo.png";
+import cplusplus_1 from "../assets/course/c-plusplus/cplusplus-1.jpeg";
+import cplusplus_2 from "../assets/course/c-plusplus/cplusplus-2.jpeg";
+import cplusplus_3 from "../assets/course/c-plusplus/cplusplus-3.jpeg";
+import cplusplus_4 from "../assets/course/c-plusplus/cplusplus-4.jpeg";
+import cplusplus_logo from "../assets/course/c-plusplus/cplusplus_transparent_logo.svg";
 import unrealengine_1 from "../assets/course/unreal-engine/unrealengine-1.webp";
 import unrealengine_2 from "../assets/course/unreal-engine/unrealengine-2.webp";
 import unrealengine_3 from "../assets/course/unreal-engine/unrealengine-3.webp";
 import unrealengine_4 from "../assets/course/unreal-engine/unrealengine-4.webp";
+import unrealengine_logo from "../assets/course/unreal-engine/unrealengine_transparent_logo.svg";
 import unity_1 from "../assets/course/unity/unity-1.webp";
 import unity_2 from "../assets/course/unity/unity-2.webp";
 import unity_3 from "../assets/course/unity/unity-3.webp";
 import unity_4 from "../assets/course/unity/unity-4.webp";
+import unity_logo from "../assets/course/unity/unity_transparent_logo.svg";
 import scratchjr_1 from "../assets/course/scratch-junior/scratchjr-1.webp";
 import scratchjr_2 from "../assets/course/scratch-junior/scratchjr-2.webp";
 import scratchjr_3 from "../assets/course/scratch-junior/scratchjr-3.webp";
-import scratch_logo from "../assets/course/scratch-junior/scractch-logo.png";
+import scratch_logo from "../assets/course/scratch-junior/scractch_transparent_logo.png";
 import total_web_1 from "../assets/course/total-web/total_web_1.webp";
 import total_web_2 from "../assets/course/total-web/total_web_2.webp";
 import total_web_3 from "../assets/course/total-web/total_web_3.webp";
-import total_web_logo from "../assets/course/total-web/total_web_logo.png";
+import total_web_logo from "../assets/course/total-web/total_web_transparent_logo.png";
 
 export const courses = [
   {
@@ -56,15 +67,15 @@ export const courses = [
     describe: "اصلی ترین تکنولوژی های طراحی وبسایت",
     price: 140000,
     privatePrice: 140000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-    color: ["#2965f1", "#f06529"],
+    logo: htmlcss_logo,
+    color: ["#f06529", "#663399"],
     rank: 2,
     capacity: "120",
     specs: [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 115,
+        describe: 78,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -161,7 +172,7 @@ export const courses = [
     describe: "استایل دهی پویاتر و رسپانسیو کردن اصولی تر",
     price: 188000,
     privatePrice: 140000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    logo: tailwind_logo,
     color: ["#06b6d4", "#6d28d9"],
     rank: 2,
     capacity: "60",
@@ -169,7 +180,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 58,
+        describe: 35,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -266,7 +277,7 @@ export const courses = [
     describe: "برای رسپانسیو کردن سریع و استایل دهی آماده",
     price: 198000,
     privatePrice: 140000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+    logo: bootstrap_logo,
     color: ["#6e44ff", "#b892ff"],
     rank: 2,
     capacity: "90",
@@ -274,7 +285,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 81,
+        describe: 66,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -357,7 +368,7 @@ export const courses = [
     describe: "ساخت بازی با موتور بازی سازی Unreal Engine",
     price: 666000,
     privatePrice: 250000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
+    logo: unrealengine_logo,
     color: ["#2b2d42", "#8d99ae"],
     rank: 2,
     capacity: "100",
@@ -365,7 +376,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 76,
+        describe: 72,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -490,7 +501,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 113,
+        describe: 87,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -589,7 +600,7 @@ export const courses = [
     describe: "برنامه نویسی با زبان پرقدرت #C",
     price: 399000,
     privatePrice: 180000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    logo: csharp_logo,
     color: ["#7209b7", "#3a0ca3"],
     rank: 2,
     capacity: "80",
@@ -597,7 +608,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 73,
+        describe: 55,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -700,7 +711,7 @@ export const courses = [
     describe: "برنامه نویسی با زبان پرقدرت ++C",
     price: 499000,
     privatePrice: 200000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+    logo: cplusplus_logo,
     color: ["#001845", "#0466c8"],
     rank: 2,
     capacity: "80",
@@ -708,7 +719,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 75,
+        describe: 47,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -729,28 +740,28 @@ export const courses = [
     paragraphs: [
       {
         title: "آشنایی با زبان برنامه‌نویسی ++C",
-        cover: cplus_1,
+        cover: cplusplus_1,
         paragraph: [
           "زبان برنامه‌نویسی ++C، یکی از پرقدرت‌ترین و پرکاربردترین زبان‌های برنامه‌نویسی در دنیا است که توسط بیارنه استراوستروپ در سال 1985 توسعه یافته است. این زبان به دلیل امکانات پیشرفته‌ی شیءگرایی و عملکرد بسیار بالا، در حوزه‌های مختلفی از جمله توسعه‌ی سیستم‌های عامل، بازی‌های ویدئویی و نرم‌افزارهای صنعتی به کار می‌رود.",
         ],
       },
       {
         title: "کاربردهای ++C در دنیای واقعی",
-        cover: cplus_2,
+        cover: cplusplus_2,
         paragraph: [
           "++C به دلیل سرعت و کارایی بالایی که دارد، در بسیاری از پروژه‌های پیچیده و بزرگ مورد استفاده قرار می‌گیرد. از سیستم‌عامل‌های معروفی چون ویندوز و لینوکس گرفته تا بازی‌های ویدئویی پرطرفداری مانند Unreal Engine، همه و همه با استفاده از این زبان توسعه یافته‌اند. همچنین، ++C در صنعت خودروسازی و پزشکی نیز برای برنامه‌نویسی سیستم‌های تعبیه شده و نرم‌افزارهای دقیق کاربرد دارد.",
         ],
       },
       {
         title: "محتوای کلاس",
-        cover: cplus_3,
+        cover: cplusplus_3,
         paragraph: [
           "در این کلاس، شما از پایه‌ای‌ترین مفاهیم برنامه‌نویسی ++C تا پیشرفته‌ترین موضوعات آن را فرا خواهید گرفت. هر جلسه شامل توضیحات نظری و تمرین‌های عملی است که به شما کمک می‌کند تا مفاهیم را به صورت عمیق و کاربردی درک کنید. برنامه‌ی درسی شامل مباحثی چون ساختار داده‌ها، الگوریتم‌ها، شیءگرایی و مدیریت حافظه می‌شود.",
         ],
       },
       {
         title: "چشم‌انداز شغلی با یادگیری ++C",
-        cover: cplus_4,
+        cover: cplusplus_4,
         paragraph: [
           "یادگیری ++C به شما این امکان را می‌دهد که در بسیاری از صنایع مختلف شغل پیدا کنید. از توسعه‌دهندگان نرم‌افزارهای سیستمی گرفته تا بازی‌سازان و برنامه‌نویسان صنعتی، همه به مهارت‌های شما نیاز دارند. با تسلط بر ++C، شما می‌توانید در پروژه‌های بزرگ و پیچیده شرکت کنید و فرصت‌های شغلی بسیاری برای خود فراهم کنید.",
         ],
@@ -804,7 +815,7 @@ export const courses = [
     describe: "برنامه نویسی با Java (ربطی به JavaScript نداره!)",
     price: 411000,
     privatePrice: 200000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+    logo: java_logo,
     color: ["#4c334d", "#7c2e41"],
     rank: 11,
     capacity: "70",
@@ -812,7 +823,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 64,
+        describe: 61,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -903,7 +914,7 @@ export const courses = [
     describe: "ساخت بازی با موتور بازی سازی Unity 6",
     price: 688000,
     privatePrice: 220000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
+    logo: unity_logo,
     color: ["#222c37", "#222c37"],
     rank: 2,
     capacity: "80",
@@ -911,7 +922,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 73,
+        describe: 66,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1016,7 +1027,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 155,
+        describe: 122,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1131,7 +1142,7 @@ export const courses = [
     describe: "زبان برنامه نویسی مخصوص ساخت و طراحی وبسایت",
     price: 459900,
     privatePrice: 150000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    logo: js_logo,
     color: ["#e09b31", "#ebdd4e"],
     rank: 1,
     capacity: "120",
@@ -1139,7 +1150,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 112,
+        describe: 99,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1246,7 +1257,7 @@ export const courses = [
     describe: "شروع برنامه نویسی با پایتون مخصوص مبتدیا",
     price: 399000,
     privatePrice: 140000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    logo: python_logo,
     color: ["#1e96fc", "#072ac8"],
     rank: 1,
     capacity: "160",
@@ -1254,7 +1265,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 150,
+        describe: 148,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
@@ -1351,7 +1362,7 @@ export const courses = [
     describe: "مکلمل کلاس ابتدایی برای حرفه ای شدن",
     price: 522000,
     privatePrice: 160000,
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg",
+    logo: python_adv_logo,
     color: ["#1e96fc", "#072ac8"],
     rank: 2,
     capacity: "130",
@@ -1359,7 +1370,7 @@ export const courses = [
       {
         icon: "fa-duotone fa-light fa-graduation-cap",
         label: "شرکت کنندگان",
-        describe: 119,
+        describe: 97,
       },
       {
         icon: "fa-duotone fa-solid fa-clock-desk",
