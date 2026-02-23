@@ -92,7 +92,7 @@ export const footLinks = [
       },
       {
         label: "ارتباط با ما",
-        path: "/about",
+        path: "/contact",
       },
       {
         label: "راهنمای کلاس‌ها",
@@ -448,10 +448,10 @@ export const registerForm = [
 ];
 
 export const contactInfo = [
-  { label: "شماره تماس", describe: "+98 923 192 5979" },
+  { label: "شماره تماس", describe: "021-98450022, 021-98450033" },
   {
     label: "ساعات کاری",
-    describe: "روز های هفته: 24 ساعت - پایان هفته: از 9 تا 15",
+    describe: "روز های هفته: از 9 تا 21 - پایان هفته: از 9 تا 15",
   },
   {
     label: "ایمیل پشتیبانی",
