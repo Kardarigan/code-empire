@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 const LOCAL_STORAGE_KEY = "formDisabled";
 
 const Footer_Journal = () => {
-  const benefits = ["تخفیف ها", "رویداد ها", "بروزرسانی ها"];
+  const benefits = ["تخفیف", "رویداد", "بروزرسانی"];
   const form = useRef();
   const [message, setMessage] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
